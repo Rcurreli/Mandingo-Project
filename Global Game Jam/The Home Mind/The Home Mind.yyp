@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "36be7cb7-92de-484d-955e-4aea5987ecc0",
+            "Value": {
+                "id": "2b0022ee-c44f-458d-b432-dc031078b8ce",
+                "resourcePath": "objects\\o_dialogueBox\\o_dialogueBox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "37deca61-5e1d-4ac0-958d-ebdcdd6ca8ab",
             "Value": {
                 "id": "c4d5ef83-4060-46ec-8db1-046a3aeee189",
@@ -111,6 +119,22 @@
             }
         },
         {
+            "Key": "62474fe8-c861-406d-9831-cf53b1e73f91",
+            "Value": {
+                "id": "b5ef8bec-8f18-457a-89ab-b1edc230057c",
+                "resourcePath": "objects\\o_child_playVideogames\\o_child_playVideogames.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "69b7a28e-dd1b-4dbb-9a99-211172e8cb66",
+            "Value": {
+                "id": "76cc2ed5-46f7-437a-ad5a-71c7a10c6fc1",
+                "resourcePath": "sprites\\s_dialogueBox_temp\\s_dialogueBox_temp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6dbe9082-1cd5-420c-9180-1c784c5b8475",
             "Value": {
                 "id": "217ce86b-24fb-4bdd-a898-12095b63e409",
@@ -135,6 +159,14 @@
             }
         },
         {
+            "Key": "744daca5-2e3a-4d47-9a9e-36d565797166",
+            "Value": {
+                "id": "8bf5880f-81a6-4551-8ea6-b45fb26bf33a",
+                "resourcePath": "objects\\o_choice_abstract\\o_choice_abstract.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "86ea2bce-539f-4f61-be7c-3e3d3e53da30",
             "Value": {
                 "id": "0e7faeaa-645a-498e-8538-a4be15ee60a8",
@@ -156,6 +188,14 @@
                 "id": "f21ee178-a8e8-44f5-8383-f1b4b4f413c4",
                 "resourcePath": "tilesets\\ts_granny\\ts_granny.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "948cd2c1-de45-4981-8752-0f55b1f66bd5",
+            "Value": {
+                "id": "94ee8940-0325-47df-8228-dfd15074ad3f",
+                "resourcePath": "sprites\\s_character_temp\\s_character_temp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -260,6 +300,14 @@
                 "id": "0738936e-e2bd-41af-bbaf-5ad8f5b9f9e3",
                 "resourcePath": "datafiles_yy\\bg_topdown_tiles\\bg_topdown_tiles.yy.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "ee3d21dd-74fb-4249-8518-f239937714a1",
+            "Value": {
+                "id": "b4ac631f-6b4b-4d18-acbb-0df6bd5cd699",
+                "resourcePath": "sprites\\s_choice_temp\\s_choice_temp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
