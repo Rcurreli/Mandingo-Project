@@ -4,4 +4,4 @@
 character = noone;
 
 // The choice to make
-choiceMade = noone;
+choiceMade = "";
