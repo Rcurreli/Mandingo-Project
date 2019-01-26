@@ -31,4 +31,4 @@ isVisible = false;
 // Text content
 log = [""];
 currentLog = [];
-i = 1;
+i = 0;

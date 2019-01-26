@@ -14,5 +14,5 @@ if(isVisible == true) {
 }
 // There is no dialog now
 else {
-	i = 1;
+	i = 0;
 }

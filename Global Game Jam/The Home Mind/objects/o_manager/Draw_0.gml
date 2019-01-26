@@ -1,7 +1,7 @@
 /// @description Draw the dialogues
 
 if ((isVisible == true) and (o_manager.target != noone)) {
-// Camera coords
+// GUI coords
 	GUIcoordX = o_manager.target.x;
 	GUIcoordY = o_manager.target.y;
 	
