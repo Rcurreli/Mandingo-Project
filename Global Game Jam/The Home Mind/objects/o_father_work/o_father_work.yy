@@ -2,7 +2,7 @@
     "id": "06535404-1336-4a87-8973-d38be51bea16",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_father_helpChildWithHomeworks",
+    "name": "o_father_work",
     "eventList": [
         {
             "id": "5d763dd9-c32d-400f-95f7-0985301de08e",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "ee3d21dd-74fb-4249-8518-f239937714a1",
+    "spriteId": "4eca30d1-c69d-4975-b1d1-1571b6fc10ab",
     "visible": true
 }
