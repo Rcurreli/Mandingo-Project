@@ -4,7 +4,7 @@
 visible = false;
 
 // Show the dialogue box
-o_dialogueBox.isVisible = true;
+o_manager.isVisible = true;
 
 // Display the first part of the dialogue
-o_dialogueBox.currentLog = o_dialogueBox.log[0];
+o_manager.currentLog = o_manager.log[0];

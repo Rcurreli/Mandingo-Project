@@ -4,7 +4,7 @@
 character.playVideogamesTimes++;
 switch (character.playVideogamesTimes) {
 	case 1:
-		o_dialogueBox.log = ["I want to play videogames", "Studying is boring"];
+		o_manager.log = ["I want to play videogames", "Studying is boring"];
 	break;
 }
 

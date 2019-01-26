@@ -5,3 +5,4 @@ characterName = "";
 
 // The character psychic condition
 stress = 0;
+production = 0;
