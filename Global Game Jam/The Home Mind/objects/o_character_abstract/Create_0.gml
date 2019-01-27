@@ -10,8 +10,15 @@ walkUpSprite = noone;
 walkLeftSprite = noone;
 walkRightSprite = noone;
 
-// Wheter thecharacter did choose something
+// Wether thecharacter did choose something
 hasChosen = false;
+
+// Wether the character is idle or not
+isIdle = true;
+
+// The character's path
+path = path_add();
+target = noone;
 
 // The character psychic condition
 stress = 0;

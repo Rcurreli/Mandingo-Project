@@ -1,12 +1,5 @@
 /// @description Manage the game
-
-// Change the target of the camera
-show_debug_message(camera);
-camera_set_view_target(camera, currentCharacter);
-
-activateViewport(currentCharacter);
-
-// Manage the time
+/*
 // Advance the moment of the day
 if((o_mother.hasChosen == true) and (o_father.hasChosen == true) and
 	(o_child.hasChosen == true)) {
@@ -24,3 +17,4 @@ if(momentOfDay > 3) {
 if(numberOfDay > 3) {
 	room_goto(rm_end);
 }
+*/

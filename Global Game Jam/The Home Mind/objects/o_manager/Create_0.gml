@@ -1,8 +1,7 @@
 /// @description Initialize the game
 
-// Camera
-camera = camera_get_active();
-currentCharacter = noone;
+// Camera target
+currentCharacter = 0;
 
 // Time
 // The game lasts 3 days

@@ -1,9 +1,9 @@
 /// @description Draw the dialogues
 
-if ((isVisible == true) and (o_manager.target != noone)) {
+if ((isVisible == true) and (o_manager.currentCharacter != noone)) {
 // GUI coords
-	GUIcoordX = o_manager.target.x;
-	GUIcoordY = o_manager.target.y;
+	GUIcoordX = o_manager.currentCharacter.x;
+	GUIcoordY = o_manager.currentCharacter.y;
 	
 // Draw the background
 	draw_set_alpha(0.5);

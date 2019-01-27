@@ -1,12 +1,12 @@
 /// @description Deselect the current character
 
-if(currentCharacter != noone) {
+if(currentCharacter != 0) {
 // Deselect the character
-	currentCharacter = noone;
+	currentCharacter = 0;
 	
 // Free the GUI
 	instance_destroy(o_choice_abstract);
 	
 // Change the viewport
-	activateViewport(0);
+	activateViewport(currentCharacter);
 }

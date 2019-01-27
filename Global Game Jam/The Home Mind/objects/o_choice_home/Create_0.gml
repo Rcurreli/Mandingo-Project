@@ -5,13 +5,13 @@ event_inherited();
 
 // Specific actions
 switch(character) {
-	case 1:
+	case o_mother:
 		choiceMade = "Cook the meal";
 	break;
-	case 2:
+	case o_father:
 		choiceMade = "Clean the house";
 	break;
-	case 3:
+	case o_child:
 		choiceMade = "Tidy up bedroom";
 	break;
 }

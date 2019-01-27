@@ -1,7 +1,16 @@
 /// @description Move and rotate
 
 // The character is standing still
-if((path_position == 1) or (speed == 0)) {
+if((path_position == 1) or (path_position == 0)) {
+	isIdle = true;
+}
+// The character is moving
+else {
+	isIdle = false;
+}
+
+// The character is standing still
+if(isIdle = true) {
     sprite_index = idleSprite;
 }
 // The character is moving

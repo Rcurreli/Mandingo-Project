@@ -2,7 +2,7 @@
     "id": "8ee4455b-d006-49f9-8912-12721bdaed3f",
     "modelName": "GMTileSet",
     "mvc": "1.11",
-    "name": "ts_granny",
+    "name": "ts_floor",
     "auto_tile_sets": [
         
     ],

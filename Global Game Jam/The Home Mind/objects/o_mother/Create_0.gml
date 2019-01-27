@@ -4,10 +4,10 @@
 event_inherited();
 
 // Specific actions
-// The mother's name
+// The mother name
 characterName = "Mother";
 
-// The father sprites
+// The mother sprites
 idleSprite = s_mother_idle;
 walkDownSprite = s_mother_front;
 walkUpSprite = s_mother_back;
