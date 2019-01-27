@@ -1,7 +1,7 @@
 /// @description Initialize the choice
 
 // Who makes the choice
-character = noone;
+character = o_manager.currentCharacter;
 
 // The choice to make
 choiceMade = "";

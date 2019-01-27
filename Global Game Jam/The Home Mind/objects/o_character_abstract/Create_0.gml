@@ -10,12 +10,8 @@ walkUpSprite = noone;
 walkLeftSprite = noone;
 walkRightSprite = noone;
 
-// The character choices
-playChoice = noone;
-workChoice = noone;
-homeChoice = noone;
-helpAChoice = noone;
-helpBChoice = noone;
+// Wheter thecharacter did choose something
+hasChosen = false;
 
 // The character psychic condition
 stress = 0;

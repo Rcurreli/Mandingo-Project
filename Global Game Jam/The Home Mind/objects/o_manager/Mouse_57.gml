@@ -1,9 +1,12 @@
-/// @description Deselect this character
+/// @description Deselect the current character
 
-if(target != noone) {
-	target = noone;
+if(currentCharacter != noone) {
+// Deselect the character
+	currentCharacter = noone;
+	
+// Free the GUI
 	instance_destroy(o_choice_abstract);
+	
+// Change the viewport
+	activateViewport(0);
 }
-
-view_visible[0] = false;
-view_visible[1] = true;

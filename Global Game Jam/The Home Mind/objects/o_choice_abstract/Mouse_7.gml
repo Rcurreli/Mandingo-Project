@@ -1,7 +1,7 @@
 /// @description Manage the choice
 
-// Hide the choice
-visible = false;
+// The character has choosen
+character.hasChosen = true;
 
 // Show the dialogue box
 o_manager.isVisible = true;
