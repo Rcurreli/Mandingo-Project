@@ -4,6 +4,7 @@
 event_inherited();
 
 // Specific actions
+// Decide the choice to make
 switch(character) {
 	case o_mother:
 		choiceMade = "Card games";
@@ -15,3 +16,6 @@ switch(character) {
 		choiceMade = "Videogames";
 	break;
 }
+
+// Decide the target
+target = character.playTarget;

@@ -15,3 +15,6 @@ switch(o_manager.currentCharacter) {
 
 // The choice to make
 choiceMade = "";
+
+// The coords of the choice target
+target = noone;
