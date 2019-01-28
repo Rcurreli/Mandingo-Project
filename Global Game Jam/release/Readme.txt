@@ -1,0 +1,1 @@
+Can Be Played only with PC Windows and Mouse Device
