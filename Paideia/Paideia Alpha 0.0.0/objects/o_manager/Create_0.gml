@@ -17,7 +17,7 @@ base_health = least_common_multiple_damage;
 // Battle
 current_enemy = noone;
 is_battle_ended = false;
-battle_turn = 0;
+battleTurn = 0;
 
 // Talk
 current_friend = noone;
