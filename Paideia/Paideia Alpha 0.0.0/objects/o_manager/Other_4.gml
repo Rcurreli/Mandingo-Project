@@ -51,18 +51,6 @@ switch(room) {
 		}
 	break;
 
-	case rm_enemy_encounter:
-// Enemy encounter GUI values
-		x_offset = 2 * base_offset;
-		y_offset = 6 * base_offset;
-		log = "Il Figlio di eroe si imbatte in un Minoico!"
-			+ "\nClick sinistro per combattere";
-
-// Reset battle values
-		is_battle_ended = false;
-		battle_turn = 0;
-	break;
-
 // Friend encounter GUI values
 	case rm_friend_encounter:
 		x_offset = 5 * base_offset;
