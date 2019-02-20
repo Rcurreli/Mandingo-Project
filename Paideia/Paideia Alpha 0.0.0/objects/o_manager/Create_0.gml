@@ -1,5 +1,5 @@
 /// @description Initialize the game
- lorenzo_puzza_again = 0;
+
 // GUI
 base_offset = room_width / 16;
 x_offset = 0;

@@ -50,18 +50,6 @@ switch(room) {
 				+ "\nClick sinistro per terminare il prototipo";
 		}
 	break;
-
-// Friend encounter GUI values
-	case rm_friend_encounter:
-		x_offset = 5 * base_offset;
-		y_offset = base_offset;
-		log = "Il Figlio di eroe incontra un Greco!"
-			+ "\nClick sinistro per parlare";
-
-// Reset talk values
-		is_talking_ended = false;
-		talk_current = 0;
-	break;
 	
 	case rm_end:
 		x_offset = 3 * base_offset;

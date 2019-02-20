@@ -48,5 +48,5 @@ if(checkIfCombatantsDied(players) == true) {
 else if(checkIfCombatantsDied(enemies) == true) {
 	isBattleEnded = true;
 	killAllCombatants(enemies);
-	battleLog = "I Figli hanno vinto";
+	battleLog = "I Figli hanno vinto!";
 }
