@@ -27,7 +27,7 @@ if(room = rm_enemyEncounter) {
 
 // Write down something even if there was no active child and
 // no active enemy
-		if((array_length_1d(activeEnemies) <= 0) and
+		if((array_length_1d(activeChilds) <= 0) and
 			(array_length_1d(activeEnemies) <= 0)) {
 			battleLog += "Nessun attacco";
 		}
@@ -40,11 +40,13 @@ if(room = rm_enemyEncounter) {
 // All players has died
 	if(checkIfCombatantsDied(childs) == true) {
 		isBattleEnded = true;
+		childGroup.isAlive = false;
 		battleLog += "\nI Figli hanno perso!";
 	}
 // All enemies have died
 	else if(checkIfCombatantsDied(enemies) == true) {
 		isBattleEnded = true;
+		enemyGroup.isAlive = false;
 		battleLog += "\nI Figli hanno vinto!";
 	}
 }

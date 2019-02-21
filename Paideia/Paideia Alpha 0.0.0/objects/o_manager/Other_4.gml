@@ -17,12 +17,12 @@ switch(room) {
 		yOffset = 7 * baseOffset;
 
 // Check if the game has ended (victory); TO DO change victory condition
-		if((o_enemyAbstract.isAlive == false) and (o_friendAbstract.isAlive == false)) {
+		if((o_enemyGroup.isAlive == false) and (o_friendGroup.isAlive == false)) {
 				isGameEnded = true;
 		}
 		
 // Check if the game is over (defeat)
-		if(o_childAbstract.isAlive == false) {
+		if(o_childGroup.isAlive == false) {
 			isGameOver = true;
 		}
 		

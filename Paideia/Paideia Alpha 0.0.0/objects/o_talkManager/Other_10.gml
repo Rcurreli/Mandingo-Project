@@ -1,8 +1,10 @@
 /// @description Reset the talking
 
 // The actors of the talk
-childs = noone;
-friend = noone;
+childGroup = noone;
+friendGroup = noone;
+childs = [];
+friend = [];
 
 // The log
 talkLog = "Il Figlio di eroe incontra un Greco!"

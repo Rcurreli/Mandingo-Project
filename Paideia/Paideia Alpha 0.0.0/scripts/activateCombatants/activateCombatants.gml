@@ -16,5 +16,5 @@ for(i = 0; i < array_length_1d(combatants); i++) {
 		j++;
 	}
 }
-show_debug_message(array_length_1d(activatedCombatants));
+
 return activatedCombatants;

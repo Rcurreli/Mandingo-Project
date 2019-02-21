@@ -2,7 +2,7 @@
     "id": "d019650d-5fed-45f6-9b22-de304a1c9879",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_MustNotBeInTheRoom",
+    "name": "s_mustNotBeInTheRoom",
     "For3D": false,
     "HTile": false,
     "VTile": false,

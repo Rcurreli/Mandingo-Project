@@ -10,7 +10,7 @@
         "967a82d4-216e-4643-92d0-6d40a301ce0b"
     ],
     "filterType": "GMObject",
-    "folderName": "Paideia_Entities",
+    "folderName": "Characters",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

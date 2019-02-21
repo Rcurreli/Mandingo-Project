@@ -1,6 +1,8 @@
 /// @description Default battle values
 
 // The actors of the battle
+childGroup = noone;
+enemyGroup = noone;
 childs = [];
 enemies = [];
 

@@ -8,7 +8,7 @@ if(room == rm_friendEncounter) {
 	}
 	// If not, hide the friend and go back to the overworld
 	else {
-		friend.isAlive = false;
+		friendGroup.isAlive = false;
 		room_goto(rm_overworld);
 	}
 }
