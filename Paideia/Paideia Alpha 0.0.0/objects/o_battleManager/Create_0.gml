@@ -1,11 +1,11 @@
 /// @description Initialize the battle
 
 // The actors of the battle
-players = getAllCombatants(o_player);
-enemies = getAllCombatants(o_enemy);
+childs = noone;
+enemies = noone;
 
 // The active actors of the battle
-activePlayers = noone;
+activeChilds = noone;
 activeEnemies = noone;
 
 // Set battle values

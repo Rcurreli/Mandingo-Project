@@ -1,13 +1,25 @@
 // Rename the argument for readability
-whoYouMet = argument0;
-encounterDestination = argument1;
+var child = argument0;
+var encounter = argument1;
+var encounterDestination = argument2;
 
 // Save the player coordinates
-o_player.overworld_x = x;
-o_player.overworld_y = y;
+child.overworldX = x;
+child.overworldY = y;
 
-// Reveal the one you met
-whoYouMet.is_visible = true;
+switch(encounterDestination) {
+// The childs met the enemy
+	case rm_enemyEncounter:
+		o_battleManager.childs = [child];
+		o_battleManager.enemies = [encounter];
+	break;
+
+// The childs met friends
+	case rm_friendEncounter:
+		o_talkManager.childs = [child];
+		o_talkManager.friends = [encounter];
+	break;
+}
 
 // Meet them
 room_goto(encounterDestination);

@@ -6,8 +6,10 @@ var arrayToCheck = argument1;
 var i = 0;
 
 for(i = 0; i < array_length_1d(arrayToCheck); i++) {
+// instanceToCheck is inside arrayToCheck
 	if(instanceToCheck == arrayToCheck[i]) {
 		return true;
 	}
 }
+// instanceToCheck isn't inside arrayToCheck
 return false;

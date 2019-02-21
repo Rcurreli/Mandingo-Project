@@ -1,10 +1,11 @@
 /// @description Draw the battle GUI
 
 // GUI values
-var textOffset = o_manager.base_offset;
-var xOffset = 2 * o_manager.base_offset;
-var yOffset = 6 * o_manager.base_offset;
+var textOffset = o_manager.baseOffset;
+var xOffset = 2 * o_manager.baseOffset;
+var yOffset = 6 * o_manager.baseOffset;
 
 // Draw the log
-writeDownLog(xOffset, yOffset, (room_width - xOffset), room_height,
-	battleLog);
+if(room == rm_enemyEncounter) {
+	writeDownLog(xOffset, yOffset, (room_width - xOffset), room_height, battleLog);
+}

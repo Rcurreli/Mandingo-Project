@@ -10,8 +10,8 @@ var activatedCombatants = noone;
 
 for(i = 0; i < array_length_1d(combatants); i++) {
 // A combatant is active if they're alive and if it's their turn
-	if((combatants[i].is_alive == true) and
-		(o_battleManager.battleTurn % combatants[i].attack_speed == 0)) {
+	if((combatants[i].isAlive == true) and
+		(o_battleManager.battleTurn % combatants[i].attackSpeed == 0)) {
 		activatedCombatants[j] = combatants[i];
 		j++;
 	}

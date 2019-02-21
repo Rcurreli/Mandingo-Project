@@ -1,12 +1,12 @@
-/// @description Manage the entity status
+/// @description Manage the entity
 
 // Health is never below 0
-if(current_health < 0) {
-	current_health = 0;
+if(currentHealth < 0) {
+	currentHealth = 0;
 }
 
 // Dead entities have no collisions
-if(is_alive == false) {
+if(isAlive == false) {
 	sprite_index = noone;
 }
 else {

@@ -4,9 +4,8 @@
     "mvc": "1.1",
     "name": "d4fead5b-0460-4ac5-b428-13e0bb5bc320",
     "children": [
-        "b7e13a5f-6710-4804-b2ef-c5a0a45e6d65",
-        "939ec8bc-bcaf-4840-8432-a15baab2c22d",
-        "976a4431-6738-4d15-b080-15ffabadf515"
+        "9018379b-dabb-4b4a-b6fe-f57382ad44eb",
+        "9c516586-138b-43d5-9aba-e44a8d35db24"
     ],
     "filterType": "GMObject",
     "folderName": "Paideia_Logic",

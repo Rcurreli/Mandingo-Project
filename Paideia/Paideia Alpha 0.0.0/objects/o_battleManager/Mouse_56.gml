@@ -1,52 +1,48 @@
 /// @description Manage the battle
 
+if(room = rm_enemyEncounter) {
 // The battle hasn't ended yet
-if(isBattleEnded == false) {
+	if(isBattleEnded == false) {
 // A new turn begins
-	battleTurn++;
+		battleTurn++;
 	
 // Initialize this turn's log
-	battleLog = "Turno " + string(battleTurn) + ":";
+		battleLog = "Turno " + string(battleTurn) + ": ";
 	
 // Activate players
-	activePlayers = activateCombatants(players);
-	
-// Activate enemies
-	activeEnemies = activateCombatants(enemies);
+		activeChilds = activateCombatants(childs);
 	
 // TEMP The players auto-attack
-	if(activePlayers != noone) {
-		battleLog += allCombatantsAttack(activePlayers, enemies);
-	}
-	
+		if(activeChilds != noone) {
+			battleLog += allCombatantsAttack(activeChilds, enemies);
+		}
+
+// Activate enemies
+		activeEnemies = activateCombatants(enemies);
+
 // The enemies auto-attack
-	if(activeEnemies != noone) {
-		battleLog += allCombatantsAttack(activeEnemies, players)
-	}
+		if(activeEnemies != noone) {
+			battleLog += allCombatantsAttack(activeEnemies, childs)
+		}
 
 // Write down something even if none attacked
-	if((activePlayers == noone) and (activeEnemies == noone)) {
-		battleLog += " Nessun attacco";
+		if((activeChilds == noone) and (activeEnemies == noone)) {
+			battleLog += "Nessun attacco";
+		}
 	}
-	
-// Reset the active players and enemies
-	activePlayers = noone;
-	activeEnemies = noone;
-}
 // The battle has ended
-else {
-	room_goto(rm_overworld);
-}
+	else {
+		room_goto(rm_overworld);
+	}
 
 // All players has died
-if(checkIfCombatantsDied(players) == true) {
-	isBattleEnded = true;
-	killAllCombatants(players);
-	battleLog = "I Figli hanno perso!";
-}
+	if(checkIfCombatantsDied(childs) == true) {
+		isBattleEnded = true;
+		battleLog += "\nI Figli hanno perso!";
+	}
 // All enemies have died
-else if(checkIfCombatantsDied(enemies) == true) {
-	isBattleEnded = true;
-	killAllCombatants(enemies);
-	battleLog = "I Figli hanno vinto!";
+	else if(checkIfCombatantsDied(enemies) == true) {
+		isBattleEnded = true;
+		battleLog += "\nI Figli hanno vinto!";
+	}
 }

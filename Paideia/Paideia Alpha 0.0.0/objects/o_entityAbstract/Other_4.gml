@@ -3,29 +3,25 @@
 // Manage the position
 switch(room) {
 	case rm_overworld:
-		x = overworld_x;
-		y = overworld_y;
+		x = overworldX;
+		y = overworldY;
 	break;
 	
-	case rm_enemy_encounter:
-		x = enemy_encounter_x;
-		y = enemy_encounter_y;
+	case rm_enemyEncounter:
+		x = enemyEncounterX;
+		y = enemyEncounterY;
 	break;
 	
-	case rm_friend_encounter:
-		x = friend_encounter_x;
-		y = friend_encounter_y;
+	case rm_friendEncounter:
+		x = friendEncounterX;
+		y = friendEncounterY;
 	break;
 }
 
 // Manage the visibility
 if((room == rm_start) or (room == rm_end)) {
-	is_visible = false;
-}
-
-if(is_visible == true) {
-	visible = true;
+	visible = false;
 }
 else {
-	visible = false;
+	visible = true;
 }

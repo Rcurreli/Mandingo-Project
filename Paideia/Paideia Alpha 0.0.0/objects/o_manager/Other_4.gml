@@ -3,8 +3,8 @@
 switch(room) {
 	case rm_start:
 // Start GUI values
-		x_offset = 3 * base_offset;
-		y_offset = 7 * base_offset;
+		xOffset = 3 * baseOffset;
+		yOffset = 7 * baseOffset;
 		log = "Teseo ha fallito l'impresa e Minosse ha conquistato la Grecia."
 			+ "\nIl Figlio di eroe e' stato rinchiuso nel Labirinto come tanti Greci."
 			+ "\nClick sinistro per iniziare."
@@ -13,31 +13,27 @@ switch(room) {
 	
 	case rm_overworld:
 // Overworld GUI values
-		x_offset = 3 * base_offset;
-		y_offset = 7 * base_offset;
+		xOffset = 3 * baseOffset;
+		yOffset = 7 * baseOffset;
 
-// Check if the game has ended (victory)
-		if((current_enemy != noone) and (current_friend != noone)) {
-			if((current_enemy.is_alive == false) and (current_friend.is_alive == false)) {
-				is_game_ended = true;
-			}
+// Check if the game has ended (victory); TO DO change victory condition
+		if((o_enemyAbstract.isAlive == false) and (o_friendAbstract.isAlive == false)) {
+				isGameEnded = true;
 		}
 		
 // Check if the game is over (defeat)
-		if(o_player.is_alive == false) {
-			is_game_over = true;
+		if(o_childAbstract.isAlive == false) {
+			isGameOver = true;
 		}
 		
-		if(is_game_ended == false) {
-			if(is_game_over == false) {
+		if(isGameEnded == false) {
+			if(isGameOver == false) {
 // The log contains the tutorial
 				log = "Usa WASD per muovere il Figlio di eroe"
-					+ "\nSe la salute scende a 0 il Figlio di eroe muore"
-					+ "\nSalute: " + string(o_player.current_health) + " / "
-					+ string(o_player.max_health);
+					+ "\nSe la salute scende a 0 il Figlio di eroe muore";
 			}
 			else {
-// The log contains an impossible-to-achieve death message
+// The log contains an impossible-to-achieve death message; TO DO actually manage player death
 				log = "Come diamine hai fatto a morire???"
 					+ "\nIl gioco era programmato per farti VINCERE!"
 					+ "\nOra i cheater cercano di perdere? *sigh*";
@@ -52,8 +48,8 @@ switch(room) {
 	break;
 	
 	case rm_end:
-		x_offset = 3 * base_offset;
-		y_offset = 6 * base_offset;
+		xOffset = 3 * baseOffset;
+		yOffset = 6 * baseOffset;
 		log = "Il prototipo e' finito. Scusa se non ho approfondito la trama."
 			+ "\nSempre che ti interessi, si intende."
 			+ "\nSappi che non intendo mettere un auto-battle, intendo realizzare"

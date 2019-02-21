@@ -1,21 +1,20 @@
-/// @description Initialize the enttiy
+/// @description Initialize the entity
 
 // Visibility
-is_alive = true;
-is_visible = false;
-sprite = noone;
+isAlive = true;
+sprite = sprite_index;
 
 // Coordinates
-overworld_x = x;
-overworld_y = y;
-enemy_encounter_x = 0;
-enemy_encounter_y = 0;
-friend_encounter_x = 0;
-friend_encounter_y = 0;
+overworldX = x;
+overworldY = y;
+enemyEncounterX = 0;
+enemyEncounterY = 0;
+friendEncounterX = 0;
+friendEncounterY = 0;
 
-// Total statistics
+// Statistics
 attack = 0;
 defense = 0;
-max_health = 0;
-current_health = 1;
-attack_speed = 1;
+maxHealth = 1;
+currentHealth = 1;
+attackSpeed = 1;

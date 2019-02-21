@@ -9,10 +9,10 @@ var i = 0;
 var logToReturn = "";
 
 for(i = 0; i < array_length_1d(attackers); i++) {
-// Choose a target
+// Choose a target; TO DO different way to choose a target
 	var target = defenders[irandom_range(0, (array_length_1d(defenders) - 1))];
 	
-// Attack and counter
+//The attacker attacks, the defender counters; TO DO don't make this automatic
 	logToReturn += attackAndCounter(attackers[i], target) + "\n";
 }
 
