@@ -17,7 +17,7 @@ switch(encounterDestination) {
 // The childs met friends
 	case rm_friendEncounter:
 		o_talkManager.childs = [child];
-		o_talkManager.friends = [encounter];
+		o_talkManager.friend = encounter;
 	break;
 }
 

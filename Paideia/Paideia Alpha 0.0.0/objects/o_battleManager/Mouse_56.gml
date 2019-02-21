@@ -9,24 +9,26 @@ if(room = rm_enemyEncounter) {
 // Initialize this turn's log
 		battleLog = "Turno " + string(battleTurn) + ": ";
 	
-// Activate players
+// Activate childs
 		activeChilds = activateCombatants(childs);
 	
-// TEMP The players auto-attack
-		if(activeChilds != noone) {
+// TEMP The childs auto-attack
+		if(array_length_1d(activeChilds) > 0) {
 			battleLog += allCombatantsAttack(activeChilds, enemies);
 		}
 
 // Activate enemies
 		activeEnemies = activateCombatants(enemies);
 
-// The enemies auto-attack
-		if(activeEnemies != noone) {
+// The active enemies auto-attack
+		if(array_length_1d(activeEnemies) > 0) {
 			battleLog += allCombatantsAttack(activeEnemies, childs)
 		}
 
-// Write down something even if none attacked
-		if((activeChilds == noone) and (activeEnemies == noone)) {
+// Write down something even if there was no active child and
+// no active enemy
+		if((array_length_1d(activeEnemies) <= 0) and
+			(array_length_1d(activeEnemies) <= 0)) {
 			battleLog += "Nessun attacco";
 		}
 	}
