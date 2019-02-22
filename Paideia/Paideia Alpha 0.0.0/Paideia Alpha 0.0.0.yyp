@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "26199d2a-a5a8-4ba1-af04-a063f7c9deb1",
+            "Value": {
+                "id": "929c26c5-ac05-410b-917f-3c7de637448e",
+                "resourcePath": "views\\26199d2a-a5a8-4ba1-af04-a063f7c9deb1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2702aa3d-60bc-4e60-b082-e78471e9cb27",
             "Value": {
                 "id": "d0862c3e-b68d-46c0-a5e1-783bc9415410",
@@ -247,6 +255,14 @@
             }
         },
         {
+            "Key": "4678c698-d039-445c-9784-4d4039ca4eac",
+            "Value": {
+                "id": "49c92d57-c788-4936-9bb1-3967f5780748",
+                "resourcePath": "objects\\o_musicManager\\o_musicManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4bb06c7f-6bfa-4af6-a41d-0b49dd9b7327",
             "Value": {
                 "id": "37d790f4-ed0f-4120-839b-efa108b8d832",
@@ -284,6 +300,14 @@
                 "id": "d22b86d0-b5a2-4b28-b4de-93de8cedc7a9",
                 "resourcePath": "rooms\\rm_dialoguesystem_demo\\rm_dialoguesystem_demo.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "55b55619-1538-4fe1-ad86-4415c631876e",
+            "Value": {
+                "id": "0310e1dc-a314-48e1-ab6d-0c036d13f8eb",
+                "resourcePath": "sounds\\snd_Proemio\\snd_Proemio.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -49,7 +49,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Player_and_Encounters",
+            "name": "Groups",
             "id": "2ae0859a-e306-4cb1-8f0b-7d2ff24f56f3",
             "depth": 100,
             "grid_x": 32,
