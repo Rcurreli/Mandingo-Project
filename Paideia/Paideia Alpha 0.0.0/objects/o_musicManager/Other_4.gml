@@ -10,15 +10,15 @@ switch(room) {
 	break;
 	
 	case rm_overworld:
-		roomMusic = snd_Proemio;
+		roomMusic = ost_Proemio;
 	break;
 	
 	case rm_enemyEncounter:
-		roomMusic = snd_BattagliaCampale;
+		roomMusic = ost_BattagliaCampale;
 	break;
 	
 	case rm_friendEncounter:
-		roomMusic = noone;
+		roomMusic = ost_Polis;
 	break;
 	
 	case rm_end:
