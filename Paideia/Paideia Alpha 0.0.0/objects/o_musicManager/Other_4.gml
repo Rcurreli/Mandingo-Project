@@ -14,7 +14,7 @@ switch(room) {
 	break;
 	
 	case rm_enemyEncounter:
-		roomMusic = noone;
+		roomMusic = snd_BattagliaCampale;
 	break;
 	
 	case rm_friendEncounter:
