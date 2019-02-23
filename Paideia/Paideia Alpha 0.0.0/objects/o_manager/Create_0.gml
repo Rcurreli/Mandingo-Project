@@ -11,7 +11,7 @@ log = "";
 var leastCommonMultipleDefense = 6;
 baseDamage = leastCommonMultipleDefense;
 var leastCommonMultipleAttack = 2;
-var leastCommonMultipleDamage = baseDamage * leastCommonMultipleAttack ;
+var leastCommonMultipleDamage = baseDamage * leastCommonMultipleAttack;
 baseHealth = leastCommonMultipleDamage;
 
 // Game

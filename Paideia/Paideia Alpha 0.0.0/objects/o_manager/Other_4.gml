@@ -11,7 +11,7 @@ switch(room) {
 			+ "\nScusa la fretta, ma vanno sperimentate le meccaniche."
 	break;
 	
-	case rm_overworld:
+	case rm_corridorsAbstract:
 // Overworld GUI values
 		xOffset = 3 * baseOffset;
 		yOffset = 7 * baseOffset;

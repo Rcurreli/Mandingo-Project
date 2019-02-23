@@ -1,4 +1,4 @@
 /// @description Meet the friend
 
 // Save the player coordinates
-goToEncounter(id, other, rm_friendEncounter);
+goToEncounter(id, other, rm_roomAbstract);

@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_enemyEncounter",
+    "name": "rm_battleAbstract",
     "id": "b0c0ae7f-88e2-4f7d-a4e8-29566b2b0200",
     "creationCodeFile": "",
     "inheritCode": false,

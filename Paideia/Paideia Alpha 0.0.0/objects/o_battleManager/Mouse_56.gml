@@ -1,6 +1,6 @@
 /// @description Manage the battle
 
-if(room = rm_enemyEncounter) {
+if(room = rm_battleAbstract) {
 // The battle hasn't ended yet
 	if(isBattleEnded == false) {
 // A new turn begins
@@ -34,7 +34,7 @@ if(room = rm_enemyEncounter) {
 	}
 // The battle has ended
 	else {
-		room_goto(rm_overworld);
+		room_goto(overworld);
 	}
 
 // All players has died

@@ -1,5 +1,5 @@
 /// @description Move up
 
-if(room == rm_overworld) {
+if(room == rm_corridorsAbstract) {
 	y -= 4;
 }

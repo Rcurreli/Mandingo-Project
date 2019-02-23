@@ -6,7 +6,7 @@ switch(room) {
 		writeDownLog(xOffset, yOffset, (room_width - xOffset), room_height, log);
 	break;
 	
-	case rm_overworld:
+	case rm_corridorsAbstract:
 // Draw the log
 		writeDownLog(xOffset, yOffset, (room_width - xOffset), room_height, log);
 	break;

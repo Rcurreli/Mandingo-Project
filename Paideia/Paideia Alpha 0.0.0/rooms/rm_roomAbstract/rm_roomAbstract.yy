@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_friendEncounter",
+    "name": "rm_roomAbstract",
     "id": "e1db5734-58bb-4ad4-ae9e-7cccfe1a75f4",
     "creationCodeFile": "",
     "inheritCode": false,

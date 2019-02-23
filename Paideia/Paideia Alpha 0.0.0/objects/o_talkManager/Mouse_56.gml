@@ -1,6 +1,6 @@
 /// @description Talk
 
-if(room == rm_friendEncounter) {
+if(room == rm_roomAbstract) {
 // Get the new log if you haven't ended it already
 	if(talkCurrent < array_length_1d(friend.log)) {
 		talkLog = friend.log[talkCurrent];
@@ -9,6 +9,6 @@ if(room == rm_friendEncounter) {
 	// If not, hide the friend and go back to the overworld
 	else {
 		friendGroup.isAlive = false;
-		room_goto(rm_overworld);
+		room_goto(overworld);
 	}
 }

@@ -1,5 +1,8 @@
 /// @description Reset the talking
 
+// The room to go back to
+overworld = noone;
+
 // The actors of the talk
 childGroup = noone;
 friendGroup = noone;

@@ -8,10 +8,10 @@ var logToReturn = "";
 
 // Write down the log
 // Attack info
-if(checkIfIsInArray(attacker, o_battleManager.childs) == true) {
+if(checkIfInArray(attacker, o_battleManager.childs) == true) {
 	logToReturn = "Il Figlio attacca: ";
 }
-else if(checkIfIsInArray(attacker, o_battleManager.enemies) == true) {
+else if(checkIfInArray(attacker, o_battleManager.enemies) == true) {
 	logToReturn = "Il Minoico attacca: ";
 }
 
@@ -19,10 +19,10 @@ logToReturn += string(damage) + " danni! ";
 
 // Death info
 if(defender.isAlive == false) {
-	if(checkIfIsInArray(defender, o_battleManager.childs) == true) {
+	if(checkIfInArray(defender, o_battleManager.childs) == true) {
 		logToReturn += "\nIl Figlio viene sconfitto!";
 	}
-	if(checkIfIsInArray(defender, o_battleManager.enemies) == true) {
+	if(checkIfInArray(defender, o_battleManager.enemies) == true) {
 		logToReturn += "\nIl Minoico viene sconfitto!";
 	}
 }

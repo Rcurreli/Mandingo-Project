@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_overworld",
+    "name": "rm_corridorsAbstract",
     "id": "2db93515-160a-4ddc-8efc-90bc00e7e863",
     "creationCodeFile": "",
     "inheritCode": false,

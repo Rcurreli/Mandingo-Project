@@ -5,6 +5,6 @@ event_inherited();
 
 // Specific actions
 // Manage visibility
-if((room == rm_enemyEncounter) or (room == rm_friendEncounter)) {
+if((room == rm_battleAbstract) or (room == rm_roomAbstract)) {
 	visible = false;
 }

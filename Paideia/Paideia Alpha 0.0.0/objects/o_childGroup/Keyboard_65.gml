@@ -1,5 +1,5 @@
 /// @description Move left
 
-if(room == rm_overworld) {
+if(room == rm_corridorsAbstract) {
 	x -= 4;
 }

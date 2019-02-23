@@ -5,6 +5,6 @@ event_inherited();
 
 // Specific actions
 // Change the visibility
-if(room == rm_friendEncounter) {
+if(room == rm_roomAbstract) {
 	visible = false;
 }

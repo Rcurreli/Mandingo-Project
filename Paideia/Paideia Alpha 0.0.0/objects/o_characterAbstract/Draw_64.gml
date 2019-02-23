@@ -6,7 +6,7 @@ var healthBarHeight = 16;
 var healthBarYOffset = 64;
 
 // Draw the health bar
-if((isAlive == true) and (room == rm_enemyEncounter)) {
+if((isAlive == true) and (room == rm_battleAbstract)) {
 	draw_healthbar((x - (healthBarWidth / 2)),
 		(y + (healthBarHeight / 2) - healthBarYOffset), (x + (healthBarWidth / 2)),
 		(y - (healthBarHeight / 2) - healthBarYOffset), (100 * currentHealth / maxHealth),

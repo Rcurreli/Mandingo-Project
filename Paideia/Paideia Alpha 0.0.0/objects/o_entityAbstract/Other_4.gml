@@ -2,17 +2,17 @@
 
 // Manage the position
 switch(room) {
-	case rm_overworld:
+	case rm_corridorsAbstract:
 		x = overworldX;
 		y = overworldY;
 	break;
 	
-	case rm_enemyEncounter:
+	case rm_battleAbstract:
 		x = enemyEncounterX;
 		y = enemyEncounterY;
 	break;
 	
-	case rm_friendEncounter:
+	case rm_roomAbstract:
 		x = friendEncounterX;
 		y = friendEncounterY;
 	break;

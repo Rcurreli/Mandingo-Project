@@ -1,5 +1,8 @@
 /// @description Default battle values
 
+// The room to go back to
+overworld = noone;
+
 // The actors of the battle
 childGroup = noone;
 enemyGroup = noone;
