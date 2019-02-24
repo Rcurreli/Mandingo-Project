@@ -1,6 +1,6 @@
 /// @description Create the actors
 
-if(room == rm_battleAbstract) {
+if(getRoomClass() == roomClasses.fieldBattle) {
 	childs = spawnCharacters(childGroup.members);
 	enemies = spawnCharacters(enemyGroup.members);
 }

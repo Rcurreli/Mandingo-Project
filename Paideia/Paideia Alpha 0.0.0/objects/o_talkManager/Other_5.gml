@@ -1,5 +1,5 @@
 /// @description Reset talk values
 
-if(room == rm_roomAbstract) {
+if(getRoomClass() == roomClasses.settlement) {
 	event_user(0);
 }

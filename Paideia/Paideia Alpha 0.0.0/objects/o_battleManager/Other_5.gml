@@ -1,5 +1,5 @@
 /// @description Reset battle values
 
-if(room == rm_battleAbstract) {
+if(getRoomClass() == roomClasses.fieldBattle) {
 	event_user(0);
 }

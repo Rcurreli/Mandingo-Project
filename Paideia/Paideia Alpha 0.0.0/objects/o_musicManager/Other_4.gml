@@ -1,28 +1,30 @@
 /// @description Manage room change
 
-// Stop the previous music
-audio_stop_sound(roomMusic);
+// Stop the previous music, if any
+if(roomMusic != noone) {
+	audio_stop_sound(roomMusic);
+}
 
 // Change the music to play
-switch(room) {
-	case rm_start:
+switch(getRoomClass()) {
+	case roomClasses.gameStart:
 		roomMusic = noone;
 	break;
 	
-	case rm_corridorsAbstract:
+	case roomClasses.gameEnd:
+		roomMusic = noone;
+	break;
+	
+	case roomClasses.entranceField:
 		roomMusic = ost_Proemio;
 	break;
 	
-	case rm_battleAbstract:
-		roomMusic = ost_BattagliaCampale;
-	break;
-	
-	case rm_roomAbstract:
+	case roomClasses.settlement:
 		roomMusic = ost_Polis;
 	break;
 	
-	case rm_end:
-		roomMusic = noone;
+	case roomClasses.fieldBattle:
+		roomMusic = ost_BattagliaCampale;
 	break;
 }
 

@@ -1,17 +1,18 @@
 /// @description Display info
 
-switch(room) {
-	case rm_start:
+
+switch(getRoomClass()) {
+	case roomClasses.gameStart:
 // Draw the log
 		writeDownLog(xOffset, yOffset, (room_width - xOffset), room_height, log);
 	break;
-	
-	case rm_corridorsAbstract:
+
+	case roomClasses.gameEnd:
 // Draw the log
 		writeDownLog(xOffset, yOffset, (room_width - xOffset), room_height, log);
 	break;
-	
-	case rm_end:
+
+	case roomClasses.entranceField:
 // Draw the log
 		writeDownLog(xOffset, yOffset, (room_width - xOffset), room_height, log);
 	break;

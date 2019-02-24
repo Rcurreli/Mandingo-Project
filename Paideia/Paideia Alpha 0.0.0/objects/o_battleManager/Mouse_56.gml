@@ -1,6 +1,6 @@
 /// @description Manage the battle
 
-if(room = rm_battleAbstract) {
+if(getRoomClass() == roomClasses.fieldBattle) {
 // The battle hasn't ended yet
 	if(isBattleEnded == false) {
 // A new turn begins

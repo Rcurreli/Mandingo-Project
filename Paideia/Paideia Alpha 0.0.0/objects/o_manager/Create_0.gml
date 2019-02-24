@@ -1,9 +1,16 @@
 /// @description Initialize the game
 
+// Enumeration of the room classes
+enum roomClasses {
+	gameStart, gameEnd,
+	entranceField, settlement,
+	fieldBattle
+};
+
 // GUI
 baseOffset = room_width / 16;
-xOffset = 0;
-yOffset = 0;
+xOffset = 3 * baseOffset;
+yOffset = 6 * baseOffset;
 textOffset = baseOffset;
 log = "";
 

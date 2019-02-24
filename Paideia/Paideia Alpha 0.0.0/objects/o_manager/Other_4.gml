@@ -1,21 +1,15 @@
-/// @description Manage some variables
+/// @description Manage room change
 
-switch(room) {
-	case rm_start:
+switch(getRoomClass()) {
+	case roomClasses.gameStart:
 // Start GUI values
-		xOffset = 3 * baseOffset;
-		yOffset = 7 * baseOffset;
 		log = "Teseo ha fallito l'impresa e Minosse ha conquistato la Grecia."
 			+ "\nIl Figlio di eroe e' stato rinchiuso nel Labirinto come tanti Greci."
 			+ "\nClick sinistro per iniziare."
 			+ "\nScusa la fretta, ma vanno sperimentate le meccaniche."
 	break;
 	
-	case rm_corridorsAbstract:
-// Overworld GUI values
-		xOffset = 3 * baseOffset;
-		yOffset = 7 * baseOffset;
-
+	case roomClasses.entranceField:
 // Check if the game has ended (victory); TO DO change victory condition
 		if((o_enemyGroup.isAlive == false) and (o_friendGroup.isAlive == false)) {
 				isGameEnded = true;
@@ -47,9 +41,7 @@ switch(room) {
 		}
 	break;
 	
-	case rm_end:
-		xOffset = 3 * baseOffset;
-		yOffset = 6 * baseOffset;
+	case roomClasses.gameEnd:
 		log = "Il prototipo e' finito. Scusa se non ho approfondito la trama."
 			+ "\nSempre che ti interessi, si intende."
 			+ "\nSappi che non intendo mettere un auto-battle, intendo realizzare"

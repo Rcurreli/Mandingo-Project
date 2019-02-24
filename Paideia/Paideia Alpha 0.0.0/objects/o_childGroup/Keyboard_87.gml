@@ -1,5 +1,5 @@
 /// @description Move up
 
-if(room == rm_corridorsAbstract) {
+if(getRoomClass() == roomClasses.entranceField) {
 	y -= 4;
 }

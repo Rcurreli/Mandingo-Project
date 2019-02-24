@@ -5,6 +5,7 @@ event_inherited();
 
 // Specific actions
 // Manage visibility
-if((room == rm_battleAbstract) or (room == rm_roomAbstract)) {
+if((getRoomClass() == roomClasses.fieldBattle)
+	or (getRoomClass() == roomClasses.settlement)) {
 	visible = false;
 }
