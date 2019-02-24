@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "2b38a105-0bbf-47e6-9ea9-dbb6bbaa54cc",
+            "Value": {
+                "id": "cbf2d1d4-2f7f-4ddd-8388-3fdb453d943d",
+                "resourcePath": "views\\2b38a105-0bbf-47e6-9ea9-dbb6bbaa54cc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2d659d02-2ec8-4bdf-a9db-91e1c1fa45bb",
             "Value": {
                 "id": "f4f27613-2aa4-4404-b198-c64239d88451",
@@ -340,6 +348,22 @@
                 "id": "61cb48b0-2452-4bbd-a92d-9d7a8dc81606",
                 "resourcePath": "scripts\\change_variable\\change_variable.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "584f894f-6fc5-4ab2-92cf-deb6fc3d668d",
+            "Value": {
+                "id": "bdc32761-3d48-41be-b073-9d2afb2b475d",
+                "resourcePath": "sounds\\ost_Palazzo_Crescendo\\ost_Palazzo_Crescendo.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "5ac195c6-aa97-41fe-98c3-84312f7f7cc5",
+            "Value": {
+                "id": "c0bce08d-3f64-46b0-a8df-6e898fee0b00",
+                "resourcePath": "sounds\\ost_Palazzo_Climax\\ost_Palazzo_Climax.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -927,6 +951,14 @@
             }
         },
         {
+            "Key": "d7b66c3f-eff1-4416-8e20-ae331958c0c0",
+            "Value": {
+                "id": "c4d68153-4b22-4e1a-b845-199dd3c62a64",
+                "resourcePath": "sounds\\ost_Palazzo\\ost_Palazzo.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "da15c172-04c1-4f14-9952-4cd3a56ba137",
             "Value": {
                 "id": "52deae7a-ed2c-4d93-9bf2-9a16ffa2fd9f",
@@ -1036,6 +1068,14 @@
                 "id": "78b7cbe0-82fe-414e-ba5d-7613e78ec6e9",
                 "resourcePath": "objects\\obj_emote\\obj_emote.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f375f1e5-a929-4110-a122-30c3fae87ef3",
+            "Value": {
+                "id": "e823c797-fc2f-43c3-9e4c-f351ef603610",
+                "resourcePath": "views\\f375f1e5-a929-4110-a122-30c3fae87ef3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

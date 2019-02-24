@@ -2,9 +2,16 @@
 
 // Enumeration of the room classes
 enum roomClasses {
-	gameStart, gameEnd,
-	entranceField, settlement,
-	fieldBattle
+// Out of the game room classes
+	gameStart, gameOver, gameEnd,
+// Field room classes
+	entranceField,
+// Settlement room classes
+	settlement,
+// Tower room classes
+	towerGroundFloor, towerFirstFloor, towerTop,
+// Battle room classes
+	fieldBattle, minoanCommanderBattle
 };
 
 // GUI
