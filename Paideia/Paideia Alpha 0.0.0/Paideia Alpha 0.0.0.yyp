@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0cb34669-2762-4b87-b435-95ddb1ed8853",
+            "Value": {
+                "id": "35a52611-ec6a-4e93-a1fa-15b02f06e6d9",
+                "resourcePath": "sounds\\ost_Polis\\ost_Polis.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0cfbde2c-0a3f-4a85-90b6-d8214c7b629f",
             "Value": {
                 "id": "699b7abe-3678-42c5-9221-f68e24bc02b6",
@@ -287,6 +295,14 @@
             }
         },
         {
+            "Key": "4826cdeb-8c33-4b65-8e82-c338441529ae",
+            "Value": {
+                "id": "93396986-1b32-4b3a-8fc1-b6ab77df0850",
+                "resourcePath": "sounds\\ost_BattagliaCampale\\ost_BattagliaCampale.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4bb06c7f-6bfa-4af6-a41d-0b49dd9b7327",
             "Value": {
                 "id": "37d790f4-ed0f-4120-839b-efa108b8d832",
@@ -324,14 +340,6 @@
                 "id": "d22b86d0-b5a2-4b28-b4de-93de8cedc7a9",
                 "resourcePath": "rooms\\rm_dialoguesystem_demo\\rm_dialoguesystem_demo.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "55b55619-1538-4fe1-ad86-4415c631876e",
-            "Value": {
-                "id": "0310e1dc-a314-48e1-ab6d-0c036d13f8eb",
-                "resourcePath": "sounds\\ost_Proemio\\ost_Proemio.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -695,6 +703,14 @@
             }
         },
         {
+            "Key": "9fc1a093-e1b6-4f12-9944-ed1002df5540",
+            "Value": {
+                "id": "9f7c5d5d-9381-46e7-b200-eaa3a7c5e653",
+                "resourcePath": "sounds\\ost_Proemio\\ost_Proemio.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a3aaa74e-c70e-4da6-98f7-11693ec9250d",
             "Value": {
                 "id": "58468d95-9aa3-4880-b9d9-29f598136f48",
@@ -999,27 +1015,11 @@
             }
         },
         {
-            "Key": "e216063a-6000-434f-8e4b-fd6198a2a5a8",
-            "Value": {
-                "id": "d0f75469-9e86-4df0-9cd1-fb815a6a00ad",
-                "resourcePath": "sounds\\ost_BattagliaCampale\\ost_BattagliaCampale.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "eb8c7161-a418-488f-b654-f5aaf50ce378",
             "Value": {
                 "id": "b682cb6b-d00a-4f93-b46e-46dd290d6bab",
                 "resourcePath": "scripts\\attackDefender\\attackDefender.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "ed3445e5-fa8b-4836-976b-c6083dfa8886",
-            "Value": {
-                "id": "c901ee98-c9c2-4c68-8c09-7243db625878",
-                "resourcePath": "sounds\\ost_Polis\\ost_Polis.yy",
-                "resourceType": "GMSound"
             }
         },
         {
