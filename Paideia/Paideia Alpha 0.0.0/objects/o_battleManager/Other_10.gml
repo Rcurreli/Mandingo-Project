@@ -11,6 +11,7 @@ enemies = [];
 
 // The active actors of the battle
 activeChilds = [];
+currentChild = noone;
 activeEnemies = [];
 
 // Set battle values

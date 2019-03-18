@@ -1,11 +1,12 @@
 /// @description Manage the battle
 
-if(getRoomClass() == roomClasses.fieldBattle) {
+if((getRoomClass() == roomClasses.fieldBattle)
+	and (array_length_1d(activeChilds) == 0)) {
 // The battle hasn't ended yet
 	if(isBattleEnded == false) {
 // A new turn begins
 		battleTurn++;
-	
+		
 // Initialize this turn's log
 		battleLog = "Turno " + string(battleTurn) + ": ";
 	
@@ -13,9 +14,11 @@ if(getRoomClass() == roomClasses.fieldBattle) {
 		activeChilds = activateCombatants(childs);
 	
 // TEMP The childs auto-attack
+/*
 		if(array_length_1d(activeChilds) > 0) {
 			battleLog += allCombatantsAttack(activeChilds, enemies);
 		}
+*/
 
 // Activate enemies
 		activeEnemies = activateCombatants(enemies);

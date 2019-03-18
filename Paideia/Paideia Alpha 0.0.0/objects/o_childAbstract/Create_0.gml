@@ -1,4 +1,4 @@
-/// @description Initialize the player
+/// @description Initialize the child
 
 // Call o_entity_abstract's Create event
 event_inherited();
