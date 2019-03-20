@@ -17,15 +17,42 @@
         "f0f302fc-1789-4d00-8149-17844a7fd80c",
         "75b9acc8-7820-4b37-84a1-3551882ddb15",
         "1776fa39-0878-47c7-a3f3-8777ca5495d7",
-        "ef291fa9-28d0-47f0-9d57-1c732ec48044"
+        "ef291fa9-28d0-47f0-9d57-1c732ec48044",
+        "49d82a31-2900-445b-b8b2-078e9bbe6452"
     ],
     "IsDnD": false,
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Room_Manager",
+            "id": "08d0f79b-67c8-4c7a-8a1f-72f81e55029e",
+            "depth": 0,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_132DC608","id": "49d82a31-2900-445b-b8b2-078e9bbe6452","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_132DC608.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "dc82c967-c45d-4583-80a4-3342b08264cb","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_132DC608","objId": "3e242bde-cea7-49db-a122-6c9d5f7f1b1e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Logic_and_GUI",
             "id": "35f9d200-2474-403a-bff4-e3e3d7ee52e3",
-            "depth": 0,
+            "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -51,7 +78,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Groups",
             "id": "2ae0859a-e306-4cb1-8f0b-7d2ff24f56f3",
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -79,7 +106,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Walls",
             "id": "14f28d4e-ed4f-4275-b885-ff234c466382",
-            "depth": 200,
+            "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -146,7 +173,7 @@
 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_2CAAB6DE","id": "7d9383c0-351d-4089-b256-e5cf1e1e5a45","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 0.5,"mvc": "1.0","spriteId": "81502104-eebe-46cf-99a2-33aa251d893b","userdefined_animFPS": false,"x": 928,"y": 544},
 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_3CAB53EF","id": "d47c2f67-e2cd-4e6a-9d50-60d35d1faba2","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 0.5,"scaleY": 2.5,"mvc": "1.0","spriteId": "81502104-eebe-46cf-99a2-33aa251d893b","userdefined_animFPS": false,"x": 992,"y": 416}
             ],
-            "depth": 300,
+            "depth": 400,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -172,7 +199,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4294967295 },
-            "depth": 400,
+            "depth": 500,
             "grid_x": 64,
             "grid_y": 64,
             "hierarchyFrozen": false,
@@ -202,7 +229,7 @@
         }
     ],
     "modelName": "GMRoom",
-    "parentId": "00000000-0000-0000-0000-000000000000",
+    "parentId": "3ccb4bd0-d5f7-4970-b5e9-6c17c8a6a6b3",
     "physicsSettings":     {
         "id": "15f6b9c8-b719-45e1-a3b9-79cf69c6c080",
         "inheritPhysicsSettings": false,

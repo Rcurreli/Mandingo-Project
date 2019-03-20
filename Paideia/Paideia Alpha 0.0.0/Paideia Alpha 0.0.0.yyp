@@ -87,14 +87,6 @@
             }
         },
         {
-            "Key": "0cfbde2c-0a3f-4a85-90b6-d8214c7b629f",
-            "Value": {
-                "id": "699b7abe-3678-42c5-9221-f68e24bc02b6",
-                "resourcePath": "views\\0cfbde2c-0a3f-4a85-90b6-d8214c7b629f.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "1182862b-7005-4225-b949-bbe837442bc9",
             "Value": {
                 "id": "2c867aa7-8e39-4e07-b6d3-557c41bd3dcb",
@@ -287,6 +279,22 @@
             }
         },
         {
+            "Key": "3ccb4bd0-d5f7-4970-b5e9-6c17c8a6a6b3",
+            "Value": {
+                "id": "eaa7a02a-bdd7-4b09-a3f7-37297207a99b",
+                "resourcePath": "rooms\\rm_abstract\\rm_abstract.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3e242bde-cea7-49db-a122-6c9d5f7f1b1e",
+            "Value": {
+                "id": "967ae2d8-1f22-493e-8c29-73629e4dd5f7",
+                "resourcePath": "objects\\o_roomManager\\o_roomManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3f20454d-7a6b-4b3f-bd47-708a148386d9",
             "Value": {
                 "id": "4cb8e8d2-71b9-42c0-9b64-dd5ac58edbd2",
@@ -459,14 +467,6 @@
             "Value": {
                 "id": "fbf9fcc0-0f72-4798-acd6-937c84b02220",
                 "resourcePath": "views\\68719c95-d6b8-430d-98bf-2bf4884b2431.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "691c9e94-257a-4732-a7b6-ad3a24830484",
-            "Value": {
-                "id": "bbbadd3f-201e-4ae2-9e12-0992908b9189",
-                "resourcePath": "views\\691c9e94-257a-4732-a7b6-ad3a24830484.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -655,6 +655,14 @@
             }
         },
         {
+            "Key": "90b41132-bd91-48a0-9028-281912d1ad04",
+            "Value": {
+                "id": "51336c4d-f9ff-4aba-aae5-c31257bec2cc",
+                "resourcePath": "views\\3ccb4bd0-d5f7-4970-b5e9-6c17c8a6a6b3-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "917d2075-8115-4d97-bf7b-f71e9d229d6b",
             "Value": {
                 "id": "62b250a0-bdbe-4566-894b-8fdf9c65eb7c",
@@ -731,14 +739,6 @@
             "Value": {
                 "id": "62d4e7c6-7e91-49bf-8a83-597e9b24bb2c",
                 "resourcePath": "views\\99cd4c8c-c8a7-4814-ab3c-8ea12a69c09e.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "9a92c2c6-cbfb-4b75-9fd8-5a70593af354",
-            "Value": {
-                "id": "4cc890b3-8b99-4691-ae5a-365d8d7d2e8b",
-                "resourcePath": "views\\9a92c2c6-cbfb-4b75-9fd8-5a70593af354.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -951,14 +951,6 @@
             }
         },
         {
-            "Key": "c96657ad-e756-482a-a5a6-5cb4690cb4b2",
-            "Value": {
-                "id": "af85d619-352e-4209-bee8-2188cd8d6567",
-                "resourcePath": "views\\c96657ad-e756-482a-a5a6-5cb4690cb4b2.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "ca651ff5-39c8-47c7-a93a-042cdc2abc92",
             "Value": {
                 "id": "d3beb1d0-7e66-4c2e-b74d-43143b813688",
@@ -1087,6 +1079,14 @@
             }
         },
         {
+            "Key": "ddbb4154-c5c4-450a-929a-67c135425218",
+            "Value": {
+                "id": "2ac91612-8ef7-4eed-86ee-8e74a4862762",
+                "resourcePath": "views\\ddbb4154-c5c4-450a-929a-67c135425218.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e1db5734-58bb-4ad4-ae9e-7cccfe1a75f4",
             "Value": {
                 "id": "9a743cde-ad1e-4014-b581-f8f54bef6c0b",
@@ -1100,14 +1100,6 @@
                 "id": "b682cb6b-d00a-4f93-b46e-46dd290d6bab",
                 "resourcePath": "scripts\\attackDefender\\attackDefender.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "eee463bb-2513-49c3-926e-d7cc591d24a9",
-            "Value": {
-                "id": "f4e334ce-d6dc-490b-80e1-70e420fc56bd",
-                "resourcePath": "views\\eee463bb-2513-49c3-926e-d7cc591d24a9.yy",
-                "resourceType": "GMFolder"
             }
         },
         {

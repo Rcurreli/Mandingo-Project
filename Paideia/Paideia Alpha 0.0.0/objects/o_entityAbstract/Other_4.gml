@@ -1,7 +1,7 @@
 /// @description Manage room change
 
 // Manage the position
-switch(getRoomClass()) {
+switch(o_roomManager.roomClass) {
 	case roomClasses.entranceField:
 		x = overworldX;
 		y = overworldY;
@@ -19,8 +19,8 @@ switch(getRoomClass()) {
 }
 
 // Manage the visibility
-if((getRoomClass() == roomClasses.gameStart) or
-	(getRoomClass() == roomClasses.gameEnd)) {
+if((o_roomManager.roomClass == roomClasses.gameStart) or
+	(o_roomManager.roomClass == roomClasses.gameEnd)) {
 	visible = false;
 }
 else {

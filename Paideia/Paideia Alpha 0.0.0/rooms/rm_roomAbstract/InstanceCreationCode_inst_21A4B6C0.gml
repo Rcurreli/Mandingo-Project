@@ -1,0 +1,1 @@
+roomClass = roomClasses.settlement;

@@ -6,7 +6,7 @@ if(roomMusic != noone) {
 }
 
 // Change the music to play
-switch(getRoomClass()) {
+switch(o_roomManager.roomClass) {
 	case roomClasses.gameStart:
 		roomMusic = noone;
 	break;

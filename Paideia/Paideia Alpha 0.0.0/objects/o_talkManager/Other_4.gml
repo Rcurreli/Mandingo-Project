@@ -1,6 +1,6 @@
 /// @description Create the actors
 
-if(getRoomClass() == roomClasses.settlement) {
+if(o_roomManager.roomClass == roomClasses.settlement) {
 	childs = spawnCharacters(childGroup.members);
 	spawnCharacters(friendGroup.members);
 	friend = friendGroup.members[0];

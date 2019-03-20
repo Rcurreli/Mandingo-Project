@@ -6,7 +6,7 @@ var healthBarHeight = 16;
 var healthBarYOffset = 64;
 
 // Draw the health bar
-if((isAlive == true) and (getRoomClass() == roomClasses.fieldBattle)) {
+if((isAlive == true) and (o_roomManager.roomClass == roomClasses.fieldBattle)) {
 	draw_healthbar((x - (healthBarWidth / 2)),
 		(y + (healthBarHeight / 2) - healthBarYOffset),
 		(x + (healthBarWidth / 2)),

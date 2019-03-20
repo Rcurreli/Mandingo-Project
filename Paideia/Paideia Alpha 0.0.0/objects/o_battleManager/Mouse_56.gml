@@ -1,6 +1,6 @@
 /// @description Manage the battle
 
-if((getRoomClass() == roomClasses.fieldBattle)
+if((o_roomManager.roomClass == roomClasses.fieldBattle)
 	and (array_length_1d(activeChilds) == 0)) {
 // The battle hasn't ended yet
 	if(isBattleEnded == false) {

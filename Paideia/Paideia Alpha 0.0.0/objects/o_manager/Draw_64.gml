@@ -1,7 +1,7 @@
 /// @description Display info
 
 
-switch(getRoomClass()) {
+switch(o_roomManager.roomClass) {
 	case roomClasses.gameStart:
 // Draw the log
 		writeDownLog(xOffset, yOffset, (room_width - xOffset), room_height, log);

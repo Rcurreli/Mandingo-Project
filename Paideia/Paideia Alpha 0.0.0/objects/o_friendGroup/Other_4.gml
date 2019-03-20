@@ -5,6 +5,6 @@ event_inherited();
 
 // Specific actions
 // Change the visibility
-if(getRoomClass() == roomClasses.fieldBattle) {
+if(o_roomManager.roomClass == roomClasses.fieldBattle) {
 	visible = false;
 }

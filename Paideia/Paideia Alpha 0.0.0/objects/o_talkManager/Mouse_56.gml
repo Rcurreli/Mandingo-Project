@@ -1,6 +1,6 @@
 /// @description Talk
 
-if(getRoomClass() == roomClasses.settlement) {
+if(o_roomManager.roomClass == roomClasses.settlement) {
 // Get the new log if you haven't ended it already
 	if(talkCurrent < array_length_1d(friend.log)) {
 		talkLog = friend.log[talkCurrent];

@@ -1,6 +1,6 @@
 /// @description Interact
 
-switch(getRoomClass()) {
+switch(o_roomManager.roomClass) {
 
 // Start the game
 	case roomClasses.gameStart:

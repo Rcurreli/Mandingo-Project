@@ -1,5 +1,5 @@
 /// @description Reset battle values
 
-if(getRoomClass() == roomClasses.fieldBattle) {
+if(o_roomManager.roomClass == roomClasses.fieldBattle) {
 	event_user(0);
 }
