@@ -1,6 +1,6 @@
 /// @description Initialize the child
 
-// Call o_entity_abstract's Create event
+// Call the parent
 event_inherited();
 
 // Specific actions
