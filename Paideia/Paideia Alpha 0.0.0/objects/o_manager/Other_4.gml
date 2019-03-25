@@ -2,11 +2,15 @@
 
 switch(getRoomClass()) {
 	case roomClasses.gameStart:
+	
+	create_textevent(["Teseo ha fallito l'impresa e Minosse ha conquistato la Grecia.",
+			"Il Figlio di eroe e' stato rinchiuso nel Labirinto come tanti Greci.",
+			"Click sinistro per iniziare.",
+			"Scusa la fretta, ma vanno sperimentate le meccaniche."], -1);
+	
+
+			
 // Start GUI values
-		log = "Teseo ha fallito l'impresa e Minosse ha conquistato la Grecia."
-			+ "\nIl Figlio di eroe e' stato rinchiuso nel Labirinto come tanti Greci."
-			+ "\nClick sinistro per iniziare."
-			+ "\nScusa la fretta, ma vanno sperimentate le meccaniche."
 	break;
 	
 	case roomClasses.entranceField:
@@ -22,9 +26,12 @@ switch(getRoomClass()) {
 		
 		if(isGameEnded == false) {
 			if(isGameOver == false) {
+				if(firstTime == 0){
 // The log contains the tutorial
-				log = "Usa WASD per muovere il Figlio di eroe"
-					+ "\nSe la salute scende a 0 il Figlio di eroe muore";
+					create_textevent(["Usa WASD per muovere il Figlio di eroe",
+					"Se la salute scende a 0 il Figlio di eroe muore"], -1);
+					firstTime = 1;
+				}
 			}
 			else {
 // The log contains an impossible-to-achieve death message; TO DO actually manage player death

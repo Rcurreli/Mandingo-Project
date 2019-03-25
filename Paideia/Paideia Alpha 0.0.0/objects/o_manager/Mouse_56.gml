@@ -4,7 +4,9 @@ switch(o_roomManager.roomClass) {
 
 // Start the game
 	case roomClasses.gameStart:
-		room_goto(rm_corridorsAbstract);
+		if(!instance_exists(obj_textevent)) {
+			room_goto(rm_corridorsAbstract);
+		}
 	break;
 
 // End the game; TO DO manage game over

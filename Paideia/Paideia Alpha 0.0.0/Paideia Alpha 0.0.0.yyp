@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "3d2bb3d5-80a4-49b6-80b4-b071f940b38c",
+            "Value": {
+                "id": "aaa9e04a-35d7-48e1-b182-a1ee41f23250",
+                "resourcePath": "objects\\o_camera\\o_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3e242bde-cea7-49db-a122-6c9d5f7f1b1e",
             "Value": {
                 "id": "967ae2d8-1f22-493e-8c29-73629e4dd5f7",
@@ -387,6 +395,14 @@
             "Value": {
                 "id": "19eedd07-0a12-4bdf-9758-12eb675da8bd",
                 "resourcePath": "views\\52cfaa37-1c7d-4fde-b5bc-8d3cc262031a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5343669a-fd58-4cc9-8d04-90b4913e0470",
+            "Value": {
+                "id": "68b24d52-c001-4d04-aaeb-54e5b5409356",
+                "resourcePath": "views\\5343669a-fd58-4cc9-8d04-90b4913e0470.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -540,6 +556,14 @@
                 "id": "805fea3f-085d-4f55-a705-abadeefdb97a",
                 "resourcePath": "sprites\\spr_portrait_player\\spr_portrait_player.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "75d72f24-1f66-4500-8801-dc6f9df02adb",
+            "Value": {
+                "id": "4eae4809-7e80-422a-badf-a32e54aa45e1",
+                "resourcePath": "objects\\o_buttonNextTurn\\o_buttonNextTurn.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -812,6 +836,14 @@
                 "id": "78c34f21-5f71-47dc-83d9-e515581af326",
                 "resourcePath": "views\\a523a9a8-d167-4dd6-a494-eac372b7cfbc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a6e9fbfe-9bc9-4ba6-ad25-b59dd8bf119d",
+            "Value": {
+                "id": "92410caa-caf4-4815-923c-616030e56ab2",
+                "resourcePath": "sprites\\s_buttonNextTurn\\s_buttonNextTurn.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

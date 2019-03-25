@@ -16,5 +16,7 @@ for(i = 0; i < array_length_1d(attackers); i++) {
 	logToReturn += attackAndCounter(attackers[i], target) + "\n";
 }
 
+
 // Return the battle log
 return logToReturn;
+

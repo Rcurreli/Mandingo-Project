@@ -31,3 +31,6 @@ baseHealth = leastCommonMultipleDamage;
 // Game
 isGameEnded = false;
 isGameOver = false;
+
+firstTime = 0;
+

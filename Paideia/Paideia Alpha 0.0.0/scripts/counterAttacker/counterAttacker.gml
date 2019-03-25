@@ -10,11 +10,14 @@ var logToReturn = "";
 if(checkIfInArray(defender, o_battleManager.childs) == true) {
 	logToReturn = " Il Figlio contrattacca: ";
 }
-else if(checkIfInArray(defender, o_battleManager.enemies) == true) {
+else //if(checkIfInArray(defender, o_battleManager.enemies) == true) ERRORE STRANO!
+{
 	logToReturn = " Il Minoico contrattacca: ";
 }
 
 logToReturn += string(damage) + " danni! ";
+
+
 
 // Death info
 if(attacker.isAlive == false) {

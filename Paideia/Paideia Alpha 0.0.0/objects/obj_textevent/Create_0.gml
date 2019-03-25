@@ -9,4 +9,5 @@ myName			= "None";
 
 //-----------Setup (LEAVE THIS STUFF)
 myTextbox   = noone;
+
 reset_dialogue_defaults();
