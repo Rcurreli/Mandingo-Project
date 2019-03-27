@@ -7,3 +7,6 @@ event_inherited();
 // Player coordinates
 enemyEncounterY -= 64;
 friendEncounterY -= 64;
+
+// Name
+name = "Oreste";

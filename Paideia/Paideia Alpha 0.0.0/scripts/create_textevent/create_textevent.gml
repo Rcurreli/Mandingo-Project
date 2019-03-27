@@ -10,7 +10,11 @@
 ///@arg *Emotion
 ///@arg *Emote
 
-if(instance_exists(obj_textevent)){ exit; }
+if(instance_exists(obj_textevent)){
+	
+	instance_destroy(obj_textevent);
+	instance_destroy(obj_textbox);
+}
 
 
 var arg_count = argument_count;

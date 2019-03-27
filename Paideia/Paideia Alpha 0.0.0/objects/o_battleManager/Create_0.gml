@@ -21,9 +21,11 @@ battleTurn = 0;
 
 endTurn = true;
 
-endPhase = true;
-
 textButton = "";
 
-attacco = false;
+attacco = false
+
+textList = [];
+
+battlelog = [];
 

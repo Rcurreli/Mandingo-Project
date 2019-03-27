@@ -10,7 +10,9 @@
         "ef41b466-4cd2-437e-87d1-f600ebe445ea",
         "6050ae84-a0f5-4f77-a557-e0524205781d",
         "af10ba1d-f17c-47c4-9c9e-473ca28be0d0",
-        "29640cf6-bb2a-41bc-a28b-b6cd2d434cf2"
+        "29640cf6-bb2a-41bc-a28b-b6cd2d434cf2",
+        "7b3ede2a-f36c-406a-919b-e675fe2568ae",
+        "0acbb595-5f93-407d-aa0a-efd7cfbd3a1e"
     ],
     "filterType": "GMScript",
     "folderName": "Paideia_Logic",

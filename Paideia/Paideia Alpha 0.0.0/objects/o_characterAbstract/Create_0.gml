@@ -10,3 +10,6 @@ defense = 0;
 maxHealth = 1;
 currentHealth = 1;
 attackSpeed = 1;
+
+// Name
+name = "";

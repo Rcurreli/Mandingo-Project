@@ -15,3 +15,5 @@ if(!freeze and instance_exists(following)){
 	camera_set_view_pos(view, new_x, new_y);
 }
 
+
+audio_master_gain(0);

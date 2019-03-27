@@ -30,45 +30,41 @@ if((o_roomManager.roomClass == roomClasses.fieldBattle) && !instance_exists(obj_
 			// Activate enemies
 			activeEnemies = activateCombatants(enemies);
 		
-			battlelog = "";
-			textButton = "";
+			battlelog = [];
+			textButton = [];
 			
 			
 			// Initialize this turn's log
-			create_textevent(["Turno " + string(battleTurn) + ": "],-1);
-			battleTurn++;
-			phase ++;
-		}
-		else if(phase == 1){
+			battlelog = addValueToArray(battlelog, "Turno " + string(battleTurn) + ": ");
 			
-			// The active enemies auto-attack
+			create_textevent(battlelog, -1);
+			battleTurn++;
+			
+		// The active enemies auto-attack
 			if(array_length_1d(activeEnemies) > 0) {
-				battlelog = allCombatantsAttack(activeEnemies, childs);
-				create_textevent([battlelog], -1);
+				battlelog = addArrayToArray(battlelog,allCombatantsAttack(activeEnemies, childs));
+				create_textevent(battlelog, -1);
 			}
-			phase ++;
 			// TEMP The childs auto-attack
 			/*
 			if(array_length_1d(activeChilds) > 0) {
 				battleLog += allCombatantsAttack(activeChilds, enemies);
 			}
 			*/
-		}
 			
-		else if(phase == 2){
 			// Write down something even if there was no active child and
 			// no active enemy
 			if((array_length_1d(activeChilds) <= 0) and
 				(array_length_1d(activeEnemies) <= 0)) {
-				create_textevent(["Nessun attacco"], -1);
+				battlelog = addArrayToArray(battlelog,"Nessun attacco");
+				create_textevent(battlelog, -1);
 			}
 			phase ++;
 		}
-		
-		else if(phase == 3){
+		else if(phase == 1){
 			
 			if(attacco){
-				create_textevent([textButton], -1);
+				create_textevent(textButton, -1);
 				attacco = false;
 			}
 			else if(array_length_1d(activeChilds)== 0){
@@ -76,9 +72,9 @@ if((o_roomManager.roomClass == roomClasses.fieldBattle) && !instance_exists(obj_
 			}
 			
 		}
-		if(phase == 4){
-			phase = 0
-		}
+
+			phase %= 2;
+	
 		endTurn = true;
 	}
 // The battle has ended
