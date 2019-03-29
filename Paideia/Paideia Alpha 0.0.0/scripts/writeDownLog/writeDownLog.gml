@@ -1,3 +1,4 @@
+// OUTDATED delete this once the FC Dialogue System is fully implemented
 // Rename the arguments for readability
 var x1 = argument0;
 var y1 = argument1;

@@ -1,3 +1,5 @@
+/// @description Manage room change
+
 var view = view_camera[0];
 gui_width = camera_get_view_width(view);
 gui_height = camera_get_view_height(view);

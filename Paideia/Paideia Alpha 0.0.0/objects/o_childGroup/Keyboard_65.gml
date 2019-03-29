@@ -1,6 +1,6 @@
 /// @description Move left
 
-if(getRoomClass() == roomClasses.entranceField && !instance_exists(obj_textevent)) {
+if(o_roomManager.roomClass == roomClasses.entranceField && !instance_exists(obj_textevent)) {
 	if(hspeed == 0){
 		
 		hspeed -= 4;

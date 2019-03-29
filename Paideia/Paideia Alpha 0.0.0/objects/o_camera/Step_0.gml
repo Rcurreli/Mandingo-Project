@@ -1,3 +1,5 @@
+/// @description Manage the camera
+
 if(!freeze and instance_exists(following)){
 	var view = view_camera[0];
 	var cam_x = camera_get_view_x(view);
@@ -8,7 +10,7 @@ if(!freeze and instance_exists(following)){
 	new_x = lerp(cam_x, fol_x, 0.1);
 	new_y = lerp(cam_y, fol_y, 0.1);
 	
-	//Check for Room Edge
+//Check for Room Edge
 	new_x = clamp(new_x, 0, room_w-gui_width);
 	new_y = clamp(new_y, 0, room_h-gui_height);
 	

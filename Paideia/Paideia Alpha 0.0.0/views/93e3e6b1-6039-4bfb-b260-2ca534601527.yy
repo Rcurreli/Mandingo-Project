@@ -4,15 +4,9 @@
     "mvc": "1.1",
     "name": "93e3e6b1-6039-4bfb-b260-2ca534601527",
     "children": [
-        "8dc1bf3c-4fe6-4425-9994-535842509923",
-        "d1e49e18-aac9-4ced-ac3c-d6cbe024d165",
-        "73c360c6-b094-489d-bc3b-1516c52544ae",
-        "ef41b466-4cd2-437e-87d1-f600ebe445ea",
-        "6050ae84-a0f5-4f77-a557-e0524205781d",
-        "af10ba1d-f17c-47c4-9c9e-473ca28be0d0",
-        "29640cf6-bb2a-41bc-a28b-b6cd2d434cf2",
-        "7b3ede2a-f36c-406a-919b-e675fe2568ae",
-        "0acbb595-5f93-407d-aa0a-efd7cfbd3a1e"
+        "d2de3148-972f-41d2-ac46-997313c12604",
+        "271ffe37-88d6-4baf-97db-7b891060e719",
+        "aa9f8185-fec2-416f-8a27-05e34d6503bf"
     ],
     "filterType": "GMScript",
     "folderName": "Paideia_Logic",

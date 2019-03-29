@@ -14,14 +14,26 @@ enum roomClasses {
 	fieldBattle, minoanCommanderBattle
 };
 
-// GUI
+// Enumeration of the battle roles; TO DO assign a battle role to each character
+enum battleRoles {
+// Defense roles
+	hoplite, axeman,
+// Attack roles
+	swordman,
+// Ranged roles
+	archer, peltast,
+// Support roles
+	messenger
+}
+
+// GUI; OUTDATED delete them once the FC Dialogue System is fully implemented
 baseOffset = room_width / 16;
 xOffset = 3 * baseOffset;
 yOffset = 6 * baseOffset;
 textOffset = baseOffset;
 log = "";
 
-// Statistics
+// Statistics; OUTDATED change them once the implementation of the battle system starts
 var leastCommonMultipleDefense = 6;
 baseDamage = leastCommonMultipleDefense;
 var leastCommonMultipleAttack = 2;
@@ -32,5 +44,9 @@ baseHealth = leastCommonMultipleDamage;
 isGameEnded = false;
 isGameOver = false;
 
+// Ask R. what this does
 firstTime = 0;
 
+// Buffers for the encounters
+encounter = noone;
+overworld = noone;

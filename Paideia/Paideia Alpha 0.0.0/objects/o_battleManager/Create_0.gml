@@ -1,31 +1,29 @@
-// @description Default battle values
-phase = 0;
+/// @description Default battle values
 
 // The room to go back to
-overworld = noone;
+overworld = o_manager.overworld;
 
 // The actors of the battle
-childGroup = noone;
-enemyGroup = noone;
-childs = [];
-enemies = [];
+childGroup = o_childGroup;
+enemyGroup = o_manager.encounter;
+childs = spawnCharacters(childGroup.members);
+enemies = spawnCharacters(enemyGroup.members);
 
 // The active actors of the battle
 activeChilds = [];
-currentChild = noone;
 activeEnemies = [];
 
 // Set battle values
 isBattleEnded = false;
 battleTurn = 0;
+phase = 0;
 
-endTurn = true;
+// String returned from the pressed button
+textButton = [];
 
-textButton = "";
-
+// Has an attack happened? TO DO manage all player actions
 attacco = false
 
-textList = [];
-
-battlelog = [];
-
+// Create the first battle textbox
+create_textevent(["I Figli si imbattono in un Soldato minoico!",
+		"Click sinistro per combattere"], -1);

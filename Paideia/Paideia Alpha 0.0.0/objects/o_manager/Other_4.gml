@@ -1,6 +1,6 @@
 /// @description Manage room change
 
-switch(getRoomClass()) {
+switch(o_roomManager.roomClass) {
 	case roomClasses.gameStart:
 	
 	create_textevent(["Teseo ha fallito l'impresa e Minosse ha conquistato la Grecia.",

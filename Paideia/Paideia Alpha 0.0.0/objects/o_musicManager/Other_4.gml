@@ -23,6 +23,18 @@ switch(o_roomManager.roomClass) {
 		roomMusic = ost_Polis;
 	break;
 	
+	case roomClasses.towerGroundFloor:
+		roomMusic = ost_Palazzo;
+	break;
+	
+	case roomClasses.towerFirstFloor:
+		roomMusic = ost_Palazzo_Crescendo;
+	break;
+	
+	case roomClasses.towerTop:
+		roomMusic = ost_Palazzo_Climax;
+	break;
+	
 	case roomClasses.fieldBattle:
 		roomMusic = ost_BattagliaCampale;
 	break;

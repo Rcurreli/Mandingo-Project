@@ -1,6 +1,6 @@
 /// @description Move up
 
-if(getRoomClass() == roomClasses.entranceField && !instance_exists(obj_textevent)) {
+if(o_roomManager.roomClass == roomClasses.entranceField && !instance_exists(obj_textevent)) {
 	if(vspeed == 0 ){
 		
 		vspeed -=4;

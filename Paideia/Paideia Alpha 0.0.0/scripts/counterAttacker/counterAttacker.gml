@@ -9,26 +9,15 @@ var damage = dealDamage(defender, attacker);
 var logToReturn = [];
 
 // Write down the log
-if(checkIfInArray(defender, o_battleManager.childs) == true) {
-	logToReturn  = addValueToArray(logToReturn," Il Figlio contrattacca: ");
-}
-else //if(checkIfInArray(defender, o_battleManager.enemies) == true)
-{
-	logToReturn  = addValueToArray(logToReturn," Il Minoico contrattacca: ");
-}
-
-logToReturn[array_length_1d(logToReturn) - 1] += "\n" + string(damage) + " danni! ";
-
+// Attack info
+logToReturn = addValueToArray(logToReturn, defender.name + " contrattacca:\n" +
+	string(damage) + " danni!");
 
 
 // Death info
 if(attacker.isAlive == false) {
-	if(checkIfInArray(attacker, o_battleManager.childs) == true) {
-		logToReturn  = addValueToArray(logToReturn,"Il Figlio viene sconfitto!");
-	}
-	if(checkIfInArray(attacker, o_battleManager.enemies) == true) {
-		logToReturn  = addValueToArray(logToReturn,"Il Minoico viene sconfitto!");
-	}
+	logToReturn = addValueToArray(logToReturn, attacker.name +
+		" viene sconfitto!");
 }
 
 return logToReturn;
