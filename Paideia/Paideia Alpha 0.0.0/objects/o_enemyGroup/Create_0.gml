@@ -9,4 +9,4 @@ enemyEncounterX = 736;
 enemyEncounterY = 192;
 
 // The members of the group
-members = [o_enemyAbstract];
+members = [o_minoanHoplite];

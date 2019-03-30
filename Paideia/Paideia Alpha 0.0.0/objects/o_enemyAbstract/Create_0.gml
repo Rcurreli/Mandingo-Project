@@ -8,12 +8,10 @@ event_inherited();
 enemyEncounterX = 736;
 enemyEncounterY = 192;
 
+/*
 // Statistics
 attack = 2;
 defense = 2;
 maxHealth = 2 * o_manager.baseHealth;
 currentHealth = maxHealth;
-attackSpeed = 2;
-
-// Name
-name = "Soldato minoico";
+attackSpeed = 2; */

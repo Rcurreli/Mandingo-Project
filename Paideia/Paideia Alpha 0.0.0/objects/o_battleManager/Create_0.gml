@@ -6,8 +6,10 @@ overworld = o_manager.overworld;
 // The actors of the battle
 childGroup = o_childGroup;
 enemyGroup = o_manager.encounter;
-childs = spawnCharacters(childGroup.members);
-enemies = spawnCharacters(enemyGroup.members);
+childs = spawnCharacters(childGroup.members, room_width / 4, room_height / 4,
+	room_width / 4, room_height * 3 / 4);
+enemies = spawnCharacters(enemyGroup.members, room_width * 3 / 4,
+	room_height / 4, room_width * 3 / 4, room_height * 3 / 4);
 
 // The active actors of the battle
 activeChilds = [];

@@ -26,6 +26,28 @@ enum battleRoles {
 	messenger
 }
 
+// Enumeration of character powers
+enum characterPowers {
+	lowCharacterPower = 1,
+	middleCharacterPower = 2,
+	highCharacterPower = 4
+}
+
+// Enumeration of the attack values
+enum attackValues {
+	lowAttack = 1,
+	middleAttack = 2,
+	highAttack = 3
+}
+
+// Enumeration of the defense values
+enum defenseValues {
+	lowDefense = 1,
+	middleDefense = 3,
+	goodDefense = 4,
+	highDefense = 6
+}
+
 // GUI; OUTDATED delete them once the FC Dialogue System is fully implemented
 baseOffset = room_width / 16;
 xOffset = 3 * baseOffset;
