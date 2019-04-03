@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "510438f8-c09f-4e1a-b379-80fc1fac46c9",
+            "Value": {
+                "id": "48f24707-1de5-4d57-9590-1bf48201d05e",
+                "resourcePath": "tilesets\\ts_stoneWalls_256x256\\ts_stoneWalls_256x256.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "52cfaa37-1c7d-4fde-b5bc-8d3cc262031a",
             "Value": {
                 "id": "19eedd07-0a12-4bdf-9758-12eb675da8bd",
@@ -580,6 +588,14 @@
                 "id": "a90e4e51-684d-4651-b8a1-ab610ddc90cf",
                 "resourcePath": "views\\561db6d3-c430-43d5-a096-dc8a0878c9bd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "57322cef-8f40-433e-a271-2d540a663c63",
+            "Value": {
+                "id": "e9cdb5a6-d22a-4f06-bd61-3e032ab6d411",
+                "resourcePath": "sprites\\s_columns_64x64\\s_columns_64x64.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -759,6 +775,14 @@
             }
         },
         {
+            "Key": "777d9b7f-2e6f-4918-8ef5-68c7f6fd05b7",
+            "Value": {
+                "id": "d15a1c23-b975-4fe4-bf1d-cb7436784d2f",
+                "resourcePath": "tilesets\\ts_stoneWallDecorations_64x64\\ts_stoneWallDecorations_64x64.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "7b2ebc81-328f-48c7-9dda-c76a1d3ea71c",
             "Value": {
                 "id": "59c4bab5-1cce-4ce2-a481-f3b136f651f3",
@@ -844,6 +868,14 @@
                 "id": "a8223637-82a3-4a37-ad65-1324c4487ed0",
                 "resourcePath": "scripts\\activateCombatants\\activateCombatants.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "85913555-d8c9-47f8-ada3-3e1ee690a071",
+            "Value": {
+                "id": "d69e3bb0-7ca7-4500-be49-0797fc0970ca",
+                "resourcePath": "sprites\\s_stoneWallsDecoration_64x64\\s_stoneWallsDecoration_64x64.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -999,6 +1031,14 @@
             }
         },
         {
+            "Key": "97d2ac1f-9c2c-4b9f-9b0d-ed038aa6636b",
+            "Value": {
+                "id": "1789f3ec-cc24-41fc-beca-a8c11c93d8b3",
+                "resourcePath": "tilesets\\ts_columns_64x64\\ts_columns_64x64.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "98277936-5c7c-4cab-867e-cf63adce59d2",
             "Value": {
                 "id": "50c455c4-c9b5-4126-81a9-d42a9a198030",
@@ -1036,6 +1076,14 @@
                 "id": "bc7a6874-7692-4aa0-81b3-f2b70ef9a942",
                 "resourcePath": "views\\9c516586-138b-43d5-9aba-e44a8d35db24.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9d3d53fc-694c-4f81-a13c-14452be8b7b3",
+            "Value": {
+                "id": "80db8720-55f1-4a6f-ad10-402e8918c645",
+                "resourcePath": "sprites\\s_collider\\s_collider.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1100,6 +1148,14 @@
                 "id": "78c34f21-5f71-47dc-83d9-e515581af326",
                 "resourcePath": "views\\a523a9a8-d167-4dd6-a494-eac372b7cfbc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a58397a2-5b61-4464-9918-46557ac27501",
+            "Value": {
+                "id": "57cb532f-71fe-4a24-a233-4b877afd8e02",
+                "resourcePath": "rooms\\rm_tilesetTest\\rm_tilesetTest.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1396,6 +1452,14 @@
                 "id": "d1ffe15b-a84f-4cef-b6e8-d3c5476e60b1",
                 "resourcePath": "views\\d2de3148-972f-41d2-ac46-997313c12604.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d319b9dc-8202-48ca-adb6-ac85b83309dd",
+            "Value": {
+                "id": "399a1125-1cca-4bc8-b9f1-fe2011815ae1",
+                "resourcePath": "sprites\\s_stoneWalls_256x256\\s_stoneWalls_256x256.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
