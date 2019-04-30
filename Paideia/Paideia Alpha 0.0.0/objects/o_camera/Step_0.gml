@@ -18,4 +18,3 @@ if(!freeze and instance_exists(following)){
 }
 
 
-audio_master_gain(0);

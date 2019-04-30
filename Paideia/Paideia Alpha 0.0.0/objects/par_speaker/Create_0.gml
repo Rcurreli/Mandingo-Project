@@ -1,6 +1,6 @@
 
 //-----------Customise (FOR USER)
-playerobject = obj_player;
+playerobject = o_childGroup;
 interact_key = mb_left;
 detection_radius = 32;
 

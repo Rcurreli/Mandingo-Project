@@ -530,7 +530,7 @@
             "Key": "4d727ba1-7018-44d0-8899-001a6d5270da",
             "Value": {
                 "id": "4865d59a-89ff-4c9e-82d5-07b5f43c7a7d",
-                "resourcePath": "objects\\o_friendGroup\\o_friendGroup.yy",
+                "resourcePath": "objects\\o_friendGroupAbstract\\o_friendGroupAbstract.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -580,6 +580,14 @@
                 "id": "d22b86d0-b5a2-4b28-b4de-93de8cedc7a9",
                 "resourcePath": "rooms\\rm_dialoguesystem_demo\\rm_dialoguesystem_demo.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "55dea834-df59-44ac-8dd3-5de4aa6dc00f",
+            "Value": {
+                "id": "f27f1bea-47de-4f49-92e0-4bd4d8299223",
+                "resourcePath": "objects\\o_friendGroupZoppo\\o_friendGroupZoppo.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -740,6 +748,14 @@
                 "id": "166facae-6050-4b9d-af95-a816a810248b",
                 "resourcePath": "scripts\\checkIfCombatantsDied\\checkIfCombatantsDied.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "74b74551-9677-4c69-9cda-2edf048d6172",
+            "Value": {
+                "id": "cbaf0b45-eec0-42c2-b155-f4e71f16a1b1",
+                "resourcePath": "objects\\o_friendZoppo\\o_friendZoppo.yy",
+                "resourceType": "GMObject"
             }
         },
         {

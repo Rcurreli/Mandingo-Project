@@ -15,7 +15,7 @@ switch(o_roomManager.roomClass) {
 	
 	case roomClasses.entranceField:
 // Check if the game has ended (victory); TO DO change victory condition
-		if((o_enemyGroup.isAlive == false) and (o_friendGroup.isAlive == false)) {
+		if((o_enemyGroup.isAlive == false) and (o_friendGroupAbstract.isAlive == false)) {
 				isGameEnded = true;
 		}
 		
