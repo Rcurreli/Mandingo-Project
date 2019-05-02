@@ -1,24 +1,15 @@
 {
-    "id": "55dea834-df59-44ac-8dd3-5de4aa6dc00f",
+    "id": "7d9a42bb-303b-4665-97b8-4edaff4403b4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_friendGroupZoppo",
+    "name": "o_arrow",
     "eventList": [
-        {
-            "id": "32c340db-9dfd-49e4-a841-4a9ac5a20c6a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "55dea834-df59-44ac-8dd3-5de4aa6dc00f"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "4d727ba1-7018-44d0-8899-001a6d5270da",
-    "persistent": true,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "3aedc692-fdec-4b2c-b57e-108fcebf820b",
+    "spriteId": "24ea9cb3-836e-4274-b1dd-d0642b958409",
     "visible": true
 }

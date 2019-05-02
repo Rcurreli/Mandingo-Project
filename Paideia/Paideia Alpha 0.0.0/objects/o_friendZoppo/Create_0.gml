@@ -35,3 +35,5 @@ battleRole = battleRoles.messenger;
 // TEMP remove this after specific friends are added
 // Initialize the abstract friend
 event_user(0);
+create_dialogue(myText, mySpeaker, myEffects, myTextSpeed, myTypes, myNextLine, myScripts, myTextCol, myEmotion, myEmote);
+

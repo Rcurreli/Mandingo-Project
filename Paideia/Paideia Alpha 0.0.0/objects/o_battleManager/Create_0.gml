@@ -21,7 +21,7 @@ battleTurn = 0;
 phase = 0;
 
 // String returned from the pressed button
-textButton = [];
+battleLog = [];
 
 // Has an attack happened? TO DO manage all player actions
 attacco = false

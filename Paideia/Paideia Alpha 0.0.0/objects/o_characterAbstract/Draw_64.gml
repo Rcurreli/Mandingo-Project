@@ -14,3 +14,10 @@ if((isAlive == true) and (o_roomManager.roomClass == roomClasses.fieldBattle)) {
 		(100 * currentHealth / maxHealth), c_black, c_green, c_green, 0, true,
 		true);
 }
+
+if(checkIfInArray(id, o_battleManager.activeChilds) == true && arrowCheck == false && instance_exists(obj_textevent) == false) {
+    arrowCheck = true;
+    arrow = instance_create_layer( x - 35, y - 50, "Logic_and_GUI", o_arrow)
+    arrow.image_speed = 1;
+
+}

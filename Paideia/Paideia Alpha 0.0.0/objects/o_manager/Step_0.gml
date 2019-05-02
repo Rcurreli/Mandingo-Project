@@ -1,3 +1,6 @@
+/// @description Insert description here
+// You can write your code in this editor
+
 /// @description Interact
 
 switch(o_roomManager.roomClass) {
@@ -16,3 +19,8 @@ switch(o_roomManager.roomClass) {
 		}
 	break;
 }
+
+if(gameExit == true && instance_exists(obj_textbox) == false){
+	game_end();
+}
+

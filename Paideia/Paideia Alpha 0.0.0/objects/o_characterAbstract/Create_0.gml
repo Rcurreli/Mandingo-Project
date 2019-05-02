@@ -40,3 +40,6 @@ myPortraitIdle_y	= -1;
 
 //-----------Defaults Setup (LEAVE THIS STUFF)
 reset_dialogue_defaults();
+
+ arrowCheck = false;
+ 

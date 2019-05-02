@@ -72,3 +72,5 @@ firstTime = 0;
 // Buffers for the encounters
 encounter = noone;
 overworld = noone;
+
+gameExit = false;

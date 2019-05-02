@@ -8,6 +8,8 @@ event_inherited();
 enemyEncounterX = 736;
 enemyEncounterY = 192;
 
+attackTarget = false;
+
 /*
 // Statistics
 attack = 2;

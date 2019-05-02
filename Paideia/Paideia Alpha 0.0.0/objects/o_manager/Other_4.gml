@@ -35,26 +35,28 @@ switch(o_roomManager.roomClass) {
 			}
 			else {
 // The log contains an impossible-to-achieve death message; TO DO actually manage player death
-				log = "Come diamine hai fatto a morire???"
-					+ "\nIl gioco era programmato per farti VINCERE!"
-					+ "\nOra i cheater cercano di perdere? *sigh*";
+				create_textevent(["Come diamine hai fatto a morire???",
+				"Il gioco era programmato per farti VINCERE!",
+				"Ora i cheater cercano di perdere? *sigh*"], -1);
 			}
 		}
 		else {
 // The log contains the game ended message
-			log = "Brutte notizie: hai finito il gioco. Non c'e' altro."
-				+ "\nSi', sono serio."
-				+ "\nClick sinistro per terminare il prototipo";
+			create_textevent(["Brutte notizie: hai finito il gioco. Non c'e' altro.",
+				"Si', sono serio.",
+				"Click sinistro per terminare il prototipo"], -1);
 		}
 	break;
 	
 	case roomClasses.gameEnd:
-		log = "Il prototipo e' finito. Scusa se non ho approfondito la trama."
-			+ "\nSempre che ti interessi, si intende."
-			+ "\nSappi che non intendo mettere un auto-battle, intendo realizzare"
-			+ "\ndelle azioni di battaglia (attacco e  guardia, per esempio)."
-			+ "\nGli sprite, la mappa, l'interfaccia e il codice sono stati creati"
-			+ "\nda Matteo Cuomo."
-			+ "\nGrazie per l'attenzione.";
+		create_textevent(["Il prototipo e' finito. Scusa se non ho approfondito la trama.",
+		"Sempre che ti interessi, si intende.",
+		"Sappi che non intendo mettere un auto-battle, intendo realizzare",
+		"delle azioni di battaglia (attacco e  guardia, per esempio).",
+		"Gli sprite, la mappa, l'interfaccia e il codice sono stati creati",
+		"da Matteo Cuomo & CO.",
+		"Grazie per l'attenzione."], -1);
+		
+		gameExit = true;	
 	break;
 }

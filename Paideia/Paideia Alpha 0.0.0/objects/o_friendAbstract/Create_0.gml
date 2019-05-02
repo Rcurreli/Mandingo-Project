@@ -3,5 +3,6 @@
 // Call the parent
 event_inherited();
 
+currentHealth = 100;
 
 
