@@ -17,7 +17,7 @@ activeEnemies = [];
 
 // Set battle values
 isBattleEnded = false;
-battleTurn = 0;
+battleTurn = 1;
 phase = 0;
 
 // String returned from the pressed button

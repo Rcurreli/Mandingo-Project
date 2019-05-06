@@ -4,7 +4,6 @@ var battleRole = argument0;
 switch(battleRole) {
 	case battleRoles.archer:
 	case battleRoles.peltast:
-	case battleRoles.messenger:
 		return defenseValues.lowDefense;
 	break;
 	

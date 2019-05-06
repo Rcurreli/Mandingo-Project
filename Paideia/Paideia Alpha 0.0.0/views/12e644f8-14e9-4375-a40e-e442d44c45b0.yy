@@ -5,7 +5,8 @@
     "name": "12e644f8-14e9-4375-a40e-e442d44c45b0",
     "children": [
         "7b2ebc81-328f-48c7-9dda-c76a1d3ea71c",
-        "e2c915e2-ab6c-4733-a788-fc904884b046"
+        "e2c915e2-ab6c-4733-a788-fc904884b046",
+        "bb856138-7c82-48b6-81e3-e7140dfda932"
     ],
     "filterType": "GMScript",
     "folderName": "BattleRoleLogic",

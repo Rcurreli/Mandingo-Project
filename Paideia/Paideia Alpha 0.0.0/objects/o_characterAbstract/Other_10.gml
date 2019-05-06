@@ -1,12 +1,10 @@
 /// @description Initialize the statistics
 
-// Attack and defense depend on the battle role
+// Attack, defense and attack speed depend on the battle role
 attack = getBattleRoleAttack(battleRole);
 defense = getBattleRoleDefense(battleRole);
-
-// Speed depends on attack and defense
-attackSpeed = attack * defense / 2;
+attackSpeed = getBattleRoleAttackSpeed(battleRole);
 
 // Health depends on power
-maxHealth = 12 * characterPower;
+maxHealth = o_manager.baseHealth * characterPower;
 currentHealth = maxHealth;

@@ -24,13 +24,11 @@ choice_variable		= -1;	//the variable we change depending on the player's choice
 friendEncounterX = 192;
 friendEncounterY = 224;
 
-// TEMP remove this after specific friends are added
 // Character power
-characterPower = characterPowers.lowCharacterPower;
+characterPower = characterPowers.highCharacterPower;
 
-// TEMP remove this after specific friends are added
 // Battle role
-battleRole = battleRoles.messenger;
+//battleRole = battleRoles.messenger;
 
 // TEMP remove this after specific friends are added
 // Initialize the abstract friend

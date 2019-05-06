@@ -1,4 +1,5 @@
 /// @description Initialize the game
+randomize();
 
 // Enumeration of the room classes
 enum roomClasses {
@@ -21,9 +22,7 @@ enum battleRoles {
 // Attack roles
 	swordman,
 // Ranged roles
-	archer, peltast,
-// Support roles
-	messenger
+	archer, peltast
 }
 
 // Enumeration of character powers
@@ -43,24 +42,33 @@ enum attackValues {
 // Enumeration of the defense values
 enum defenseValues {
 	lowDefense = 1,
-	middleDefense = 3,
-	goodDefense = 4,
-	highDefense = 6
+	middleDefense = 2,
+	goodDefense = 3,
+	highDefense = 4
+}
+
+
+// Enumeration of the attack speed values
+enum attackSpeedValues {
+	lowAttackSpeed = 4,
+	middleAttackSpeed = 2,
+	highAttackSpeed = 1
 }
 
 // GUI; OUTDATED delete them once the FC Dialogue System is fully implemented
 baseOffset = room_width / 16;
-xOffset = 3 * baseOffset;
-yOffset = 6 * baseOffset;
-textOffset = baseOffset;
-log = "";
+//xOffset = 3 * baseOffset;
+//yOffset = 6 * baseOffset;
+//textOffset = baseOffset;
+//log = "";
 
-// Statistics; OUTDATED change them once the implementation of the battle system starts
-var leastCommonMultipleDefense = 6;
-baseDamage = leastCommonMultipleDefense;
-var leastCommonMultipleAttack = 2;
-var leastCommonMultipleDamage = baseDamage * leastCommonMultipleAttack;
-baseHealth = leastCommonMultipleDamage;
+// Statistics
+var baseAttack = attackValues.lowAttack;
+var limitAttack = attackValues.highAttack;
+var baseDefense = defenseValues.lowDefense;
+var limitDefense = defenseValues.highDefense;
+baseDamage = limitDefense - baseAttack;
+baseHealth = power(2, baseDamage + limitAttack - baseDefense);
 
 // Game
 isGameEnded = false;

@@ -2,17 +2,16 @@
 var battleRole = argument0;
 
 switch(battleRole) {
-	case battleRoles.messenger:
+	case battleRoles.peltast:
 		return attackValues.lowAttack;
 	break;
 	
 	case battleRoles.hoplite:
 	case battleRoles.swordman:
-	case battleRoles.peltast:
+	case battleRoles.archer:
 		return attackValues.middleAttack;
 	break;
 	
-	case battleRoles.archer:
 	case battleRoles.axeman:
 		return attackValues.highAttack;
 	break;
