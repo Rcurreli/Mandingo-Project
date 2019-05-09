@@ -4,13 +4,12 @@
     "mvc": "1.1",
     "name": "92f6094b-fdb0-44c6-aea0-4a2b13c27187",
     "children": [
-        "aba40cd6-5c7a-433c-bcc2-437354a2341c",
-        "393f8c39-f0fd-4c9c-af22-9108513b8fbc",
-        "7cdd99e6-5397-4b11-bdbd-35f7bfc50224",
-        "30e6dd23-e414-4563-a667-254831d5a559"
+        "7de603bc-3d11-46b4-8c8a-f3ac74591be2",
+        "915bc4a5-01bd-4e94-abd2-bbf5fc85c631",
+        "c7fb59a1-27f8-44ec-801d-4409393473ec"
     ],
     "filterType": "GMSprite",
-    "folderName": "Ladri",
+    "folderName": "Thieves",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

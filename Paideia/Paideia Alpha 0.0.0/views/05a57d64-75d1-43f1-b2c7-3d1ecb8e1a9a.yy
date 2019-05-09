@@ -4,11 +4,10 @@
     "mvc": "1.1",
     "name": "05a57d64-75d1-43f1-b2c7-3d1ecb8e1a9a",
     "children": [
-        "60cb3a5e-6653-4dca-8262-53d85ad35238",
-        "9525136a-ff45-49f9-aca8-931ce15a9bfb"
+        "535b26ec-30d2-4047-89af-23ea3a64ff8d"
     ],
     "filterType": "GMSprite",
-    "folderName": "Minoici",
+    "folderName": "Minoans",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
