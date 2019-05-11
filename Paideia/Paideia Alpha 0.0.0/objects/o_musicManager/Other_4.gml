@@ -6,39 +6,39 @@ if(roomMusic != noone) {
 }
 
 // Change the music to play
-switch(o_roomManager.roomClass) {
-	case roomClasses.gameStart:
+
+	if(room == rm_start){	
 		roomMusic = noone;
-	break;
+	}
 	
-	case roomClasses.gameEnd:
-		roomMusic = noone;
-	break;
-	
-	case roomClasses.entranceField:
+	if(room == rm_corridorsAbstract){	
 		roomMusic = ost_Proemio;
-	break;
+	}
 	
-	case roomClasses.settlement:
+	if(room == rm_end){	
+		roomMusic = noone;
+	}
+
+	if(room == rm_battleAbstract){	
+		roomMusic = ost_BattagliaCampale;
+	}
+	
+	if(room == rm_dialogo){	
 		roomMusic = ost_Polis;
-	break;
-	
-	case roomClasses.towerGroundFloor:
+	}
+	/*
+	case .towerGroundFloor:
 		roomMusic = ost_Palazzo;
 	break;
 	
-	case roomClasses.towerFirstFloor:
+	case towerFirstFloor:
 		roomMusic = ost_Palazzo_Crescendo;
 	break;
 	
-	case roomClasses.towerTop:
+	case towerTop:
 		roomMusic = ost_Palazzo_Climax;
 	break;
-	
-	case roomClasses.fieldBattle:
-		roomMusic = ost_BattagliaCampale;
-	break;
-}
+	*/
 
 // Start a new music, if any
 if(roomMusic != noone) {

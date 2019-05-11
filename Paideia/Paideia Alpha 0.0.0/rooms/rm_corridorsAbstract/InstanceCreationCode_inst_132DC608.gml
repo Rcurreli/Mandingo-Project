@@ -1,1 +1,0 @@
-roomClass = roomClasses.entranceField;

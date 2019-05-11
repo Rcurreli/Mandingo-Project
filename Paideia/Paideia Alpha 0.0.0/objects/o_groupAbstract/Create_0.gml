@@ -12,5 +12,8 @@ enemyEncounterY = 0;
 friendEncounterX = 0;
 friendEncounterY = 0;
 
+startPositionX = x;
+startPositionY = y;
+
 // The members of the group
 members = noone;

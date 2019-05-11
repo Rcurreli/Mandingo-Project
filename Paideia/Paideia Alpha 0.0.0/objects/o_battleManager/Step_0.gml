@@ -8,7 +8,7 @@ battleLog = [];
 
 // The log for the FC Dialogue System
 
-if((o_roomManager.roomClass == roomClasses.fieldBattle) and
+if((room == rm_battleAbstract) and
 	(instance_exists(obj_textevent) == false) and (isBattleEnded == false)) {
 
 
@@ -92,7 +92,8 @@ if((o_roomManager.roomClass == roomClasses.fieldBattle) and
 }
 
 // The battle has ended
-else if((o_roomManager.roomClass == roomClasses.fieldBattle) and
+else if((room == rm_battleAbstract) and
 	(instance_exists(obj_textevent) == false) and (isBattleEnded == true)){
+	global.roomcamefrom = room;
 	room_goto(overworld);
 }

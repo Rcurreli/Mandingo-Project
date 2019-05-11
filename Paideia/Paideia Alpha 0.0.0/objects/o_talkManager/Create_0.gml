@@ -10,7 +10,5 @@ childs = spawnCharacters(childGroup.members, room_width / 4, room_height / 4,
 	room_width / 4, room_height * 3 / 4);
 spawnCharacters(friendGroup.members, room_width * 3 / 4, room_height / 4,
 	room_width * 3 / 4, room_height * 3 / 4);
-friend = friendGroup.members[0];
 
-// The log
 

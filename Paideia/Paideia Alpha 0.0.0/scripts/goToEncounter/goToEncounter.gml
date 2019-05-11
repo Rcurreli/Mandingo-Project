@@ -15,4 +15,5 @@ o_manager.encounter = encounter;
 o_manager.overworld = overworld;
 
 // Meet them
+global.roomcamefrom = room;
 room_goto(underworld);

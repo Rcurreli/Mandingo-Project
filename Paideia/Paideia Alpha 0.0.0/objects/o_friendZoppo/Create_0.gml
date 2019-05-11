@@ -8,7 +8,7 @@ event_inherited();
 
 myPortrait			= spr_portrait_examplechar;
 myVoice				= snd_voice1;
-myName				= "Sekiro";
+myName				= "Lo Zoppo";
 
 myPortraitTalk		= spr_portrait_examplechar_mouth;
 myPortraitTalk_x	= 26;
@@ -34,4 +34,4 @@ characterPower = characterPowers.highCharacterPower;
 // Initialize the abstract friend
 event_user(0);
 create_dialogue(myText, mySpeaker, myEffects, myTextSpeed, myTypes, myNextLine, myScripts, myTextCol, myEmotion, myEmote);
-
+o_friendGroupZoppo.stato--;

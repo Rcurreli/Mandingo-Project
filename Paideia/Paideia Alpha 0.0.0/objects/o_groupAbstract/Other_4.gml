@@ -1,33 +1,34 @@
 /// @description Manage room change
 
 // Manage the position
-switch(o_roomManager.roomClass) {
-	case roomClasses.entranceField:
-		x = overworldX;
-		y = overworldY;
-	break;
 	
-	case roomClasses.settlement:
+	if(room == rm_dialogo){	
 		x = friendEncounterX;
 		y = friendEncounterY;
-	break;
+	}
+
 	
-	case roomClasses.fieldBattle:
+	if(room == rm_battleAbstract){	
 		x = enemyEncounterX;
 		y = enemyEncounterY;
-	break;
-}
+	}
+
+
 
 // Manage the visibility
-if((o_roomManager.roomClass == roomClasses.gameStart) or
-	(o_roomManager.roomClass == roomClasses.gameEnd)) {
+if((room == rm_start) or
+	(room == rm_end) or (room == rm_battleAbstract) or (room == rm_dialogo)) {
 	visible = false;
 }
 else {
 	visible = true;
 }
 
-if((o_roomManager.roomClass == roomClasses.fieldBattle)
-	or (o_roomManager.roomClass == roomClasses.settlement)) {
+if(isAlive == false){
 	visible = false;
+	x=0;
+	y=0;
 }
+
+
+

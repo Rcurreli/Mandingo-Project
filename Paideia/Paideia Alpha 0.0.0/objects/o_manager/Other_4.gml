@@ -1,22 +1,31 @@
 /// @description Manage room change
 
-switch(o_roomManager.roomClass) {
-	case roomClasses.gameStart:
-	
+if(room == rm_start){	
 	create_textevent(["Teseo ha fallito l'impresa e Minosse ha conquistato la Grecia.",
 			"Il Figlio di eroe e' stato rinchiuso nel Labirinto come tanti Greci.",
 			"Click sinistro per iniziare.",
 			"Scusa la fretta, ma vanno sperimentate le meccaniche."], -1);
-	
+}
 
 			
 // Start GUI values
-	break;
 	
-	case roomClasses.entranceField:
+if(room == rm_end){	
+		create_textevent(["Il prototipo e' finito. Scusa se non ho approfondito la trama.",
+		"Sempre che ti interessi, si intende.",
+		"Sappi che non intendo mettere un auto-battle, intendo realizzare",
+		"delle azioni di battaglia (attacco e  guardia, per esempio).",
+		"Gli sprite, la mappa, l'interfaccia e il codice sono stati creati",
+		"da Matteo Cuomo & CO.",
+		"Grazie per l'attenzione."], -1);
+		
+		gameExit = true;	
+}
+
+	if(room == rm_corridorsAbstract){	
 // Check if the game has ended (victory); TO DO change victory condition
 		if((o_enemyGroup.isAlive == false) and (o_friendGroupAbstract.isAlive == false)) {
-				isGameEnded = true;
+				//isGameEnded = true;
 		}
 		
 // Check if the game is over (defeat)
@@ -46,17 +55,4 @@ switch(o_roomManager.roomClass) {
 				"Si', sono serio.",
 				"Click sinistro per terminare il prototipo"], -1);
 		}
-	break;
-	
-	case roomClasses.gameEnd:
-		create_textevent(["Il prototipo e' finito. Scusa se non ho approfondito la trama.",
-		"Sempre che ti interessi, si intende.",
-		"Sappi che non intendo mettere un auto-battle, intendo realizzare",
-		"delle azioni di battaglia (attacco e  guardia, per esempio).",
-		"Gli sprite, la mappa, l'interfaccia e il codice sono stati creati",
-		"da Matteo Cuomo & CO.",
-		"Grazie per l'attenzione."], -1);
-		
-		gameExit = true;	
-	break;
-}
+	}

@@ -10,3 +10,4 @@ friendEncounterX = 192;
 friendEncounterY = 224;
 
 members = [o_friendZoppo];
+stato = 0;

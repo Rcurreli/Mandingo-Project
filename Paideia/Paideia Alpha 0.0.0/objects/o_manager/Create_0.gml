@@ -2,18 +2,7 @@
 randomize();
 
 // Enumeration of the room classes
-enum roomClasses {
-// Out of the game room classes
-	gameStart, gameOver, gameEnd,
-// Field room classes
-	entranceField,
-// Settlement room classes
-	settlement,
-// Tower room classes
-	towerGroundFloor, towerFirstFloor, towerTop,
-// Battle room classes
-	fieldBattle, minoanCommanderBattle
-};
+
 
 // Enumeration of the battle roles; TO DO assign a battle role to each character
 enum battleRoles {

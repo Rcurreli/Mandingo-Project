@@ -3,21 +3,22 @@
 
 /// @description Interact
 
-switch(o_roomManager.roomClass) {
+
 
 // Start the game
-	case roomClasses.gameStart:
+if(room == rm_start){	
 		if(!instance_exists(obj_textevent)) {
+			global.roomcamefrom = room;
 			room_goto(rm_corridorsAbstract);
 		}
-	break;
+}
 
 // End the game; TO DO manage game over
-	case roomClasses.entranceField:
+if(room == rm_corridorsAbstract){	
 		if(isGameEnded == true) {
+			global.roomcamefrom = room;
 			room_goto(rm_end);
 		}
-	break;
 }
 
 if(gameExit == true && instance_exists(obj_textbox) == false){

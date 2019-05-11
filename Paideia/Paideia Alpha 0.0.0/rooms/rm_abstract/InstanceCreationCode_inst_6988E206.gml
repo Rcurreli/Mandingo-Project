@@ -1,1 +1,0 @@
-roomClass = noone;

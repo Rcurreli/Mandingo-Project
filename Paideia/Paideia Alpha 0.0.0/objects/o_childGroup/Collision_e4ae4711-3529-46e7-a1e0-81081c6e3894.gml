@@ -7,4 +7,6 @@
 /// @description Meet the friend
 
 // Save the player coordinates
-goToEncounter(id, other, rm_roomAbstract);
+global.roomcamefrom = room;
+
+goToEncounter(id, other, rm_dialogo);

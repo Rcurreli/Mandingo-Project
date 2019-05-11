@@ -175,14 +175,6 @@
             }
         },
         {
-            "Key": "1c6d3d13-55aa-498c-a845-e5c44a55f668",
-            "Value": {
-                "id": "61655f95-2411-4dbd-9b52-2bf507ff95f4",
-                "resourcePath": "views\\e1db5734-58bb-4ad4-ae9e-7cccfe1a75f4-room.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "1dc0696c-7eb0-4d0b-9ee1-3285cc6e4b43",
             "Value": {
                 "id": "99c6f710-08ba-4125-bbd3-4b4def0f27b0",
@@ -207,11 +199,35 @@
             }
         },
         {
+            "Key": "22dfb208-e29e-4d2a-bc82-e8bdf9fd1f8a",
+            "Value": {
+                "id": "6580f5de-0bc6-40fb-a8c3-c4296ae195e4",
+                "resourcePath": "sprites\\s_tengu\\s_tengu.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "24ea9cb3-836e-4274-b1dd-d0642b958409",
             "Value": {
                 "id": "59d82a55-c716-4020-91a8-105ce75dc488",
                 "resourcePath": "sprites\\spr_dialoguefinished\\spr_dialoguefinished.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "257a7104-3a30-4d54-a05a-0923c5f1414b",
+            "Value": {
+                "id": "97805943-af10-448c-8dc0-d5e5e7010f7d",
+                "resourcePath": "sprites\\s_door\\s_door.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "25bc3732-e12f-4a4f-ac51-cbbbf680088d",
+            "Value": {
+                "id": "dcd9b8dc-6fde-4b90-a306-d57076c6cafc",
+                "resourcePath": "objects\\o_teleport\\o_teleport.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -439,6 +455,14 @@
             }
         },
         {
+            "Key": "4883e32d-1702-484b-9068-434d3b6414a7",
+            "Value": {
+                "id": "2e862cc2-ef86-4a18-9d2f-d2c9e3a99c2c",
+                "resourcePath": "rooms\\rm_avventura3\\rm_avventura3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "48b7aef0-a31d-44cc-ac53-ce148ddc2e9e",
             "Value": {
                 "id": "17f5c4c9-5720-4bba-85b0-be8396cca194",
@@ -492,6 +516,14 @@
                 "id": "48f24707-1de5-4d57-9590-1bf48201d05e",
                 "resourcePath": "tilesets\\ts_stoneWalls_256x256\\ts_stoneWalls_256x256.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "51b26bad-49c9-4c3c-8b4f-40d34fdf5131",
+            "Value": {
+                "id": "6e544091-5832-4ecf-9026-93b5444d8560",
+                "resourcePath": "rooms\\rm_avventura2\\rm_avventura2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -607,6 +639,14 @@
             }
         },
         {
+            "Key": "6125e26d-b491-483b-8415-a45d699504da",
+            "Value": {
+                "id": "ef00924f-e95b-4944-ab48-25ea724bb7a4",
+                "resourcePath": "objects\\o_teleport2\\o_teleport2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "61879ee1-6561-4f9e-9c30-6a6615ec63ec",
             "Value": {
                 "id": "6833f661-1096-4ec1-b1cb-88ef363ff3e4",
@@ -639,6 +679,14 @@
             }
         },
         {
+            "Key": "6ae36513-4860-4044-a98c-8664f04d9f74",
+            "Value": {
+                "id": "25b98cbf-d987-4396-b3f7-36573809bcfc",
+                "resourcePath": "objects\\o_friendTengu\\o_friendTengu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6b039ce5-f4ea-4d34-ba71-8f3f6f8a2a65",
             "Value": {
                 "id": "8d0d179c-1e65-49e6-802e-e61bed7e40f2",
@@ -652,6 +700,14 @@
                 "id": "5d3683e7-b928-4acd-ba73-f273d634c455",
                 "resourcePath": "objects\\o_Orestes\\o_Orestes.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6e94fcc2-d4cb-44f6-874a-867d7299f467",
+            "Value": {
+                "id": "8f8a938c-0e32-4592-9cc9-d204cc26ee33",
+                "resourcePath": "sprites\\sprite39\\sprite39.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -863,10 +919,34 @@
             }
         },
         {
+            "Key": "86fd04ae-e44e-452a-8704-cd943f7f838e",
+            "Value": {
+                "id": "eac69bd6-1bbe-41ee-a8a0-e91347aae55c",
+                "resourcePath": "sprites\\s_simbolo\\s_simbolo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "87368dbf-69f6-4b03-9210-cbd845d2facc",
+            "Value": {
+                "id": "ee9c777f-e9ff-492b-9c08-21b80e79a09a",
+                "resourcePath": "objects\\o_teleportFriend\\o_teleportFriend.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "892aa546-83b9-4fcb-83c3-53b23c47738f",
             "Value": {
                 "id": "29031edb-949b-45f9-8374-842bce6a257c",
                 "resourcePath": "objects\\o_buttonTalkAbstract\\o_buttonTalkAbstract.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8abf17f3-0a52-49ad-955a-966e9b680099",
+            "Value": {
+                "id": "7bc13088-6bb0-4884-bb8f-a5ee462b1104",
+                "resourcePath": "objects\\o_door2\\o_door2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -900,6 +980,14 @@
                 "id": "51336c4d-f9ff-4aba-aae5-c31257bec2cc",
                 "resourcePath": "views\\3ccb4bd0-d5f7-4970-b5e9-6c17c8a6a6b3-room.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "90c26fd6-ed27-4193-ad94-7f540f1fa1b2",
+            "Value": {
+                "id": "4b1af1db-c2db-4a81-b01e-3853f09703b1",
+                "resourcePath": "sprites\\s_portale\\s_portale.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -980,6 +1068,14 @@
                 "id": "f5744842-7349-4baa-b2eb-e9edb7431f57",
                 "resourcePath": "rooms\\rm_start\\rm_start.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "961e492d-67dd-44ec-8967-f3c4d896f72e",
+            "Value": {
+                "id": "0a10cad1-1a4f-43e9-ba93-a3346393c347",
+                "resourcePath": "objects\\o_teleport1\\o_teleport1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1295,6 +1391,14 @@
             }
         },
         {
+            "Key": "c30f2ddd-add0-4056-b775-af1677b0d3f9",
+            "Value": {
+                "id": "8738bf51-5d37-4b52-b7d1-d5f732b8e1b9",
+                "resourcePath": "objects\\o_friendGroupTengu\\o_friendGroupTengu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c38fb961-d351-47b5-b3ee-f0b35b0e8070",
             "Value": {
                 "id": "b150397e-66b0-4a92-bcac-7c20532201f4",
@@ -1316,6 +1420,14 @@
                 "id": "ba76c948-adda-44b0-997a-b8b7ab97cae4",
                 "resourcePath": "views\\c5f344a0-e390-4034-8ce4-e9a1a6f0196e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c75150d9-950e-4936-a411-51c9fbbecf11",
+            "Value": {
+                "id": "1051a7d8-0dec-4644-b1ed-318815984812",
+                "resourcePath": "objects\\o_door1\\o_door1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1415,6 +1527,14 @@
             }
         },
         {
+            "Key": "d61c4386-9e90-48ff-af0a-d74b3db84f1a",
+            "Value": {
+                "id": "b9caf740-ce46-410f-a489-e0ba01ea61f3",
+                "resourcePath": "objects\\o_door\\o_door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d76506f8-cb2f-4f43-801d-272173f48362",
             "Value": {
                 "id": "0e9dc3e6-a609-4c79-a387-e85f758f62ed",
@@ -1436,6 +1556,14 @@
                 "id": "c4d68153-4b22-4e1a-b845-199dd3c62a64",
                 "resourcePath": "sounds\\ost_Palazzo\\ost_Palazzo.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d8b9c3b2-64e4-4f29-8056-c488e703aae0",
+            "Value": {
+                "id": "ca3d318b-983e-4894-aff0-ce4c281f2fcd",
+                "resourcePath": "rooms\\rm_dialogo\\rm_dialogo.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1511,10 +1639,10 @@
             }
         },
         {
-            "Key": "e1db5734-58bb-4ad4-ae9e-7cccfe1a75f4",
+            "Key": "dfdbd2f7-9981-4f44-aaa3-e929b79cec65",
             "Value": {
-                "id": "9a743cde-ad1e-4014-b581-f8f54bef6c0b",
-                "resourcePath": "rooms\\rm_roomAbstract\\rm_roomAbstract.yy",
+                "id": "84d54849-b98e-401d-af07-253637c5cb9a",
+                "resourcePath": "rooms\\rm_avventura\\rm_avventura.yy",
                 "resourceType": "GMRoom"
             }
         },

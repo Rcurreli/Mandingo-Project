@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 //---You can update variables here!---//
-reset_dialogue_defaults();
 
 
 switch(choice_variable){
