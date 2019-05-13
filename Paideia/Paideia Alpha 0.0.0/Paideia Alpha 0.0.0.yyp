@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "1ef46d67-88f6-4166-9750-1b6a4542a007",
+            "Value": {
+                "id": "920755b0-aa85-4f67-bb71-50d80a65a6d9",
+                "resourcePath": "sprites\\s_NeoptolemusBattle\\s_NeoptolemusBattle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1f6cb2b1-bb9b-46be-98fd-2275338d5f3f",
             "Value": {
                 "id": "00bfe1d1-d3cb-40e4-b078-cccea141714d",
@@ -367,6 +375,14 @@
             }
         },
         {
+            "Key": "333854ad-05d6-487a-8252-2c4db7323a6a",
+            "Value": {
+                "id": "263c8d69-b95e-43ff-b4b1-de521d59ec7d",
+                "resourcePath": "objects\\o_arrowEnemy\\o_arrowEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3617c53b-fbad-41c1-b107-7ab92fa8aaca",
             "Value": {
                 "id": "990a4d11-68b2-47f9-96bb-3f4a0c201cf1",
@@ -420,6 +436,14 @@
                 "id": "4cb8e8d2-71b9-42c0-9b64-dd5ac58edbd2",
                 "resourcePath": "views\\3f20454d-7a6b-4b3f-bd47-708a148386d9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "40ae5442-fbff-4153-a0d3-8c7760dae2c5",
+            "Value": {
+                "id": "d619f64c-7e49-46eb-aacc-e0813a2508b0",
+                "resourcePath": "objects\\o_campo\\o_campo.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1391,6 +1415,14 @@
             }
         },
         {
+            "Key": "b9b601f4-d99d-4744-9175-cc0a98bdd619",
+            "Value": {
+                "id": "eb4c730d-cbc6-4257-ac56-65176e89eeaf",
+                "resourcePath": "sprites\\s_selectableEnemy\\s_selectableEnemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bacfa89f-a1ce-4276-93c3-7cba4cb8ddb1",
             "Value": {
                 "id": "fa29a041-b119-4aaf-87e6-bbd741e516b8",
@@ -1642,7 +1674,7 @@
             "Key": "d930765d-fa19-4752-afa4-d1723a865d7f",
             "Value": {
                 "id": "8f09f929-7767-4abd-82d2-a6a71121b94b",
-                "resourcePath": "sprites\\s_Neoptolemus\\s_Neoptolemus.yy",
+                "resourcePath": "sprites\\s_NeoptolemusOverworld\\s_NeoptolemusOverworld.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1719,11 +1751,27 @@
             }
         },
         {
+            "Key": "e4b8a390-edff-4b05-ab6b-01406b8589b0",
+            "Value": {
+                "id": "382509a5-ef16-4186-9243-5f1909946398",
+                "resourcePath": "sprites\\s_campo\\s_campo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e9a023c2-c237-41c3-8a67-84250376ed86",
             "Value": {
                 "id": "573eb10c-cd61-47fa-b633-6501d97f5395",
                 "resourcePath": "views\\e9a023c2-c237-41c3-8a67-84250376ed86.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "eb598775-66ee-42c4-bba1-e2a94ad4c548",
+            "Value": {
+                "id": "a600d299-ea04-45fc-8573-d7d3d8d17006",
+                "resourcePath": "sprites\\s_selectable\\s_selectable.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

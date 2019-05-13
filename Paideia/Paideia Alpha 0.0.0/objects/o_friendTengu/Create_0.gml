@@ -31,21 +31,30 @@ characterPower = characterPowers.highCharacterPower;
 //battleRole = battleRoles.messenger;
 
 // TEMP remove this after specific friends are added
-// Initialize the abstract friend
+
+//se e' la prima volta che incontri il Tengu
 if(o_friendGroupTengu.stato == 0){
 	event_user(0);
 }
+
+//se e' la seconda volta che incontri il Tengu
 else if(o_friendGroupTengu.stato == 1){
 	event_user(1);
 }
+//se e' la terza e ultima volta che incontri il Tengu
 else if(o_friendGroupTengu.stato == 2){
 	event_user(2);
 }
 
+//crea il dialogo corrispondente
 create_dialogue(myText, mySpeaker, myEffects, myTextSpeed, myTypes, myNextLine, myScripts, myTextCol, myEmotion, myEmote);
-if(o_friendGroupTengu.stato < 2){
+
+//se devi ancora incontrarlo in futuro
+if(o_friendGroupTengu.stato <= 1){
 	o_friendGroupTengu.stato++;
 }
+
+//se l hai incontrato per l'ultima volta
 else if(o_friendGroupTengu.stato == 2){
 	o_friendGroupTengu.stato = -1;
 }

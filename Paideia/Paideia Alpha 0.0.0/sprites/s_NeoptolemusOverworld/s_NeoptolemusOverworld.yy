@@ -2,7 +2,7 @@
     "id": "d930765d-fa19-4752-afa4-d1723a865d7f",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_Neoptolemus",
+    "name": "s_NeoptolemusOverworld",
     "For3D": false,
     "HTile": false,
     "VTile": false,

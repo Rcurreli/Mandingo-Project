@@ -10,4 +10,3 @@ else if(global.roomcamefrom == rm_avventura3){
 	o_childGroup.x = o_teleport2.x;
 	o_childGroup.y = o_teleport2.y;
 }
-

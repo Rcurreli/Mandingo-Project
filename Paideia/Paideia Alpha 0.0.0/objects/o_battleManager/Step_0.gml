@@ -84,8 +84,10 @@ if((room == rm_battleAbstract) and
 			attacco = false;
 		}
 		else if(array_length_1d(activeChilds)== 0){
-			instance_create_layer(700, 300, "Logic_and_GUI",
-				o_buttonNextTurn);
+			if(!instance_exists(obj_textevent)){
+				phase++;
+				phase %= 2;
+			}
 		}		
 	}
 

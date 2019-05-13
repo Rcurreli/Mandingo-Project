@@ -6,8 +6,8 @@ event_inherited();
 
 if(room != rm_avventura3){
 	visible = false;
-	x = 0;
-	y = 0;
+	x = -150;
+	y = -150;
 }
 
 if(room == rm_avventura3 && stato == 0 && (global.roomcamefrom == rm_avventura or global.roomcamefrom == rm_battleAbstract or global.roomcamefrom == rm_dialogo)){	

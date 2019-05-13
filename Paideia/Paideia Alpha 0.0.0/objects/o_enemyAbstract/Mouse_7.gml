@@ -5,4 +5,6 @@ if(attackTarget == true){
 	with(o_buttonAttack){
 		event_user(0);
 	}
+	arrowCheck = false;
+	instance_destroy(arrow);
 }

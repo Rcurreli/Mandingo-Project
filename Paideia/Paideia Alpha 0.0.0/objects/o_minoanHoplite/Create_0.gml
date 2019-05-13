@@ -12,4 +12,3 @@ event_user(0);
 
 // Name
 name = "Oplita" + name;
-currentHealth = 1;

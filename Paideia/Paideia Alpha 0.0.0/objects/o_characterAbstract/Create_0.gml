@@ -43,3 +43,5 @@ reset_dialogue_defaults();
 
  arrowCheck = false;
  
+attackTarget = false;
+ 

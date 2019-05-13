@@ -24,10 +24,11 @@ else {
 	visible = true;
 }
 
+//Se il gruppo e' morto non e' piu' visibile e le sue coordinate sono fuori dalla room
 if(isAlive == false){
 	visible = false;
-	x=0;
-	y=0;
+	x=-150;
+	y=-150;
 }
 
 

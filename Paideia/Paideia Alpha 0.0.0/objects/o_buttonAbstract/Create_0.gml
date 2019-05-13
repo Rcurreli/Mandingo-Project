@@ -5,3 +5,5 @@ selected = noone;
 
 // The radio class
 radioClass = o_buttonAbstract;
+
+buttonStatus = false;

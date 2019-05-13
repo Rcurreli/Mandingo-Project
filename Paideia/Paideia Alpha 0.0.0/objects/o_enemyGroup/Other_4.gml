@@ -7,8 +7,8 @@ event_inherited();
 // Change the visibility
 if(room != rm_corridorsAbstract) {
 	visible = false;
-	x = 0;
-	y = 0;
+	x = -150;
+	y = -150;
 }
 
 if(room == rm_corridorsAbstract && (global.roomcamefrom == rm_avventura or global.roomcamefrom == rm_dialogo)){	

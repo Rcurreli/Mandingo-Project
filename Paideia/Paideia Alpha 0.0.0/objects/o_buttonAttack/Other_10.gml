@@ -14,6 +14,11 @@ toggleTarget(false, o_battleManager.enemies);
 o_battleManager.activeChilds = deleteFromArray(selected, o_battleManager.activeChilds);
 
 selected.arrowCheck = false;
+
+
+
+
 instance_destroy(selected.arrow);
 
 instance_destroy(radioClass);
+
