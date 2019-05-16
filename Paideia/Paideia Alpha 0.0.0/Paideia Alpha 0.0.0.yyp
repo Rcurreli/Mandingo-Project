@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "1045ce31-e72e-4328-be5a-46901ffbb313",
+            "Value": {
+                "id": "3b199145-b7cd-476a-b564-7fbfd8c0e7b8",
+                "resourcePath": "sprites\\s_amazonSwordwoman\\s_amazonSwordwoman.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1182862b-7005-4225-b949-bbe837442bc9",
             "Value": {
                 "id": "2c867aa7-8e39-4e07-b6d3-557c41bd3dcb",
@@ -332,6 +340,14 @@
                 "id": "82d85c13-8612-4826-b9ba-9390cbeb969a",
                 "resourcePath": "objects\\o_buttonDefend\\o_buttonDefend.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2ad14af9-8747-4b46-b8ab-81255b2de053",
+            "Value": {
+                "id": "6ade4e8c-1f6a-4c61-8041-95d757750343",
+                "resourcePath": "views\\2ad14af9-8747-4b46-b8ab-81255b2de053.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -711,6 +727,14 @@
             }
         },
         {
+            "Key": "621cb627-bf67-4214-ad28-bd672798a312",
+            "Value": {
+                "id": "673a8ac4-b23b-47fc-8d72-371243d3bb5a",
+                "resourcePath": "datafiles_yy\\Oplita\\Oplita spartano idle left.png.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "626523b9-78b2-4648-83ff-a4ba0cc7579c",
             "Value": {
                 "id": "9b09d06c-1e55-45a1-a63a-7d2828a9d225",
@@ -775,6 +799,14 @@
             }
         },
         {
+            "Key": "6f1c2e71-3ab5-4bd4-b780-3deade6e497b",
+            "Value": {
+                "id": "dec107ce-7d0d-4b0f-9762-e944d970ce32",
+                "resourcePath": "sprites\\s_HippolytusPlayable\\s_HippolytusPlayable.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6f27a470-b9b6-4a45-b488-a608a0485417",
             "Value": {
                 "id": "24e4f1d0-88c2-4f53-b8ef-1ce04a481914",
@@ -828,6 +860,14 @@
                 "id": "cbaf0b45-eec0-42c2-b155-f4e71f16a1b1",
                 "resourcePath": "objects\\o_friendZoppo\\o_friendZoppo.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "74c42bcc-246b-4f2b-b1ea-cf88fb76ab1e",
+            "Value": {
+                "id": "9f848bbe-1cd0-460f-89f3-d9eb59cad615",
+                "resourcePath": "datafiles_yy\\Oplita\\Oplita spartano idle.kra.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1007,6 +1047,14 @@
             }
         },
         {
+            "Key": "8abb868e-cded-4283-b11e-404755ea2e85",
+            "Value": {
+                "id": "2274b991-3b8a-4a70-8021-8cbaea991d2b",
+                "resourcePath": "sprites\\s_Menelaus\\s_Menelaus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8abf17f3-0a52-49ad-955a-966e9b680099",
             "Value": {
                 "id": "7bc13088-6bb0-4884-bb8f-a5ee462b1104",
@@ -1159,6 +1207,14 @@
             }
         },
         {
+            "Key": "97ab2521-23ef-42f4-8fd6-8d0e0188ec9b",
+            "Value": {
+                "id": "4e75467f-aca2-4b8f-9f5f-c9822da27596",
+                "resourcePath": "sprites\\s_amazonArcheress\\s_amazonArcheress.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "97bbdae7-61eb-44b4-9012-ecb778c2bb46",
             "Value": {
                 "id": "e111c464-0012-45fb-bbd2-9d95e44d03be",
@@ -1180,6 +1236,14 @@
                 "id": "62d4e7c6-7e91-49bf-8a83-597e9b24bb2c",
                 "resourcePath": "views\\99cd4c8c-c8a7-4814-ab3c-8ea12a69c09e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "99da565d-5525-4b9e-b2e2-7ddf04ac76b5",
+            "Value": {
+                "id": "9a627a42-229a-4a5b-b2b7-47387ea0d15b",
+                "resourcePath": "sprites\\s_Ascanius\\s_Ascanius.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1303,6 +1367,14 @@
             }
         },
         {
+            "Key": "a698d248-a0e8-42c0-a733-9a52977b280b",
+            "Value": {
+                "id": "fd99a7aa-e541-41d6-880c-4a3f9e1816ec",
+                "resourcePath": "sprites\\s_spartanPeltast\\s_spartanPeltast.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a6e9fbfe-9bc9-4ba6-ad25-b59dd8bf119d",
             "Value": {
                 "id": "92410caa-caf4-4815-923c-616030e56ab2",
@@ -1348,6 +1420,22 @@
                 "id": "30c65b2b-c076-4d34-8811-f1962ca64fc8",
                 "resourcePath": "views\\aa9f8185-fec2-416f-8a27-05e34d6503bf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ab69985d-3b2d-4ff4-ae17-c51658f4b25c",
+            "Value": {
+                "id": "5a160438-7696-447e-a5e5-6ff7d2d57424",
+                "resourcePath": "sprites\\s_Telemacus\\s_Telemacus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ace39d2b-3d78-437f-9ba3-7f090c90be01",
+            "Value": {
+                "id": "9c523fec-56f0-4f84-936f-937b0f188f10",
+                "resourcePath": "sprites\\s_HippolytusNPC\\s_HippolytusNPC.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1487,11 +1575,27 @@
             }
         },
         {
+            "Key": "c2ed8108-f10f-4592-9284-4889203b350b",
+            "Value": {
+                "id": "963beef5-a0f5-4e6f-a15e-c8f3498bc437",
+                "resourcePath": "datafiles_yy\\Oplita\\Oplita spartano idle.kra~.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "c30f2ddd-add0-4056-b775-af1677b0d3f9",
             "Value": {
                 "id": "8738bf51-5d37-4b52-b7d1-d5f732b8e1b9",
                 "resourcePath": "objects\\o_friendGroupTengu\\o_friendGroupTengu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c3197e0e-fcaa-4101-a818-344ca127109d",
+            "Value": {
+                "id": "85b8f076-85c5-4779-961d-91cd8f15d99a",
+                "resourcePath": "sprites\\s_spartanHoplite\\s_spartanHoplite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1508,6 +1612,14 @@
                 "id": "9acc6c85-39b6-47cf-9e25-6568497c3d71",
                 "resourcePath": "views\\c5e61ec7-8441-489e-b8f8-13225784579a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c5f099b7-5d67-4dba-8698-16f331b82c1f",
+            "Value": {
+                "id": "2ed16a3d-e0d5-49d4-9388-61bb288c7531",
+                "resourcePath": "sprites\\s_theLame\\s_theLame.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1900,6 +2012,14 @@
                 "id": "c07da25e-0b98-4c68-88e0-00ce84daa117",
                 "resourcePath": "views\\fe9f6272-353c-42ad-b598-e52dfb12e740.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ff0d3640-1d2f-4a94-9adb-d6953a7b324e",
+            "Value": {
+                "id": "7f5785c8-72fd-49d1-bba3-3312bc48ab80",
+                "resourcePath": "sprites\\s_Hyppolite\\s_Hyppolite.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
