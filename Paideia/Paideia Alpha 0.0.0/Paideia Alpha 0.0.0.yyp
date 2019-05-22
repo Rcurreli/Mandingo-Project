@@ -1871,6 +1871,14 @@
             }
         },
         {
+            "Key": "e4e7ec3a-0176-4b46-b32f-7b37e9999c8e",
+            "Value": {
+                "id": "69005b6c-806c-4364-acbf-005f53a56494",
+                "resourcePath": "sprites\\s_NeoptolemusWalkRight\\s_NeoptolemusWalkRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e9a023c2-c237-41c3-8a67-84250376ed86",
             "Value": {
                 "id": "573eb10c-cd61-47fa-b633-6501d97f5395",
