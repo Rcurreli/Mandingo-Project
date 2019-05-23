@@ -24,8 +24,8 @@ if(room == rm_end){
 
 	if(room == rm_corridorsAbstract){	
 // Check if the game has ended (victory); TO DO change victory condition
-		if((o_enemyGroup.isAlive == false) and (o_friendGroupAbstract.isAlive == false)) {
-				//isGameEnded = true;
+		if(false) {
+				isGameEnded = true;
 		}
 		
 // Check if the game is over (defeat)

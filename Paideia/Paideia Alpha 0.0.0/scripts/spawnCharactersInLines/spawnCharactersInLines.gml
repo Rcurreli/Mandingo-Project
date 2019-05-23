@@ -23,27 +23,42 @@ var thirdLineCharacters = [];
 // Used for the return
 var charactersSpawned = [];
 
-for(i = 0; i < charactersToSpawn; i++) {
+// WORKAROUND Used for the temporary characters
+var temporaryCharacters = [];
+
+// WORKAROUND Create temporary characters
+temporaryCharacters = spawnCharacters(charactersToSpawn,
+	xFirst, yFirst,
+	xOffset, yOffset
+);
+
+for(i = 0; i < array_length_1d(charactersToSpawn); i++) {
 // Check to which line the characters belongs to
 	switch(charactersToSpawn[i].line) {
 		case lines.firstLine:
 			firstLineCharacters = addValueToArray(firstLineCharacters,
 				charactersToSpawn[j]);
-			j++;
 		break;
 		
 		case lines.secondLine:
 			secondLineCharacters = addValueToArray(secondLineCharacters,
 				charactersToSpawn[k]);
-			k++;
 		break;
 		
 		case lines.thirdLine:
 			thirdLineCharacters = addValueToArray(thirdLineCharacters,
 				charactersToSpawn[l]);
-			l++;
 		break;
 	}
+// Update the other iterators
+	j++;
+	k++;
+	l++;
+}
+
+// WORKAROUND Destroy the temporary characters
+for(i = 0; i < array_length_1d(temporaryCharacters); i++) {
+	instance_destroy(temporaryCharacters[i]);
 }
 
 // All characters of the same line are created at once

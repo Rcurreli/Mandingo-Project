@@ -8,4 +8,4 @@ event_inherited();
 
 
 // The members of the group
-members = [o_minoanHoplite];
+members = [];

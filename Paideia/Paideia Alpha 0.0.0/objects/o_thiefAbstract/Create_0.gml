@@ -6,3 +6,6 @@ event_inherited();
 // Specific actions
 // Name
 name = " ladro";
+
+// Character power
+characterPower = characterPowers.lowCharacterPower;

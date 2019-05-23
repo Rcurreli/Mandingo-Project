@@ -19,7 +19,7 @@ if((room == rm_battleAbstract) and
 	if(checkIfCombatantsDied(childs) == true) {
 		isBattleEnded = true;
 		childGroup.isAlive = false;
-		battleLog = attackText;
+		//battleLog = attackText;
 		battleLog = addValueToArray(battleLog, "I Figli hanno perso!");
 		create_textevent(battleLog, -1);
 		endTurn = true;
@@ -29,7 +29,7 @@ if((room == rm_battleAbstract) and
 	else if(checkIfCombatantsDied(enemies) == true) {
 		isBattleEnded = true;
 		enemyGroup.isAlive = false;
-		battleLog = attackText;
+		//battleLog = attackText;
 		battleLog = addValueToArray(battleLog, "I Figli hanno vinto!");
 		create_textevent(battleLog, -1);
 		endTurn = true;

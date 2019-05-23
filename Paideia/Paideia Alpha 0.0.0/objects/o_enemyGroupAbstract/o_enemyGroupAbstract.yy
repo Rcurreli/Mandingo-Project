@@ -2,7 +2,7 @@
     "id": "b8de0a22-b72d-49b7-b098-a9e7acadeb9f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_enemyGroup",
+    "name": "o_enemyGroupAbstract",
     "eventList": [
         {
             "id": "b16aa255-b9e2-4667-864c-f8d47c4986b6",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "b80aec73-63c0-4b4e-9572-990ad73ea4aa",
+    "spriteId": "d019650d-5fed-45f6-9b22-de304a1c9879",
     "visible": true
 }

@@ -1,8 +1,8 @@
 /// @description Default battle values
 
 // Used to spawn the actors of the battle
-var spawningXLeft = room_width / 4;
-var spawningXRight = room_width * 3 / 4;
+var spawningX = room_width / 4;
+var halfWidth = room_width / 2;
 var spawningY = room_height / 2;
 var xSpawningOffset = 0;
 var ySpawningOffset = 192;
@@ -14,6 +14,7 @@ overworld = o_manager.overworld;
 childGroup = o_childGroup;
 enemyGroup = o_manager.encounter;
 
+/*
 childs = spawnCharacters(childGroup.members,
 	spawningXLeft, spawningY,
 	xSpawningOffset, ySpawningOffset
@@ -22,24 +23,24 @@ enemies = spawnCharacters(enemyGroup.members,
 	spawningXRight, spawningY,
 	xSpawningOffset, ySpawningOffset
 );
+*/
 
 // TO DO uncomment these after fixing the function
-/**
+
 childs = spawnCharactersInLines(
 	childGroup.members,
-	spawningXLeft, spawningY,
-	spawningXLeft * 3 / 4, spawningY,
-	spawningXLeft / 2, spawningY,
+	spawningX * 3 / 2, spawningY,
+	spawningX, spawningY,
+	spawningX / 2, spawningY,
 	xSpawningOffset, ySpawningOffset
 );
 enemies = spawnCharactersInLines(
 	enemyGroup.members,
-	spawningXRight, spawningY,
-	spawningXRight * 3 / 2, spawningY,
-	spawningXRight * 2, spawningY,
+	spawningX / 2 + halfWidth, spawningY,
+	spawningX + halfWidth, spawningY,
+	spawningX * 3 / 2 + halfWidth, spawningY,
 	xSpawningOffset, ySpawningOffset
 );
-**/
 
 // The active actors of the battle
 activeChilds = [];

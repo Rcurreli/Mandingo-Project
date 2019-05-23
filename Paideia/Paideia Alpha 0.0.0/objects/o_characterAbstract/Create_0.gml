@@ -20,7 +20,7 @@ talkSprite = noone;
 // Name
 name = "";
 
-
+/*
 //-----------Customise (FOR USER)
 playerobject = o_childGroup;
 interact_key = mb_left;
@@ -40,8 +40,8 @@ myPortraitIdle_y	= -1;
 
 //-----------Defaults Setup (LEAVE THIS STUFF)
 reset_dialogue_defaults();
+*/
 
- arrowCheck = false;
- 
+arrowCheck = false;
+
 attackTarget = false;
- 

@@ -1,33 +1,23 @@
 {
-    "id": "762add66-3e22-485c-82ca-a40a361ebdec",
+    "id": "a555521c-a2fb-40bb-af06-ba1863ef8461",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_enemyAbstract",
+    "name": "o_thiefArcher",
     "eventList": [
         {
-            "id": "3a7548b7-4794-4af9-bdb4-335c7ba5b681",
+            "id": "6eb0d479-0eca-458d-a321-04de5f200c82",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "762add66-3e22-485c-82ca-a40a361ebdec"
-        },
-        {
-            "id": "76acb638-b042-45ce-892c-630b64895025",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "762add66-3e22-485c-82ca-a40a361ebdec"
+            "m_owner": "a555521c-a2fb-40bb-af06-ba1863ef8461"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "946f972f-8d04-4570-b5e4-498ba14e15e0",
+    "parentObjectId": "ef4af882-a95e-4363-b025-95a74f9eb2b2",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "d019650d-5fed-45f6-9b22-de304a1c9879",
+    "spriteId": "c7fb59a1-27f8-44ec-801d-4409393473ec",
     "visible": true
 }

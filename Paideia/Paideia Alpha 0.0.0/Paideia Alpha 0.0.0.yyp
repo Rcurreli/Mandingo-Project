@@ -751,6 +751,14 @@
             }
         },
         {
+            "Key": "58df0c02-e132-4ea9-8167-52c3e10d633c",
+            "Value": {
+                "id": "9d13faff-ef0c-408d-8546-df2f7edc03f8",
+                "resourcePath": "objects\\o_thiefSwordman\\o_thiefSwordman.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "59a8185c-71b1-4ccc-8997-049d9ec0b9f9",
             "Value": {
                 "id": "9f11ba1e-cdcc-4904-bb72-18f2367a97d5",
@@ -828,6 +836,14 @@
                 "id": "9b09d06c-1e55-45a1-a63a-7d2828a9d225",
                 "resourcePath": "views\\626523b9-78b2-4648-83ff-a4ba0cc7579c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "62899856-b480-48d3-9c12-095cb920496c",
+            "Value": {
+                "id": "a6526f71-700f-41f0-9f8e-a3e34345c822",
+                "resourcePath": "objects\\o_thiefGroup\\o_thiefGroup.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1108,6 +1124,14 @@
                 "id": "ee4cbfa5-5244-469e-a842-70c73bb7cffd",
                 "resourcePath": "scripts\\toggleTarget\\toggleTarget.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "82e241e0-87bb-48e1-93b8-59dc2d9cc722",
+            "Value": {
+                "id": "faddf28d-3556-4d14-8866-3518cd0451f7",
+                "resourcePath": "objects\\o_thiefHoplite\\o_thiefHoplite.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1527,6 +1551,14 @@
             }
         },
         {
+            "Key": "a555521c-a2fb-40bb-af06-ba1863ef8461",
+            "Value": {
+                "id": "8bb45f99-9ede-48c5-b5ad-415e85acb8d1",
+                "resourcePath": "objects\\o_thiefArcher\\o_thiefArcher.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a58397a2-5b61-4464-9918-46557ac27501",
             "Value": {
                 "id": "57cb532f-71fe-4a24-a233-4b877afd8e02",
@@ -1706,7 +1738,7 @@
             "Key": "b8de0a22-b72d-49b7-b098-a9e7acadeb9f",
             "Value": {
                 "id": "5a2ad508-8c1e-43d7-bf8b-36bf5983d618",
-                "resourcePath": "objects\\o_enemyGroup\\o_enemyGroup.yy",
+                "resourcePath": "objects\\o_enemyGroupAbstract\\o_enemyGroupAbstract.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1828,6 +1860,14 @@
                 "id": "cc6dcdae-527c-4fdf-82a9-b869a14912a0",
                 "resourcePath": "scripts\\spawnCharactersInLines\\spawnCharactersInLines.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c4ca0897-359e-4394-ab81-4329b5097527",
+            "Value": {
+                "id": "209df6cc-2b3d-4ed0-a749-1439eea3f239",
+                "resourcePath": "objects\\o_thiefPeltast\\o_thiefPeltast.yy",
+                "resourceType": "GMObject"
             }
         },
         {
