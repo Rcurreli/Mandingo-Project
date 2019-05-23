@@ -39,11 +39,27 @@
             }
         },
         {
+            "Key": "032f44de-5f82-4947-bd7c-776ebb3e31d7",
+            "Value": {
+                "id": "2f1b2bfc-1840-4484-8ae4-480b280b7d43",
+                "resourcePath": "views\\032f44de-5f82-4947-bd7c-776ebb3e31d7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "041af9fb-e1e1-40ae-8057-a9077ec571d2",
             "Value": {
                 "id": "bf8e791a-ad1c-49ca-be79-c805e6aea26a",
                 "resourcePath": "views\\041af9fb-e1e1-40ae-8057-a9077ec571d2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "04720ade-4aca-4136-8e25-c3a7fb27ded7",
+            "Value": {
+                "id": "80be24a8-640a-47ca-9451-afe0ddc28fa7",
+                "resourcePath": "tilesets\\ts_greekHouseExterior_64x64\\ts_greekHouseExterior_64x64.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -60,6 +76,14 @@
                 "id": "c5495fd7-a441-460f-bc63-905abefd8db9",
                 "resourcePath": "objects\\o_buttonAdvance\\o_buttonAdvance.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "052a6190-41dc-4c38-a804-d3606e87c306",
+            "Value": {
+                "id": "3871fbbb-d580-4670-b7c3-f7539c7a2962",
+                "resourcePath": "sprites\\s_vegetationAndTrees_64x64\\s_vegetationAndTrees_64x64.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -95,10 +119,18 @@
             }
         },
         {
+            "Key": "0bc00c41-81e7-4bd8-b774-b772ee65e0ca",
+            "Value": {
+                "id": "7752c5ab-75b0-4b5b-b5fb-76c00984e580",
+                "resourcePath": "sprites\\s_HippolytusPortrait\\s_HippolytusPortrait.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0c7d51c4-ce7c-4014-93d4-b3674cca2f57",
             "Value": {
                 "id": "dc61d26c-ef73-4e49-ae96-458be274438a",
-                "resourcePath": "sprites\\spr_portraitframe\\spr_portraitframe.yy",
+                "resourcePath": "sprites\\spr_portraitframe_OLD\\spr_portraitframe_OLD.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -116,6 +148,14 @@
                 "id": "3b199145-b7cd-476a-b564-7fbfd8c0e7b8",
                 "resourcePath": "sprites\\s_amazonSwordwoman\\s_amazonSwordwoman.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "110b03bb-054e-4f2b-a223-dc06569e6784",
+            "Value": {
+                "id": "40b0971a-d547-4f11-9ee1-7b2d18d547df",
+                "resourcePath": "views\\110b03bb-054e-4f2b-a223-dc06569e6784.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -399,11 +439,27 @@
             }
         },
         {
+            "Key": "360a8fbd-a1a2-4e2a-9e4a-26d9a96f20f0",
+            "Value": {
+                "id": "8e9fcf1b-c36f-488a-90f6-f0b21eedbc46",
+                "resourcePath": "tilesets\\ts_vegetationAndTrees_64x64\\ts_vegetationAndTrees_64x64.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "3617c53b-fbad-41c1-b107-7ab92fa8aaca",
             "Value": {
                 "id": "990a4d11-68b2-47f9-96bb-3f4a0c201cf1",
                 "resourcePath": "scripts\\create_dialogue\\create_dialogue.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "36b090da-da7d-48b8-b819-6f2de3a59b23",
+            "Value": {
+                "id": "4f1b852c-f0b3-4624-868f-24b88556ba73",
+                "resourcePath": "views\\36b090da-da7d-48b8-b819-6f2de3a59b23.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -519,6 +575,14 @@
             }
         },
         {
+            "Key": "47bfc1e7-b733-4db4-8715-e26fdc610389",
+            "Value": {
+                "id": "5d1aaa5d-9775-45bb-8715-33b177863340",
+                "resourcePath": "sprites\\s_MenelausPortrait\\s_MenelausPortrait.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4826cdeb-8c33-4b65-8e82-c338441529ae",
             "Value": {
                 "id": "93396986-1b32-4b3a-8fc1-b6ab77df0850",
@@ -623,6 +687,14 @@
             }
         },
         {
+            "Key": "546b1baa-661b-4c8a-96d4-9106321a0ed3",
+            "Value": {
+                "id": "b24c5d42-1bd5-4822-be9d-2777da9707ea",
+                "resourcePath": "views\\546b1baa-661b-4c8a-96d4-9106321a0ed3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "54d54171-5c16-43e4-814b-60c3312acae6",
             "Value": {
                 "id": "d22b86d0-b5a2-4b28-b4de-93de8cedc7a9",
@@ -703,6 +775,14 @@
             }
         },
         {
+            "Key": "5f8c5d03-d0bd-4e15-a9dc-9e7a8516811c",
+            "Value": {
+                "id": "94e89ae9-2b2e-4589-a3dc-3830432dddba",
+                "resourcePath": "views\\5f8c5d03-d0bd-4e15-a9dc-9e7a8516811c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6050ae84-a0f5-4f77-a557-e0524205781d",
             "Value": {
                 "id": "79e40027-fd20-4ab7-93b9-2bf91d20443d",
@@ -767,6 +847,14 @@
             }
         },
         {
+            "Key": "69b55810-504f-4414-bb18-b01ac6872af0",
+            "Value": {
+                "id": "1e413317-a949-495d-9a0a-7ea41d29781f",
+                "resourcePath": "sprites\\s_AscaniusPortrait\\s_AscaniusPortrait.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6aaf14e7-6583-49b3-85a0-491af7f90bcd",
             "Value": {
                 "id": "4ef02301-ec6d-4731-8ed2-731c490cf7de",
@@ -796,6 +884,14 @@
                 "id": "5d3683e7-b928-4acd-ba73-f273d634c455",
                 "resourcePath": "objects\\o_Orestes\\o_Orestes.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6e0cc36e-8685-4574-a65a-b98b882d89e5",
+            "Value": {
+                "id": "f6c6c242-2432-4368-a0de-695485510427",
+                "resourcePath": "tilesets\\ts_greekHouseDecoration_64x64\\ts_greekHouseDecoration_64x64.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -834,7 +930,7 @@
             "Key": "737014f7-fe43-4787-af15-308aabd39b98",
             "Value": {
                 "id": "278d807c-dc9e-4021-9e31-285aeba8b15a",
-                "resourcePath": "sprites\\spr_dialoguebox\\spr_dialoguebox.yy",
+                "resourcePath": "sprites\\spr_dialoguebox_OLD\\spr_dialoguebox_OLD.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -938,7 +1034,15 @@
             "Key": "7c5d1900-a978-4628-9652-e23c92c5621e",
             "Value": {
                 "id": "45c7c8cc-af9c-43ab-911d-313b123d0d3b",
-                "resourcePath": "sprites\\spr_namebox\\spr_namebox.yy",
+                "resourcePath": "sprites\\spr_namebox_OLD\\spr_namebox_OLD.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7ca955b1-a37e-4230-b62d-4056736564fc",
+            "Value": {
+                "id": "1e45ff82-793d-41f9-85ca-46883d9ac12c",
+                "resourcePath": "sprites\\s_greekHouseExterior_64x64\\s_greekHouseExterior_64x64.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1023,6 +1127,14 @@
             }
         },
         {
+            "Key": "8671b536-183e-463e-b477-34ee7411ceba",
+            "Value": {
+                "id": "f08d24f2-6148-4dae-a04f-2b537bc143dc",
+                "resourcePath": "sprites\\s_theLamePortrait\\s_theLamePortrait.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "86fd04ae-e44e-452a-8704-cd943f7f838e",
             "Value": {
                 "id": "eac69bd6-1bbe-41ee-a8a0-e91347aae55c",
@@ -1071,11 +1183,27 @@
             }
         },
         {
+            "Key": "8cd38f6b-adec-4498-bb27-da1f0c1713b2",
+            "Value": {
+                "id": "a16f3ba7-582a-46b5-b2c9-dbe1d3a420d6",
+                "resourcePath": "sprites\\s_NeoptolemusPortrait\\s_NeoptolemusPortrait.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8d39cb69-ac7b-4ecd-a395-916bcb325e3e",
             "Value": {
                 "id": "758eddab-e495-4035-b9b4-37c0864c1546",
                 "resourcePath": "objects\\o_buttonAbstract\\o_buttonAbstract.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8e5e1669-a530-4192-a8cd-c41a39277cc8",
+            "Value": {
+                "id": "47a90fc0-e03a-4da9-84ad-31d410b09dda",
+                "resourcePath": "sprites\\spr_dialoguebox\\spr_dialoguebox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1271,6 +1399,14 @@
             }
         },
         {
+            "Key": "9c490edb-7e8d-4539-b630-da9556ba9810",
+            "Value": {
+                "id": "16378d77-00e3-4923-b1e0-d84d6aa7b0c5",
+                "resourcePath": "views\\9c490edb-7e8d-4539-b630-da9556ba9810.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9c516586-138b-43d5-9aba-e44a8d35db24",
             "Value": {
                 "id": "bc7a6874-7692-4aa0-81b3-f2b70ef9a942",
@@ -1343,11 +1479,27 @@
             }
         },
         {
+            "Key": "a46e4c2f-070e-46d5-89e5-9b7e965200bd",
+            "Value": {
+                "id": "d291bc17-b461-4def-8e3b-0dca118a79d1",
+                "resourcePath": "sprites\\s_greekHouseDecoration_64x64\\s_greekHouseDecoration_64x64.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a47234f3-93b9-4dd5-a87d-108b4adc2f3f",
             "Value": {
                 "id": "cbf147e4-8062-4da7-b647-69aaf9d8e125",
                 "resourcePath": "views\\2db93515-160a-4ddc-8efc-90bc00e7e863-room.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a5028d81-7cf9-438e-984a-4f63ee5dad62",
+            "Value": {
+                "id": "a7b529e8-5690-4008-bc99-853c748531b2",
+                "resourcePath": "sprites\\spr_namebox\\spr_namebox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1391,6 +1543,14 @@
             }
         },
         {
+            "Key": "a86c59cd-37f2-46a0-b87b-c311c4ce7503",
+            "Value": {
+                "id": "20fc9eba-2b3e-4731-b460-cf4a5f7ede9a",
+                "resourcePath": "sprites\\s_HyppolytaPortrait\\s_HyppolytaPortrait.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9054ef8-82f0-4e10-8ba4-3a806042b4f5",
             "Value": {
                 "id": "9949cafb-9fda-4f7a-98e1-52682c6b6e98",
@@ -1431,6 +1591,14 @@
             }
         },
         {
+            "Key": "ac01855f-14b1-4cf2-975d-177a331e8953",
+            "Value": {
+                "id": "5b7484ba-8893-4d4e-a5b6-1cfb83b33c77",
+                "resourcePath": "sprites\\s_OrestesPortrait\\s_OrestesPortrait.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ace39d2b-3d78-437f-9ba3-7f090c90be01",
             "Value": {
                 "id": "9c523fec-56f0-4f84-936f-937b0f188f10",
@@ -1443,6 +1611,14 @@
             "Value": {
                 "id": "6a6df509-5218-437e-8355-ff86d34f84eb",
                 "resourcePath": "sprites\\s_background_tile\\s_background_tile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aeb7025e-7420-4c8f-9c3a-c3980ae0d3e6",
+            "Value": {
+                "id": "c6d1f87e-de16-4e7d-bf61-399b68782562",
+                "resourcePath": "sprites\\s_TelemacusPortrait\\s_TelemacusPortrait.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1564,6 +1740,14 @@
                 "id": "09bcd084-448a-4cc6-8d98-6a688632b97d",
                 "resourcePath": "views\\c1c4da36-fb87-496d-b3c0-897db4c27483.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c2257048-d0d7-4ef3-8ed5-3f8734fcb3bd",
+            "Value": {
+                "id": "1427399d-00cd-4940-b4c8-efd607f11f29",
+                "resourcePath": "sprites\\spr_portraitframe\\spr_portraitframe.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2007,6 +2191,14 @@
             }
         },
         {
+            "Key": "f89ca676-e8f6-49c5-80da-4ea5bcad8963",
+            "Value": {
+                "id": "6d4c98a3-6bf6-4573-b076-deededd72135",
+                "resourcePath": "views\\f89ca676-e8f6-49c5-80da-4ea5bcad8963.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "fccb595b-5135-40ee-8c04-a9b6a4385b27",
             "Value": {
                 "id": "c18b87b2-bbff-448a-9c0a-d4efe75dac52",
@@ -2026,7 +2218,7 @@
             "Key": "ff0d3640-1d2f-4a94-9adb-d6953a7b324e",
             "Value": {
                 "id": "7f5785c8-72fd-49d1-bba3-3312bc48ab80",
-                "resourcePath": "sprites\\s_Hyppolite\\s_Hyppolite.yy",
+                "resourcePath": "sprites\\s_Hippolyta\\s_Hippolyta.yy",
                 "resourceType": "GMSprite"
             }
         }

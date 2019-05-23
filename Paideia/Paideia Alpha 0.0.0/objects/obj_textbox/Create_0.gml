@@ -20,10 +20,10 @@ emote_sprite		= spr_emotes;
 choice_snd_effect	= snd_moveselect;
 select_snd_effect	= snd_select;
 
-default_col			= c_white;
+default_col			= c_black;
 choice_col			= c_yellow;
 select_col			= c_orange;
-name_col			= c_orange;
+name_col			= c_black;
 
 name_font			= fnt_dialogue;
 
