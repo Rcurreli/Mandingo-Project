@@ -44,8 +44,15 @@ enum attackSpeedValues {
 	highAttackSpeed = 1
 }
 
+// Enumeratio of the lines
+enum lines {
+	firstLine,
+	secondLine,
+	thirdLine
+}
+
 // GUI; OUTDATED delete them once the FC Dialogue System is fully implemented
-baseOffset = room_width / 16;
+//baseOffset = room_width / 16;
 //xOffset = 3 * baseOffset;
 //yOffset = 6 * baseOffset;
 //textOffset = baseOffset;

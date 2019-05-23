@@ -4,6 +4,7 @@
 attack = getBattleRoleAttack(battleRole);
 defense = getBattleRoleDefense(battleRole);
 attackSpeed = getBattleRoleAttackSpeed(battleRole);
+line = getBattleRoleLine(battleRole);
 
 // Health depends on power
 maxHealth = o_manager.baseHealth * characterPower;

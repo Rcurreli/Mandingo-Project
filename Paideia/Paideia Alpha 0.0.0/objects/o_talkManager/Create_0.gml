@@ -7,8 +7,8 @@ overworld = o_manager.overworld;
 childGroup = o_childGroup;
 friendGroup = o_manager.encounter;
 childs = spawnCharacters(childGroup.members, room_width / 4, room_height / 4,
-	room_width / 4, room_height * 3 / 4);
+	0, 192);
 spawnCharacters(friendGroup.members, room_width * 3 / 4, room_height / 4,
-	room_width * 3 / 4, room_height * 3 / 4);
+	0, 192);
 
 

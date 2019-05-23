@@ -639,6 +639,14 @@
             }
         },
         {
+            "Key": "4f1f2354-1e44-4105-b6b0-407330bf5ccf",
+            "Value": {
+                "id": "7adab835-fd3a-4679-b79a-ff9b886319f5",
+                "resourcePath": "objects\\o_Ascanius\\o_Ascanius.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "50b8dd3b-b73b-4e18-b1bd-73d9d1428048",
             "Value": {
                 "id": "12a17269-71bf-4bd0-a8a1-be5d5769a555",
@@ -1311,6 +1319,14 @@
             }
         },
         {
+            "Key": "9572bfaa-4373-4604-8a11-cbef2d11ffff",
+            "Value": {
+                "id": "821a1d18-78cd-4d51-86b0-4295480647e3",
+                "resourcePath": "scripts\\getBattleRoleLine\\getBattleRoleLine.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "961e492d-67dd-44ec-8967-f3c4d896f72e",
             "Value": {
                 "id": "0a10cad1-1a4f-43e9-ba93-a3346393c347",
@@ -1591,6 +1607,14 @@
             }
         },
         {
+            "Key": "ab74af26-d567-4f64-8e8f-b262a6d600bf",
+            "Value": {
+                "id": "f5f2efd1-b358-41e6-b2e9-1b62427dabf7",
+                "resourcePath": "objects\\o_Telemacus\\o_Telemacus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ac01855f-14b1-4cf2-975d-177a331e8953",
             "Value": {
                 "id": "5b7484ba-8893-4d4e-a5b6-1cfb83b33c77",
@@ -1636,6 +1660,14 @@
                 "id": "67e2534f-5e2c-4221-8069-ccd3d0f6ab99",
                 "resourcePath": "rooms\\rm_battleAbstract\\rm_battleAbstract.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b6622e80-f584-41b8-ab94-f63603066413",
+            "Value": {
+                "id": "e3725255-4444-4221-a10e-2374cfd5b828",
+                "resourcePath": "objects\\o_HippolytusPlayable\\o_HippolytusPlayable.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1788,6 +1820,14 @@
                 "id": "b150397e-66b0-4a92-bcac-7c20532201f4",
                 "resourcePath": "views\\c38fb961-d351-47b5-b3ee-f0b35b0e8070.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c416643f-be97-4bf7-b9f7-32278fa22964",
+            "Value": {
+                "id": "cc6dcdae-527c-4fdf-82a9-b869a14912a0",
+                "resourcePath": "scripts\\spawnCharactersInLines\\spawnCharactersInLines.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2230,9 +2270,11 @@
         "af10ba1d-f17c-47c4-9c9e-473ca28be0d0",
         "ef41b466-4cd2-437e-87d1-f600ebe445ea",
         "73c360c6-b094-489d-bc3b-1516c52544ae",
+        "c416643f-be97-4bf7-b9f7-32278fa22964",
         "7b2ebc81-328f-48c7-9dda-c76a1d3ea71c",
         "e2c915e2-ab6c-4733-a788-fc904884b046",
         "bb856138-7c82-48b6-81e3-e7140dfda932",
+        "9572bfaa-4373-4604-8a11-cbef2d11ffff",
         "6050ae84-a0f5-4f77-a557-e0524205781d",
         "d1e49e18-aac9-4ced-ac3c-d6cbe024d165",
         "746c0244-0d60-4ee5-b155-08112ab938ff",
