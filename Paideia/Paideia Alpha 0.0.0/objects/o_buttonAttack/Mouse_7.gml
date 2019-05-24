@@ -2,4 +2,4 @@
 // The child attacks
 
 
-toggleTarget(true, o_battleManager.enemies);
+toggleTarget(selected, true, o_battleManager.enemies);

@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "1b19293a-522f-4661-a3ae-50f22b5c1bbc",
+            "Value": {
+                "id": "83a2fcba-6383-429b-8666-6d0ff945d12f",
+                "resourcePath": "scripts\\canReachTarget\\canReachTarget.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1b8f7a0c-8cc0-4e13-8ef9-5407c777b799",
             "Value": {
                 "id": "30e3cb00-176c-430b-b589-963d74a7eeff",
@@ -1991,6 +1999,14 @@
             }
         },
         {
+            "Key": "d41d0e6e-9db9-4272-b1c9-c36424566ae9",
+            "Value": {
+                "id": "00d1a8f4-ef9d-4102-84df-78a32440e2c2",
+                "resourcePath": "scripts\\findIfLineExists\\findIfLineExists.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d4fead5b-0460-4ac5-b428-13e0bb5bc320",
             "Value": {
                 "id": "f678110a-f2e0-44f0-84db-9a161a1a2a89",
@@ -2322,6 +2338,8 @@
         "2d659d02-2ec8-4bdf-a9db-91e1c1fa45bb",
         "81737e87-3f8c-4c10-9660-47f6af73a16d",
         "93dedc1c-c58e-4d96-86af-35f0bad8e8e2",
+        "1b19293a-522f-4661-a3ae-50f22b5c1bbc",
+        "d41d0e6e-9db9-4272-b1c9-c36424566ae9",
         "70122e9d-57c7-4c7a-90c9-59f3375587af",
         "db2074a4-c939-45dd-8767-3303aaeb3cd8",
         "eb8c7161-a418-488f-b654-f5aaf50ce378",

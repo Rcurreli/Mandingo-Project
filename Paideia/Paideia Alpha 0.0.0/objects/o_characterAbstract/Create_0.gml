@@ -4,6 +4,9 @@
 event_inherited();
 
 // Specific actions
+// WORKAROUND Who I am?
+whoIam = noone;
+
 // Battle role
 battleRole = noone;
 

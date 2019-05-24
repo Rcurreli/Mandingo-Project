@@ -4,6 +4,9 @@
 event_inherited();
 
 //Specific actions
+// WORKAROUND Who I am?
+whoIam = characterTypes.enemy;
+
 // Encounter coordinates
 enemyEncounterX = 736;
 enemyEncounterY = 192;

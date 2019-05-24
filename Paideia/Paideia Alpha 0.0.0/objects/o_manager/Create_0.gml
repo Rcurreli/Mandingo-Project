@@ -44,11 +44,18 @@ enum attackSpeedValues {
 	highAttackSpeed = 1
 }
 
-// Enumeratio of the lines
+// Enumeration of the lines
 enum lines {
 	firstLine,
 	secondLine,
 	thirdLine
+}
+
+// WORKAROUND Enumeration of the character types
+enum characterTypes {
+	child,
+	enemy,
+	friend
 }
 
 // GUI; OUTDATED delete them once the FC Dialogue System is fully implemented

@@ -4,6 +4,9 @@
 event_inherited();
 
 // Specific actions
+// WORKAROUND Who i am?
+whoIam = characterTypes.child;
+
 // Character power
 characterPower = characterPowers.middleCharacterPower;
 

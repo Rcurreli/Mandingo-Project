@@ -7,7 +7,7 @@ o_battleManager.currentTarget = noone;
 
 o_battleManager.attacco = true;
 
-toggleTarget(false, o_battleManager.enemies);
+toggleTarget(selected, false, o_battleManager.enemies);
 
 
 // The child is no longer active
