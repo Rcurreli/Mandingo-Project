@@ -1,10 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// Let the battle manager know this is the target
+o_battleManager.currentTarget = id;
+
 if(attackTarget == true){
 	with(o_buttonAttack){
 		event_user(0);
 	}
 	arrowCheck = false;
-	instance_destroy(arrow);
+	instance_destroy(o_arrowEnemy);
 }

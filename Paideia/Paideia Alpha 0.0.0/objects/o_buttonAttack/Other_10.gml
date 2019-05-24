@@ -2,8 +2,8 @@
 // You can write your code in this editor
 o_battleManager.attackText = "";
 
-o_battleManager.attackText =  attackAndCounter(selected, o_enemyAbstract);
-
+o_battleManager.attackText =  attackAndCounter(selected, o_battleManager.currentTarget);
+o_battleManager.currentTarget = noone;
 
 o_battleManager.attacco = true;
 

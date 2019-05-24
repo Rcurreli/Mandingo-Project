@@ -46,6 +46,9 @@ enemies = spawnCharactersInLines(
 activeChilds = [];
 activeEnemies = [];
 
+// The current target; this is a buffer
+currentTarget = noone;
+
 // Set battle values
 isBattleEnded = false;
 battleTurn = 1;
