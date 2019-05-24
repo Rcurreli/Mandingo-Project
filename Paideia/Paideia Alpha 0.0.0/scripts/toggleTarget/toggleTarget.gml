@@ -6,7 +6,8 @@ var array = argument2;
 var i = 0;
 
 for(i = 0; i < array_length_1d(array); i++) {
-	if((scelta == true) and (canReachTarget(attacker, array[i]) == true)) {
+	if((scelta == true) and (canReachTarget(attacker, array[i]) == true)
+		and (array[i].isAlive == true)) {
 		array[i].attackTarget = true;
 	}
 	else {

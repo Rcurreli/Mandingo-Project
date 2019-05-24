@@ -8,11 +8,11 @@ switch(battleRole) {
 	break;
 	
 	case battleRoles.swordman:
-		return defenseValues.middleDefense;
+		return defenseValues.goodDefense;
 	break;
 	
 	case battleRoles.axeman:
-		return defenseValues.goodDefense;
+		return defenseValues.middleDefense;
 	break;
 	
 	case battleRoles.hoplite:

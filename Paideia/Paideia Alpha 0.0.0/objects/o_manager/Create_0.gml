@@ -4,7 +4,7 @@ randomize();
 // Enumeration of the room classes
 
 
-// Enumeration of the battle roles; TO DO assign a battle role to each character
+// Enumeration of the battle roles
 enum battleRoles {
 // Defense roles
 	hoplite, axeman,
@@ -18,7 +18,7 @@ enum battleRoles {
 enum characterPowers {
 	lowCharacterPower = 1,
 	middleCharacterPower = 2,
-	highCharacterPower = 4
+	highCharacterPower = 3
 }
 
 // Enumeration of the attack values
@@ -31,8 +31,8 @@ enum attackValues {
 // Enumeration of the defense values
 enum defenseValues {
 	lowDefense = 1,
-	middleDefense = 2,
-	goodDefense = 3,
+	goodDefense = 2,
+	middleDefense = 3,
 	highDefense = 4
 }
 
