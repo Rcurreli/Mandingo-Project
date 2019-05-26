@@ -71,7 +71,8 @@ var limitAttack = attackValues.highAttack;
 var baseDefense = defenseValues.lowDefense;
 var limitDefense = defenseValues.highDefense;
 baseDamage = limitDefense - baseAttack;
-baseHealth = power(2, baseDamage + limitAttack - baseDefense);
+baseHealth = calculateDamage(limitAttack, baseDefense);
+//power(2, baseDamage + limitAttack - baseDefense);
 
 // Game
 isGameEnded = false;

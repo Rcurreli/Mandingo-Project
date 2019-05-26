@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "3c8c9a33-594e-40c4-a4aa-0f20426d61c3",
+            "Value": {
+                "id": "7affffb5-1864-4c49-87f8-0ba162eeb4a6",
+                "resourcePath": "scripts\\calculateDamage\\calculateDamage.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3ccb4bd0-d5f7-4970-b5e9-6c17c8a6a6b3",
             "Value": {
                 "id": "eaa7a02a-bdd7-4b09-a3f7-37297207a99b",
@@ -1412,6 +1420,14 @@
                 "id": "1789f3ec-cc24-41fc-beca-a8c11c93d8b3",
                 "resourcePath": "tilesets\\ts_columns_64x64\\ts_columns_64x64.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "9859093d-0b81-411c-a4c9-8fd6140fe18c",
+            "Value": {
+                "id": "818ec766-c010-4a65-8dcf-f6d810f472e4",
+                "resourcePath": "scripts\\calculateAttackPotential\\calculateAttackPotential.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2380,9 +2396,11 @@
         "2d659d02-2ec8-4bdf-a9db-91e1c1fa45bb",
         "835f4c00-350e-40c7-b6ef-90a066d343b8",
         "d41d0e6e-9db9-4272-b1c9-c36424566ae9",
+        "9859093d-0b81-411c-a4c9-8fd6140fe18c",
         "eb8c7161-a418-488f-b654-f5aaf50ce378",
         "2a2c91c2-3ee6-44eb-b1e8-90df243be73b",
         "415bb5c7-f923-42fb-bc78-a57f305db867",
+        "3c8c9a33-594e-40c4-a4aa-0f20426d61c3",
         "70122e9d-57c7-4c7a-90c9-59f3375587af",
         "db2074a4-c939-45dd-8767-3303aaeb3cd8",
         "3617c53b-fbad-41c1-b107-7ab92fa8aaca",

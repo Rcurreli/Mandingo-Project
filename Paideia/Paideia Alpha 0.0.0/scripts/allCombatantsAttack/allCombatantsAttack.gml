@@ -5,6 +5,7 @@ var defenders = argument1;
 // Iterators
 var i = 0;
 var j = 0;
+var k = 0;
 
 // Used to decide the best target
 var attackPotential = 0;
@@ -34,29 +35,25 @@ for(i = 0; i < array_length_1d(attackers); i++) {
 	}
 	
 // Find the chosen targets
-// DON'T TOUCH THE OPTIMIZATION FORMULA
 	for(j = 0; j < array_length_1d(reachableTargets); j++) {
 
-// The value is initially set to the damage dealt
-		attackPotential = dealDamage(attackers[i], reachableTargets[j]);
-
-// The value is divided by the the damage dealt by the counter
-		if(canReachTarget(reachableTargets[j], attackers[i]) == true) {
-			attackPotential /= dealDamage(reachableTargets[j], attackers[i]);
-		}
-
-// This is to avoid that counters that deal 1 damage are weighted as no counters
-		else {
-			attackPotential *= 2;
-		}
+// Calculate the attack potential
+		attackPotential = calculateAttackPotential(attackers[i],
+			reachableTargets[j]);
 
 // Switch a new best value with another
 		if(attackPotential >= bestAttackPotential) {
 			bestAttackPotential = attackPotential;
 			chosenTargets = addValueToArray(chosenTargets, reachableTargets[j]);
+			for(k = 0; k < array_length_1d(chosenTargets); k++) {
+				if(calculateAttackPotential(attackers[i], chosenTargets[k])
+					< bestAttackPotential) {
+						chosenTargets = deleteFromArray(chosenTargets[k], chosenTargets);
+					}
+			}
 		}
 	}
-	
+	show_debug_message(bestAttackPotential);
 	/*
 	var target = possibleTargets[irandom_range(0, (array_length_1d(possibleTargets) - 1))];
 	
