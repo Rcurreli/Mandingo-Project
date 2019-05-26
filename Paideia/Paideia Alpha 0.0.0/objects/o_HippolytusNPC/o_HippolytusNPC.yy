@@ -1,34 +1,24 @@
 {
-    "id": "55dea834-df59-44ac-8dd3-5de4aa6dc00f",
+    "id": "2c340b42-4e23-43e1-884f-cd189dbd7c62",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_friendGroupZoppo",
+    "name": "o_HippolytusNPC",
     "eventList": [
         {
-            "id": "32c340db-9dfd-49e4-a841-4a9ac5a20c6a",
+            "id": "fa6a8068-9ac5-4688-b65f-ed836432d184",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "55dea834-df59-44ac-8dd3-5de4aa6dc00f"
-        },
-        {
-            "id": "42cf19a7-b77c-4719-9720-b87a6d6372b6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 7,
-            "m_owner": "55dea834-df59-44ac-8dd3-5de4aa6dc00f"
+            "m_owner": "2c340b42-4e23-43e1-884f-cd189dbd7c62"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "4d727ba1-7018-44d0-8899-001a6d5270da",
-    "persistent": true,
+    "parentObjectId": "9dc6dd93-1fc4-4c76-97b6-816b65e02407",
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "3aedc692-fdec-4b2c-b57e-108fcebf820b",
+    "spriteId": "ace39d2b-3d78-437f-9ba3-7f090c90be01",
     "visible": true
 }

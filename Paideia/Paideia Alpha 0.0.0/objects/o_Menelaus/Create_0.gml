@@ -1,4 +1,4 @@
-/// @description Initialize the minoan
+/// @description Initialize the Spartan
 
 // Call the parent
 event_inherited();
@@ -10,8 +10,11 @@ battleRole = battleRoles.hoplite;
 // Gender
 gender = genders.male;
 
-// Statistics
+// Character power
+characterPower = characterPowers.middleCharacterPower;
+
+// Initialize the statistics
 event_user(0);
 
 // Name
-//name = "Oplita" + name;
+name = "Menelao";

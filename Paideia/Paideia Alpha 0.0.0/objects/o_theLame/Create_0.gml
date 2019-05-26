@@ -1,8 +1,24 @@
-/// @description Insert description here
+/// @description Initialize the friend
 // You can write your code in this editor
 
 // Inherit the parent event
 event_inherited();
+
+// Specific actions
+// Batte role
+// WARNING This battle role is used just as a way to move The lame closer to
+// the childs, as his battle role is not in the game yet. This is just a
+// WORKAROUND to avoid tecnical issues
+battleRole = battleRoles.hoplite;
+
+// Gender
+gender = genders.male;
+
+// Character power
+characterPower = characterPowers.highCharacterPower;
+
+// Name
+name = "Lo zoppo";
 
 //-------DIALOGUE STUFF
 
@@ -32,6 +48,7 @@ characterPower = characterPowers.highCharacterPower;
 
 // TEMP remove this after specific friends are added
 // Initialize the abstract friend
+// Riccardo if you don't want to write down comments at least remove obsoleye ones...
 event_user(0);
 create_dialogue(myText, mySpeaker, myEffects, myTextSpeed, myTypes, myNextLine, myScripts, myTextCol, myEmotion, myEmote);
 o_friendGroupZoppo.stato--;

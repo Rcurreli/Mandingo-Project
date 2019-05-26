@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "0db57f46-3599-47fd-bdfe-ae3a6fc503c1",
+            "Value": {
+                "id": "30d748a1-c1c0-49b5-b2e0-3b339f4e4a3a",
+                "resourcePath": "views\\0db57f46-3599-47fd-bdfe-ae3a6fc503c1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1045ce31-e72e-4328-be5a-46901ffbb313",
             "Value": {
                 "id": "3b199145-b7cd-476a-b564-7fbfd8c0e7b8",
@@ -407,6 +415,14 @@
             }
         },
         {
+            "Key": "2c340b42-4e23-43e1-884f-cd189dbd7c62",
+            "Value": {
+                "id": "c1a057f3-600d-4e3d-9141-f4df70db07cb",
+                "resourcePath": "objects\\o_HippolytusNPC\\o_HippolytusNPC.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2d659d02-2ec8-4bdf-a9db-91e1c1fa45bb",
             "Value": {
                 "id": "f4f27613-2aa4-4404-b198-c64239d88451",
@@ -463,6 +479,14 @@
             }
         },
         {
+            "Key": "3618afb1-bdaa-4cab-8295-e5c7e839c660",
+            "Value": {
+                "id": "012ef0e9-de78-4387-91ce-dad06e887615",
+                "resourcePath": "objects\\o_spartanFriendAbstract\\o_spartanFriendAbstract.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "36b090da-da7d-48b8-b819-6f2de3a59b23",
             "Value": {
                 "id": "4f1b852c-f0b3-4624-868f-24b88556ba73",
@@ -484,6 +508,14 @@
                 "id": "2648774c-b2a2-41b6-86fa-f6de1f539948",
                 "resourcePath": "sprites\\spr_player\\spr_player.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3bb2a4d4-3f64-4ac5-8b89-e6b5ad4ecea5",
+            "Value": {
+                "id": "dfbb6ed8-ba43-4001-ab49-8dbc5b52197e",
+                "resourcePath": "objects\\o_Menelaus\\o_Menelaus.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -730,7 +762,7 @@
             "Key": "55dea834-df59-44ac-8dd3-5de4aa6dc00f",
             "Value": {
                 "id": "f27f1bea-47de-4f49-92e0-4bd4d8299223",
-                "resourcePath": "objects\\o_friendGroupZoppo\\o_friendGroupZoppo.yy",
+                "resourcePath": "objects\\o_theLameGroup\\o_theLameGroup.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -994,7 +1026,7 @@
             "Key": "74b74551-9677-4c69-9cda-2edf048d6172",
             "Value": {
                 "id": "cbaf0b45-eec0-42c2-b155-f4e71f16a1b1",
-                "resourcePath": "objects\\o_friendZoppo\\o_friendZoppo.yy",
+                "resourcePath": "objects\\o_theLame\\o_theLame.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1116,6 +1148,14 @@
                 "id": "54e4f59f-8320-4ce3-9c69-835e9365d72a",
                 "resourcePath": "views\\7ea00a3c-b9f4-48c8-be9e-1a984d0a3eda.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7fb14412-e552-456c-b4b8-97a185d1e67c",
+            "Value": {
+                "id": "c7bbc9eb-82ef-4f62-b2aa-623af633659b",
+                "resourcePath": "objects\\o_amazonSwordwoman\\o_amazonSwordwoman.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1551,6 +1591,14 @@
             }
         },
         {
+            "Key": "a45d8fb7-6138-4f37-a019-5f95a0befb32",
+            "Value": {
+                "id": "916a89f3-c39f-43af-ad42-0ae1d0e97a47",
+                "resourcePath": "objects\\o_amazonAbstract\\o_amazonAbstract.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a46e4c2f-070e-46d5-89e5-9b7e965200bd",
             "Value": {
                 "id": "d291bc17-b461-4def-8e3b-0dca118a79d1",
@@ -1687,6 +1735,14 @@
             }
         },
         {
+            "Key": "ac4e8cb1-4e4d-47db-aac9-056c6a0336dc",
+            "Value": {
+                "id": "8f8b5f8d-b096-446e-9618-ef205e24caba",
+                "resourcePath": "views\\ac4e8cb1-4e4d-47db-aac9-056c6a0336dc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ace39d2b-3d78-437f-9ba3-7f090c90be01",
             "Value": {
                 "id": "9c523fec-56f0-4f84-936f-937b0f188f10",
@@ -1735,6 +1791,22 @@
             }
         },
         {
+            "Key": "b4f82ec8-ec8d-46bd-b2ed-052448ec74d7",
+            "Value": {
+                "id": "69306731-c617-4c62-a6ed-6a73eeb90b60",
+                "resourcePath": "views\\b4f82ec8-ec8d-46bd-b2ed-052448ec74d7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b5cfd0c6-d72d-497c-b54b-d685e9c8ede2",
+            "Value": {
+                "id": "165dcf8d-ee8a-4494-a8f0-5bb6ff6ec5b1",
+                "resourcePath": "objects\\o_amazonArcheress\\o_amazonArcheress.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b6622e80-f584-41b8-ab94-f63603066413",
             "Value": {
                 "id": "e3725255-4444-4221-a10e-2374cfd5b828",
@@ -1779,6 +1851,14 @@
             "Value": {
                 "id": "5a2ad508-8c1e-43d7-bf8b-36bf5983d618",
                 "resourcePath": "objects\\o_enemyGroupAbstract\\o_enemyGroupAbstract.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b97c9915-7e46-4eb4-ae7c-35a013bdaebf",
+            "Value": {
+                "id": "f04ced85-768b-423d-867f-5d66181705e2",
+                "resourcePath": "objects\\o_spartanHoplite\\o_spartanHoplite.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1908,6 +1988,14 @@
                 "id": "b150397e-66b0-4a92-bcac-7c20532201f4",
                 "resourcePath": "views\\c38fb961-d351-47b5-b3ee-f0b35b0e8070.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c3c87492-e82c-4965-ad50-cee92900b542",
+            "Value": {
+                "id": "6100b86e-f4fb-41dd-8ee1-a3f151b62bed",
+                "resourcePath": "objects\\o_Hippolyta\\o_Hippolyta.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2207,6 +2295,14 @@
             }
         },
         {
+            "Key": "e6d65bb3-2694-4465-be2f-310373abf60a",
+            "Value": {
+                "id": "32df3bbb-e799-4264-9a3a-e877786c5821",
+                "resourcePath": "objects\\o_spartanPeltast\\o_spartanPeltast.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e82ffe82-a4e1-4848-82b0-5f66bde7d46d",
             "Value": {
                 "id": "85db24b9-0ee3-4833-881b-8061b98535c6",
@@ -2303,6 +2399,14 @@
             }
         },
         {
+            "Key": "f2512a73-7523-43d3-9b30-272788acef68",
+            "Value": {
+                "id": "1afde34a-5ce4-43be-925a-ca33c66c8da1",
+                "resourcePath": "scripts\\getBattleRoleName\\getBattleRoleName.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f326462b-017f-4a0b-8a7f-806b765275a2",
             "Value": {
                 "id": "b0f36dcf-c018-4c25-be07-d201f68c6179",
@@ -2387,6 +2491,7 @@
         "e2c915e2-ab6c-4733-a788-fc904884b046",
         "bb856138-7c82-48b6-81e3-e7140dfda932",
         "9572bfaa-4373-4604-8a11-cbef2d11ffff",
+        "f2512a73-7523-43d3-9b30-272788acef68",
         "6050ae84-a0f5-4f77-a557-e0524205781d",
         "d1e49e18-aac9-4ced-ac3c-d6cbe024d165",
         "81737e87-3f8c-4c10-9660-47f6af73a16d",

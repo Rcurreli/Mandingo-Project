@@ -7,6 +7,9 @@ event_inherited();
 // Battle role
 battleRole = battleRoles.swordman;
 
+// Gender
+gender = genders.male;
+
 // Statistics
 event_user(0);
 
@@ -15,4 +18,4 @@ enemyEncounterY += 64;
 //friendEncounterY += 64;
 
 // Name
-name = "Spadaccino" + name;
+//name = "Spadaccino" + name;

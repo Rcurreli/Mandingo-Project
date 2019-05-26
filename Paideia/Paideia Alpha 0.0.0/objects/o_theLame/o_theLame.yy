@@ -2,7 +2,7 @@
     "id": "74b74551-9677-4c69-9cda-2edf048d6172",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_friendZoppo",
+    "name": "o_theLame",
     "eventList": [
         {
             "id": "c6f013db-a9de-4039-895c-e0c08f127608",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "3b8f098d-1b60-4387-befe-11c8b69dd270",
+    "spriteId": "c5f099b7-5d67-4dba-8698-16f331b82c1f",
     "visible": true
 }

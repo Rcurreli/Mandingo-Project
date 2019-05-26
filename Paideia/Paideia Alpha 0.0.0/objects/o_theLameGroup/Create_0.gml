@@ -9,5 +9,5 @@ event_inherited();
 friendEncounterX = 192;
 friendEncounterY = 224;
 
-members = [o_friendZoppo];
+members = [o_theLame];
 stato = 0;

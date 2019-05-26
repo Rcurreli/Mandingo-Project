@@ -2,23 +2,32 @@
 randomize();
 
 // Enumeration of the room classes
-
+// Riccardo took it out without my permission. Signed Matteo
 
 // Enumeration of the battle roles
 enum battleRoles {
 // Defense roles
-	hoplite, axeman,
+	hoplite,
+	axeman,
 // Attack roles
 	swordman,
 // Ranged roles
-	archer, peltast
+	archer,
+	peltast
+}
+
+// Enumeration of the genders
+// 2 c00l 4 b00l
+enum genders {
+	male,
+	female
 }
 
 // Enumeration of character powers
 enum characterPowers {
 	lowCharacterPower = 1,
-	middleCharacterPower = 2,
-	highCharacterPower = 3
+	middleCharacterPower = 4,
+	highCharacterPower = 16
 }
 
 // Enumeration of the attack values

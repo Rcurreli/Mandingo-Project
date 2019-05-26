@@ -1,4 +1,4 @@
-/// @description Initialize the child
+/// @description Initialize the friend
 
 // Call the parent
 event_inherited();
@@ -10,12 +10,11 @@ battleRole = battleRoles.axeman;
 // Gender
 gender = genders.male;
 
-// Statistics
-event_user(0);
+// Character power
+characterPower = characterPowers.middleCharacterPower;
 
-// Player coordinates
-enemyEncounterY -= 64;
-friendEncounterY -= 64;
+// Initialize the statistics
+event_user(0);
 
 // Name
 name = "Ippolito";

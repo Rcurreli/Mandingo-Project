@@ -10,6 +10,9 @@ whoIam = noone;
 // Battle role
 battleRole = noone;
 
+// Gender
+gender = noone;
+
 // Character power
 characterPower = noone;
 

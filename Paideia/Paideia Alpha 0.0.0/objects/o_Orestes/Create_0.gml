@@ -7,6 +7,9 @@ event_inherited();
 // Battle role
 battleRole = battleRoles.swordman;
 
+// Gender
+gender = genders.male;
+
 // Statistics
 event_user(0);
 
