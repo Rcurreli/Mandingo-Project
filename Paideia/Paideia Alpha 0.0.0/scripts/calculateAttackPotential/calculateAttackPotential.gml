@@ -7,7 +7,7 @@ var defender = argument1;
 var attackPotential = calculateDamage(attacker.attack, defender.defense);
 
 // The value is divided by the the damage dealt by the counter
-if(canReachTarget(defender, attacker) == true) {
+if(canCounter(attacker, defender)) {
 	attackPotential /= calculateDamage(defender.attack, attacker.defense);
 }
 

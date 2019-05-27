@@ -10,8 +10,7 @@ logToReturn  = addArrayToArray(logToReturn, attackDefender(attacker, defender));
 
 // The defender counters if they're still alive, they don't belong to the third
 // line and they can reach the attacker
-if((defender.isAlive == true) and (defender.line != lines.thirdLine) and
-	(canReachTarget(defender, attacker))) {
+if(canCounter(attacker, defender)) {
 		logToReturn  = addArrayToArray(logToReturn,
 			counterAttacker(attacker, defender));
 	}

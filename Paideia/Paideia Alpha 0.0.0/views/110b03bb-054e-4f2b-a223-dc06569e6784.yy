@@ -8,7 +8,7 @@
         "f89ca676-e8f6-49c5-80da-4ea5bcad8963"
     ],
     "filterType": "GMSprite",
-    "folderName": "Paideia_DialogueInterface",
+    "folderName": "DialogueInterface",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

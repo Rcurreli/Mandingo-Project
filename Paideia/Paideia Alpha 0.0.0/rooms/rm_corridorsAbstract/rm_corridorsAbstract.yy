@@ -55,7 +55,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances",
+            "name": "Camera",
             "id": "95622e8d-decb-409b-9f12-4142a07b1862",
             "depth": 100,
             "grid_x": 32,

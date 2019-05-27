@@ -6,39 +6,34 @@ if(roomMusic != noone) {
 }
 
 // Change the music to play
+switch(o_roomManager.roomType) {
 
-	if(room == rm_start){	
+// Techincal rooms themes
+	case roomTypes.outOfGame:
 		roomMusic = noone;
-	}
-	
-	if(room == rm_corridorsAbstract){	
+	break;
+
+// Overworld themes
+	case roomTypes.entranceField:
 		roomMusic = ost_Proemio;
-	}
+	break;
 	
-	if(room == rm_end){	
-		roomMusic = noone;
-	}
-
-	if(room == rm_battleAbstract){	
-		roomMusic = ost_BattagliaCampale;
-	}
-	
-	if(room == rm_dialogo){	
+	case roomTypes.settlement:
 		roomMusic = ost_Polis;
-	}
-	/*
-	case .towerGroundFloor:
-		roomMusic = ost_Palazzo;
 	break;
-	
-	case towerFirstFloor:
-		roomMusic = ost_Palazzo_Crescendo;
+
+// Battle themes
+	case roomTypes.fieldBattle:
+		roomMusic = ost_BattagliaCampale;
 	break;
-	
-	case towerTop:
-		roomMusic = ost_Palazzo_Climax;
+
+// Friend encounters themes; TO DO add some
+
+// Any other situation
+	default:
+		roomMusic = noone;
 	break;
-	*/
+}
 
 // Start a new music, if any
 if(roomMusic != noone) {

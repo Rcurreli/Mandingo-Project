@@ -67,6 +67,22 @@ enum characterTypes {
 	friend
 }
 
+// Enumeration of the room types
+// Sometimes they do come back, Riccardo
+enum roomTypes {
+// Technical types
+	outOfGame,
+// Overworld types
+	entranceField,
+	settlement,
+// Battle types
+	fieldBattle,
+// Encounter types
+	theLameEcounter,
+	greekEncounter,
+	childEncounter
+}
+
 // GUI; OUTDATED delete them once the FC Dialogue System is fully implemented
 //baseOffset = room_width / 16;
 //xOffset = 3 * baseOffset;

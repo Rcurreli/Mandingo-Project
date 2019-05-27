@@ -48,7 +48,7 @@ characterPower = characterPowers.highCharacterPower;
 
 // TEMP remove this after specific friends are added
 // Initialize the abstract friend
-// Riccardo if you don't want to write down comments at least remove obsoleye ones...
+// Riccardo if you don't want to write down comments at least remove obsolete ones...
 event_user(0);
 create_dialogue(myText, mySpeaker, myEffects, myTextSpeed, myTypes, myNextLine, myScripts, myTextCol, myEmotion, myEmote);
-//o_friendGroupZoppo.stato--;
+o_theLameGroup.stato--;

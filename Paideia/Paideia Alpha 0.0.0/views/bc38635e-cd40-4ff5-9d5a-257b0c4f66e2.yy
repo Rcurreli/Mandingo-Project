@@ -6,7 +6,8 @@
     "children": [
         "835f4c00-350e-40c7-b6ef-90a066d343b8",
         "d41d0e6e-9db9-4272-b1c9-c36424566ae9",
-        "9859093d-0b81-411c-a4c9-8fd6140fe18c"
+        "9859093d-0b81-411c-a4c9-8fd6140fe18c",
+        "82fd51a0-d9cf-4bec-832c-9bad6d1fc035"
     ],
     "filterType": "GMScript",
     "folderName": "OtherCombatLogic",
