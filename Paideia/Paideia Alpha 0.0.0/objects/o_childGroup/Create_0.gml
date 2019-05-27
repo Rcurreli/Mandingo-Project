@@ -3,6 +3,9 @@
 // Call the parent
 event_inherited();
 
+// Setting movement speed
+my_speed = 4;
+
 // Specific actions
 // Coordinates
 enemyEncounterX = 288;

@@ -3,9 +3,9 @@
 if((room >= rm_corridorsAbstract && room <= rm_avventura3)  && !instance_exists(obj_textevent)) {
 	if(hspeed == 0){
 		
-		hspeed -= 4;
-		if(hspeed < -4){
-			hspeed = -4;
+		hspeed -= my_speed;
+		if(hspeed < -my_speed){
+			hspeed = -my_speed;
 		}
 	}
 

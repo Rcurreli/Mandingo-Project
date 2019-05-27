@@ -51,4 +51,4 @@ characterPower = characterPowers.highCharacterPower;
 // Riccardo if you don't want to write down comments at least remove obsoleye ones...
 event_user(0);
 create_dialogue(myText, mySpeaker, myEffects, myTextSpeed, myTypes, myNextLine, myScripts, myTextCol, myEmotion, myEmote);
-o_friendGroupZoppo.stato--;
+//o_friendGroupZoppo.stato--;
