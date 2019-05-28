@@ -5,5 +5,5 @@
 roomType = noone;
 
 // Is this room an out of bound?
-// This is set to false in rooms you were supposed to be
-outOfBound = true;
+// This is set to true in rooms you aren't supposed to be
+outOfBound = false;

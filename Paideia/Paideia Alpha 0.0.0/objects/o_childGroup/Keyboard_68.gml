@@ -1,6 +1,6 @@
 /// @description Move right
 
-if((room >= rm_corridorsAbstract && room <= rm_avventura3)  && !instance_exists(obj_textevent)) {
+if((isInTheOverworld() == true)  && !instance_exists(obj_textevent)) {
 	if(hspeed == 0){
 		
 		hspeed += my_speed;

@@ -2,5 +2,5 @@
 
 if(outOfBound == true) {
 	global.roomcamefrom = room;
-	room_goto(rm_start);
+	room_goto(rm_LabyrinthEntranceDoors);
 }

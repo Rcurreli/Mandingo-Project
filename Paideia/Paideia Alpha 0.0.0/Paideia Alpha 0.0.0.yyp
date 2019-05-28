@@ -506,7 +506,7 @@
             "Key": "3aedc692-fdec-4b2c-b57e-108fcebf820b",
             "Value": {
                 "id": "44c0d349-ffd6-497b-8d19-695fa19ba199",
-                "resourcePath": "sprites\\s_friend\\s_friend.yy",
+                "resourcePath": "sprites\\s_friendGroup\\s_friendGroup.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -596,6 +596,14 @@
                 "id": "de75ee0c-8009-4d14-9b9a-14acd069f6e5",
                 "resourcePath": "tilesets\\ts_grassAndPath_64x64\\ts_grassAndPath_64x64.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "4106b806-7a79-455a-9aea-632e466827d4",
+            "Value": {
+                "id": "444f2c6c-391b-4ab7-a090-9bf4194244cf",
+                "resourcePath": "scripts\\isInTheOverworld\\isInTheOverworld.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1343,6 +1351,14 @@
             }
         },
         {
+            "Key": "8e682786-0da2-43e9-a35a-4e884f2bc1a3",
+            "Value": {
+                "id": "420e64f1-7d5f-4081-9beb-420e14977afd",
+                "resourcePath": "rooms\\rm_LabyrinthCenterEntrance\\rm_LabyrinthCenterEntrance.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "8f4bf6c8-7739-40ca-ac04-64317552bb98",
             "Value": {
                 "id": "e5d021c7-d137-4c5d-9b33-6b0684286d1d",
@@ -1487,6 +1503,14 @@
             }
         },
         {
+            "Key": "96daf2ce-81bd-4612-9219-f4ebbc013fe5",
+            "Value": {
+                "id": "b7823553-bf91-4e59-8a90-5bd6d4959433",
+                "resourcePath": "rooms\\rm_fieldEntranceCorridors_1\\rm_fieldEntranceCorridors_1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "976a4431-6738-4d15-b080-15ffabadf515",
             "Value": {
                 "id": "6a83f8b0-2434-46e4-a545-e4bba69cbf4b",
@@ -1626,7 +1650,7 @@
             "Key": "9ec98637-f73d-4617-bbd6-0abe830d516a",
             "Value": {
                 "id": "a00c1849-acbb-4fa3-bc2c-a69c01efb01a",
-                "resourcePath": "rooms\\rm_fieldEntranceAbstract_Child_0\\rm_fieldEntranceAbstract_Child_0.yy",
+                "resourcePath": "rooms\\rm_ThiefCustoms\\rm_ThiefCustoms.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1914,7 +1938,7 @@
             "Key": "b80aec73-63c0-4b4e-9572-990ad73ea4aa",
             "Value": {
                 "id": "28cc9c94-f97b-4d1f-9044-f5b1629fabd0",
-                "resourcePath": "sprites\\s_enemy\\s_enemy.yy",
+                "resourcePath": "sprites\\s_enemyGroup\\s_enemyGroup.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2622,6 +2646,7 @@
         "f2512a73-7523-43d3-9b30-272788acef68",
         "6050ae84-a0f5-4f77-a557-e0524205781d",
         "d1e49e18-aac9-4ced-ac3c-d6cbe024d165",
+        "4106b806-7a79-455a-9aea-632e466827d4",
         "81737e87-3f8c-4c10-9660-47f6af73a16d",
         "93dedc1c-c58e-4d96-86af-35f0bad8e8e2",
         "1b19293a-522f-4661-a3ae-50f22b5c1bbc",
