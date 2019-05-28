@@ -1623,6 +1623,14 @@
             }
         },
         {
+            "Key": "9ec98637-f73d-4617-bbd6-0abe830d516a",
+            "Value": {
+                "id": "a00c1849-acbb-4fa3-bc2c-a69c01efb01a",
+                "resourcePath": "rooms\\rm_fieldEntranceAbstract_Child_0\\rm_fieldEntranceAbstract_Child_0.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9fc1a093-e1b6-4f12-9944-ed1002df5540",
             "Value": {
                 "id": "9f7c5d5d-9381-46e7-b200-eaa3a7c5e653",
