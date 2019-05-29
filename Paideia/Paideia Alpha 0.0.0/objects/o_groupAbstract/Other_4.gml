@@ -25,6 +25,7 @@ else {
 }
 
 //Se il gruppo e' morto non e' piu' visibile e le sue coordinate sono fuori dalla room
+// Then you do write down comments...
 if(isAlive == false){
 	visible = false;
 	x=-150;

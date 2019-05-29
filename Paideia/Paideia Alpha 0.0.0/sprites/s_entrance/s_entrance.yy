@@ -1,8 +1,8 @@
 {
-    "id": "9d3d53fc-694c-4f81-a13c-14452be8b7b3",
+    "id": "85837daf-3b25-47ce-b294-0e19dc1a94d1",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_collider",
+    "name": "s_entrance",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -16,24 +16,24 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "12a948de-ebe4-4271-8268-b8766f44a067",
+            "id": "3d11e014-61d1-4a4d-b83e-e5a971ab0eac",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "9d3d53fc-694c-4f81-a13c-14452be8b7b3",
+            "SpriteId": "85837daf-3b25-47ce-b294-0e19dc1a94d1",
             "compositeImage": {
-                "id": "6c10b671-0e5a-4c98-b696-dd57263dab9e",
+                "id": "327de8c6-1938-408b-b89c-10289fae2afb",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "12a948de-ebe4-4271-8268-b8766f44a067",
+                "FrameId": "3d11e014-61d1-4a4d-b83e-e5a971ab0eac",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "a7684e9e-31d4-41e1-b8fd-f313f38a3997",
+                    "id": "ae34a86e-aa7c-4582-8685-dd64dc639359",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "12a948de-ebe4-4271-8268-b8766f44a067",
-                    "LayerId": "9d3397e1-1203-4b56-a519-827871de702a"
+                    "FrameId": "3d11e014-61d1-4a4d-b83e-e5a971ab0eac",
+                    "LayerId": "6fec2ba7-71bd-4bc8-9aa1-a5bc7ca818c1"
                 }
             ]
         }
@@ -43,10 +43,10 @@
     "height": 64,
     "layers": [
         {
-            "id": "9d3397e1-1203-4b56-a519-827871de702a",
+            "id": "6fec2ba7-71bd-4bc8-9aa1-a5bc7ca818c1",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "9d3d53fc-694c-4f81-a13c-14452be8b7b3",
+            "SpriteId": "85837daf-3b25-47ce-b294-0e19dc1a94d1",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
@@ -54,9 +54,9 @@
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 7,
     "originLocked": false,
-    "playbackSpeed": 15,
+    "playbackSpeed": 0,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
@@ -65,6 +65,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 64,
-    "xorig": 0,
-    "yorig": 0
+    "xorig": 32,
+    "yorig": 63
 }

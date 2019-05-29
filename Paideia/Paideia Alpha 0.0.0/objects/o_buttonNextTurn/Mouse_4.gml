@@ -1,5 +1,6 @@
 /// @description The child attack
 // The child attacks
+// ALERT This is very likely obsolete
 
 if(!instance_exists(obj_textevent)){
 	phase = o_battleManager.phase;

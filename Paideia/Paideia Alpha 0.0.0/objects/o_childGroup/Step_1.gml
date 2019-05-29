@@ -3,4 +3,4 @@
 
 // Returning to idle condition
 speed = 0;
-sprite_index = s_NeoptolemusOverworld;
+//sprite_index = s_NeoptolemusIdle;

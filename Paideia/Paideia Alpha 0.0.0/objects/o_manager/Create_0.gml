@@ -106,6 +106,9 @@ isGameOver = false;
 // Ask R. what this does
 firstTime = 0;
 
+// Buffer for the room change
+previousRoom = noone;
+
 // Buffers for the encounters
 encounter = noone;
 overworld = noone;
