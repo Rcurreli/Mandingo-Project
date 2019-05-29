@@ -3,9 +3,9 @@
 if((isInTheOverworld() == true)  && !instance_exists(obj_textevent)) {
 	if(vspeed == 0){
 		
-		vspeed += my_speed;
-		if(vspeed > my_speed){
-			vspeed = my_speed;
+		vspeed += mySpeed;
+		if(vspeed > mySpeed){
+			vspeed = mySpeed;
 		}
 	}
 

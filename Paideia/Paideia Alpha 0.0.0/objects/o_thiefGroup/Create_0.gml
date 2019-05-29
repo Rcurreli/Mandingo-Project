@@ -5,4 +5,9 @@ event_inherited();
 
 // Specific actions
 // The members of the group
-members = [o_thiefHoplite, o_thiefSwordman, o_thiefArcher, o_thiefPeltast];
+// Initialized in the creation code
+members = [o_thiefHoplite];
+
+// The room to go to
+// Initialized in the cration code
+roomToGoTo = rm_entranceCorridors_1;

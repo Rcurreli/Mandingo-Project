@@ -8,7 +8,6 @@ if(room == rm_dialogo) {
 		if(friendGroup.stato == -1){
 			friendGroup.isAlive = false;
 		}
-		global.roomcamefrom = room;
 		room_goto(overworld);
 	}
 

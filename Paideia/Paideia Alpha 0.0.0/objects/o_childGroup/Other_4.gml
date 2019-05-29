@@ -4,11 +4,11 @@
 // Inherit the parent event
 
 
-if(global.roomcamefrom == rm_dialogo){
+if(o_manager.previousRoom == rm_dialogo){
 	x = overworldX;
 	y = overworldY;
 }
-if(global.roomcamefrom == rm_battleAbstract){
+if(o_manager.previousRoom == rm_battleAbstract){
 	x = overworldX;
 	y = overworldY;
 }

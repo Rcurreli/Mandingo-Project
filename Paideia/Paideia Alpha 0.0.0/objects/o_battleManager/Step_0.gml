@@ -96,6 +96,5 @@ if((room == rm_battleAbstract) and
 // The battle has ended
 else if((room == rm_battleAbstract) and
 	(instance_exists(obj_textevent) == false) and (isBattleEnded == true)){
-	global.roomcamefrom = room;
 	room_goto(overworld);
 }

@@ -103,11 +103,16 @@ baseHealth = calculateDamage(limitAttack, baseDefense);
 isGameEnded = false;
 isGameOver = false;
 
-// Ask R. what this does
+// Ask Riccardo what this does
 firstTime = 0;
 
 // Buffer for the room change
 previousRoom = noone;
+previousRoomType = noone;
+
+// Out of the room positions for disabled persistent groups
+outOfMyWayX = -1000;
+outOfMyWayY = -1000;
 
 // Buffers for the encounters
 encounter = noone;

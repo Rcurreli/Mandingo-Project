@@ -994,7 +994,7 @@
             "Key": "68de63fa-8ee5-4cfd-8936-55bc08f75b3c",
             "Value": {
                 "id": "2dfba4de-daec-4a21-a116-2be5519151c0",
-                "resourcePath": "rooms\\rm_fieldEntranceAbstract\\rm_fieldEntranceAbstract.yy",
+                "resourcePath": "rooms\\rm_entranceFieldAbstract\\rm_entranceFieldAbstract.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1450,7 +1450,7 @@
             "Key": "8e682786-0da2-43e9-a35a-4e884f2bc1a3",
             "Value": {
                 "id": "420e64f1-7d5f-4081-9beb-420e14977afd",
-                "resourcePath": "rooms\\rm_LabyrinthCenterEntrance\\rm_LabyrinthCenterEntrance.yy",
+                "resourcePath": "rooms\\rm_LabyrinthCenterGates\\rm_LabyrinthCenterGates.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1602,7 +1602,7 @@
             "Key": "96daf2ce-81bd-4612-9219-f4ebbc013fe5",
             "Value": {
                 "id": "b7823553-bf91-4e59-8a90-5bd6d4959433",
-                "resourcePath": "rooms\\rm_fieldEntranceCorridors_1\\rm_fieldEntranceCorridors_1.yy",
+                "resourcePath": "rooms\\rm_entranceCorridors_1\\rm_entranceCorridors_1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1770,7 +1770,7 @@
             "Key": "a310b704-11b7-4d00-92d0-1a791cff6b78",
             "Value": {
                 "id": "f96d57b3-f1c5-4f00-8578-d7832aa07864",
-                "resourcePath": "rooms\\rm_LabyrinthEntranceDoors\\rm_LabyrinthEntranceDoors.yy",
+                "resourcePath": "rooms\\rm_LabyrinthEntranceGates\\rm_LabyrinthEntranceGates.yy",
                 "resourceType": "GMRoom"
             }
         },

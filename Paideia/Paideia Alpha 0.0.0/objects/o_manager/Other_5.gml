@@ -4,3 +4,6 @@
 if(isInTheOverworld() == true) {
 	previousRoom = room;
 }
+
+// Always remember the room type
+previousRoomType = o_roomManager.roomType;

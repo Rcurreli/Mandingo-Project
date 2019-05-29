@@ -1,19 +1,13 @@
 // Rename the argument for readability
-var childGroup = argument0;
-var encounter = argument1;
-var underworld = argument2;
-
-// The room to go back to
-var overworld = room;
+var encounter = argument0;
 
 // Save the player coordinates
-childGroup.overworldX = x;
-childGroup.overworldY = y;
+o_childGroup.overworldX = x;
+o_childGroup.overworldY = y;
 
 // The childs meet someone
 o_manager.encounter = encounter;
-o_manager.overworld = overworld;
+o_manager.overworld = room;
 
 // Meet them
-global.roomcamefrom = room;
-room_goto(underworld);
+room_goto(encounter.roomToGoTo);

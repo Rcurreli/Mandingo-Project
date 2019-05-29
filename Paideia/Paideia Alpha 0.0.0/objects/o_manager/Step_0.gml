@@ -8,7 +8,6 @@
 // Start the game
 if(room == rm_start){	
 		if(!instance_exists(obj_textevent)) {
-			global.roomcamefrom = room;
 			room_goto(rm_corridorsAbstract);
 		}
 }
@@ -16,7 +15,6 @@ if(room == rm_start){
 // End the game; TO DO manage game over
 if(room == rm_corridorsAbstract){	
 		if(isGameEnded == true) {
-			global.roomcamefrom = room;
 			room_goto(rm_end);
 		}
 }

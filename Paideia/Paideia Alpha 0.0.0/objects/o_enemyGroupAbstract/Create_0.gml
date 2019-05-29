@@ -4,8 +4,11 @@
 event_inherited();
 
 //Specific actions
-// Encounter coordinates
-
-
 // The members of the group
 members = [];
+
+// The room the group belongs to
+groupRoom = room;
+
+// The room to go to
+roomToGoTo = noone;

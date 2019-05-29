@@ -1,1 +1,0 @@
-roomToGoTo = rm_fieldEntranceCorridors_1;

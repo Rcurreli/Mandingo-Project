@@ -5,16 +5,11 @@ event_inherited();
 
 // Specific actions
 // Change the visibility
-if(room != rm_corridorsAbstract) {
-	visible = false;
-	x = -150;
-	y = -150;
+if(room == groupRoom) {
+	x = startPositionX;
+	y = startPositionY;
 }
-
-if(room == rm_corridorsAbstract && (global.roomcamefrom == rm_avventura or global.roomcamefrom == rm_dialogo)){	
-		x = startPositionX;
-		y = startPositionY;
-		visible = true;
+else {
+	x = o_manager.outOfMyWayX;
+	y = o_manager.outOfMyWayY;
 }
-
-
