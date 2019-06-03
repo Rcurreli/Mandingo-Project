@@ -15,7 +15,7 @@ members = [o_theLame];
 groupRoom = rm_LabyrinthEntranceGates;
 
 // The room to go to
-roomToGoTo = rm_ThiefCustoms;
+roomToGoTo = rm_dialogo;
 
 // Ask Riccardo what this does
 stato = 0;

@@ -1,7 +1,7 @@
 /// @description Manage room change
 
 // Manage the position
-	
+/*	
 	if(room == rm_dialogo){	
 		x = friendEncounterX;
 		y = friendEncounterY;
@@ -12,7 +12,7 @@
 		x = enemyEncounterX;
 		y = enemyEncounterY;
 	}
-
+*/
 
 
 // Manage the visibility

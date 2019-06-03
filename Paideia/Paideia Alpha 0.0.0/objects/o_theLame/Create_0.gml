@@ -24,6 +24,8 @@ name = "Lo zoppo";
 
 myPortrait			= spr_portrait_examplechar;
 myVoice				= snd_voice1;
+// Riccardo you forgot to copycat this
+myFont = fnt_dialogue;
 myName				= "Lo Zoppo";
 
 myPortraitTalk		= spr_portrait_examplechar_mouth;
@@ -50,5 +52,5 @@ characterPower = characterPowers.highCharacterPower;
 // Initialize the abstract friend
 // Riccardo if you don't want to write down comments at least remove obsolete ones...
 event_user(0);
-create_dialogue(myText, mySpeaker, myEffects, myTextSpeed, myTypes, myNextLine, myScripts, myTextCol, myEmotion, myEmote);
+create_dialogue(myText, mySpeaker);//, myEffects, myTextSpeed, myTypes, myNextLine, myScripts, myTextCol, myEmotion, myEmote);
 o_theLameGroup.stato--;

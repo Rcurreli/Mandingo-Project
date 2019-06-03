@@ -11,7 +11,8 @@
         "a4065048-6754-4d59-be8b-f5f9007ec90e",
         "19dd14fa-6090-4f7f-afbd-df86439d3d59",
         "767c68e8-de63-4c3f-a460-46c8f3748d41",
-        "c3bddace-54d9-497f-b844-48837b37637a"
+        "c3bddace-54d9-497f-b844-48837b37637a",
+        "92460d05-ad77-4903-bbe8-ed4457c704c9"
     ],
     "IsDnD": false,
     "layers": [
@@ -81,7 +82,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_47520DEA","id": "c3bddace-54d9-497f-b844-48837b37637a","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_47520DEA","objId": "976a4431-6738-4d15-b080-15ffabadf515","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 0,"y": 0}
+{"name": "inst_47520DEA","id": "c3bddace-54d9-497f-b844-48837b37637a","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_47520DEA","objId": "976a4431-6738-4d15-b080-15ffabadf515","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 0,"y": 0},
+{"name": "inst_6073E51D","id": "92460d05-ad77-4903-bbe8-ed4457c704c9","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_6073E51D.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6073E51D","objId": "3e242bde-cea7-49db-a122-6c9d5f7f1b1e","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 0,"y": 0}
             ],
             "layers": [
 
