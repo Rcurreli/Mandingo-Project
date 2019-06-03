@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // Inherit the parent event
-event_inherited();
+//event_inherited();
 
 // Vertical speed is not 0 (horizontal speed could be anything)
 if(vspeed != 0) {

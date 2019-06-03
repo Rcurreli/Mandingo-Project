@@ -1250,7 +1250,7 @@
             "Key": "802753db-3f5d-4376-805e-1bade21615e8",
             "Value": {
                 "id": "f82dbc74-d088-4aa3-884f-fe01a2024665",
-                "resourcePath": "sprites\\s_NeoptolemusIdleRight\\s_NeoptolemusIdleRight.yy",
+                "resourcePath": "sprites\\s_NeoptolemusIdleLeft\\s_NeoptolemusIdleLeft.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2506,7 +2506,7 @@
             "Key": "de61126e-f6bd-4a57-b96a-b49ff1f1077b",
             "Value": {
                 "id": "bab9c944-5a96-4bf0-b6c1-59cf3c69ab19",
-                "resourcePath": "sprites\\s_NeoptolemusIdleLeft\\s_NeoptolemusIdleLeft.yy",
+                "resourcePath": "sprites\\s_NeoptolemusIdleRight\\s_NeoptolemusIdleRight.yy",
                 "resourceType": "GMSprite"
             }
         },
