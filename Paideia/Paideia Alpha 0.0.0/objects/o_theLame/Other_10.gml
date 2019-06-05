@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //---You can update variables here!---//
-
+event_inherited();
 
 switch(choice_variable){
 	case -1:
