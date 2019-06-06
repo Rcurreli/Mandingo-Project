@@ -8,6 +8,7 @@ var xThird = argument5;
 var yThird = argument6;
 var xOffset = argument7;
 var yOffset = argument8;
+var layerWhereToSpawn = argument9;
 
 // Used in the for cycle
 var i = 0;
@@ -29,7 +30,8 @@ var temporaryCharacters = [];
 // WORKAROUND Create temporary characters
 temporaryCharacters = spawnCharacters(charactersToSpawn,
 	xFirst, yFirst,
-	xOffset, yOffset
+	xOffset, yOffset,
+	layerWhereToSpawn
 );
 
 for(i = 0; i < array_length_1d(charactersToSpawn); i++) {
@@ -63,13 +65,16 @@ for(i = 0; i < array_length_1d(temporaryCharacters); i++) {
 
 // All characters of the same line are created at once
 charactersSpawned = addArrayToArray(charactersSpawned,
-	spawnCharacters(firstLineCharacters, xFirst, yFirst, xOffset, yOffset)
+	spawnCharacters(firstLineCharacters, xFirst, yFirst, xOffset, yOffset,
+	layerWhereToSpawn)
 );
 charactersSpawned = addArrayToArray(charactersSpawned,
-	spawnCharacters(secondLineCharacters, xSecond, ySecond, xOffset, yOffset)
+	spawnCharacters(secondLineCharacters, xSecond, ySecond, xOffset, yOffset,
+	layerWhereToSpawn)
 );
 charactersSpawned = addArrayToArray(charactersSpawned,
-	spawnCharacters(thirdLineCharacters, xThird, yThird, xOffset, yOffset)
+	spawnCharacters(thirdLineCharacters, xThird, yThird, xOffset, yOffset,
+	layerWhereToSpawn)
 );
 
 return charactersSpawned;

@@ -11,9 +11,10 @@ if(canCounter(attacker, defender)) {
 	attackPotential /= calculateDamage(defender.attack, attacker.defense);
 }
 
-// This is to avoid that counters that deal 1 damage are weighted as no counters
+// If the defender can't counter, the attack potential is instead multiplied
+// by the damage not dealt (yet) by the counter
 else {
-	attackPotential *= 2;
+	attackPotential *= calculateDamage(defender.attack, attacker.defense);
 }
 
 return attackPotential;

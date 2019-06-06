@@ -7,8 +7,9 @@ endTurn = false;
 battleLog = [];
 
 // The log for the FC Dialogue System
+// There is nothing here Riccardo. Did you mean the variable above?
 
-if((room == rm_battleAbstract) and
+if(//(room == rm_battleAbstract) and
 	(instance_exists(obj_textevent) == false) and (isBattleEnded == false)) {
 
 
@@ -23,6 +24,9 @@ if((room == rm_battleAbstract) and
 		battleLog = addValueToArray(battleLog, "I Figli hanno perso!");
 		create_textevent(battleLog, -1);
 		endTurn = true;
+		// Play the defeat music
+		audio_stop_sound(o_musicManager.roomMusic);
+		audio_play_sound(ost_Defeat, 1, false);
 		return;
 	}
 	// All enemies have died
@@ -33,6 +37,9 @@ if((room == rm_battleAbstract) and
 		battleLog = addValueToArray(battleLog, "I Figli hanno vinto!");
 		create_textevent(battleLog, -1);
 		endTurn = true;
+		// Play the victory music
+		audio_stop_sound(o_musicManager.roomMusic);
+		audio_play_sound(ost_Victory, 1, false);
 		return;
 	}
 	// A new turn begins
@@ -94,7 +101,7 @@ if((room == rm_battleAbstract) and
 }
 
 // The battle has ended
-else if((room == rm_battleAbstract) and
+else if(//(room == rm_battleAbstract) and
 	(instance_exists(obj_textevent) == false) and (isBattleEnded == true)){
 	room_goto(overworld);
 }

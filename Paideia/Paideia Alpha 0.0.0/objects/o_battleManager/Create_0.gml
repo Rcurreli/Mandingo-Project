@@ -32,14 +32,16 @@ childs = spawnCharactersInLines(
 	spawningX * 3 / 2, spawningY,
 	spawningX, spawningY,
 	spawningX / 2, spawningY,
-	xSpawningOffset, ySpawningOffset
+	xSpawningOffset, ySpawningOffset,
+	"Childs"
 );
 enemies = spawnCharactersInLines(
 	enemyGroup.members,
 	spawningX / 2 + halfWidth, spawningY,
 	spawningX + halfWidth, spawningY,
 	spawningX * 3 / 2 + halfWidth, spawningY,
-	xSpawningOffset, ySpawningOffset
+	xSpawningOffset, ySpawningOffset,
+	"Encounters"
 );
 
 // The active actors of the battle

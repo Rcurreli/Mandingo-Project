@@ -17,7 +17,7 @@ if(o_manager.previousRoomType != o_roomManager.roomType) {
 
 // Overworld themes
 		case roomTypes.entranceField:
-			roomMusic = ost_Proemio;
+			roomMusic = ost_Proem;
 		break;
 	
 		case roomTypes.settlement:
@@ -26,11 +26,22 @@ if(o_manager.previousRoomType != o_roomManager.roomType) {
 
 // Battle themes
 		case roomTypes.fieldBattle:
-			roomMusic = ost_BattagliaCampale;
+			roomMusic = ost_FieldBattle;
 		break;
 
-// Friend encounters themes; TO DO add some
-
+// Friend encounters themes; TO DO add the themes
+		case roomTypes.theLameEcounter:
+			roomMusic = ost_ThreeLegsAtTheEvening;
+		break;
+		
+		case roomTypes.greekEncounter:
+			roomMusic = noone;
+		break;
+		
+		case roomTypes.childEncounter:
+			roomMusic = noone;
+		break;
+		
 // Any other situation
 		default:
 			roomMusic = noone;

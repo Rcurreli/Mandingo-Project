@@ -14,11 +14,13 @@ childs = spawnCharactersInLines(childGroup.members,
 	spawningX * 3 / 2, spawningY,
 	spawningX, spawningY,
 	spawningX / 2, spawningY,
-	xSpawningOffset, ySpawningOffset);
+	xSpawningOffset, ySpawningOffset,
+	"Childs");
 spawnCharactersInLines(friendGroup.members,
 	spawningX / 2 + halfWidth, spawningY,
 	spawningX + halfWidth, spawningY,
 	spawningX * 3 / 2 + halfWidth, spawningY,
-	xSpawningOffset, ySpawningOffset);
+	xSpawningOffset, ySpawningOffset,
+	"Encounters");
 
 

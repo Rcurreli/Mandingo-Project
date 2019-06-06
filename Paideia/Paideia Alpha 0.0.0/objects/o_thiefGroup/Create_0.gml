@@ -6,8 +6,8 @@ event_inherited();
 // Specific actions
 // The members of the group
 // Initialized in the creation code
-members = [o_thiefHoplite];
+members = [];
 
 // The room to go to
 // Initialized in the cration code
-roomToGoTo = rm_entranceCorridors_1;
+roomToGoTo = noone;

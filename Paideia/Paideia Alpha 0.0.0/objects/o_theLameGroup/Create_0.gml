@@ -12,10 +12,10 @@ event_inherited();
 members = [o_theLame];
 
 // The room the group belongs to
-groupRoom = rm_LabyrinthEntranceGates;
+//groupRoom = rm_LabyrinthEntranceGates;
 
 // The room to go to
-roomToGoTo = rm_dialogo;
+roomToGoTo = rm_LabyrinthEntranceLameEncounter;
 
 // Ask Riccardo what this does
 stato = 0;

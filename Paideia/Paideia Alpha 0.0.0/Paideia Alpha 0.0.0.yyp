@@ -143,14 +143,6 @@
             }
         },
         {
-            "Key": "0cb34669-2762-4b87-b435-95ddb1ed8853",
-            "Value": {
-                "id": "35a52611-ec6a-4e93-a1fa-15b02f06e6d9",
-                "resourcePath": "sounds\\ost_Polis\\ost_Polis.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "0db57f46-3599-47fd-bdfe-ae3a6fc503c1",
             "Value": {
                 "id": "30d748a1-c1c0-49b5-b2e0-3b339f4e4a3a",
@@ -227,6 +219,14 @@
             "Value": {
                 "id": "f8d842a7-dff3-47d9-9980-a7c8e7bba252",
                 "resourcePath": "views\\12e644f8-14e9-4375-a40e-e442d44c45b0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "138c18d4-f83f-4534-b3ef-64dec88f88bc",
+            "Value": {
+                "id": "3478a460-f39b-4e9f-93e1-4e4540acf8cd",
+                "resourcePath": "views\\b81bb3ce-7e15-4ad3-98e8-4fa75bec0355-room.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -324,6 +324,14 @@
                 "id": "2eb6c312-5c1b-4c12-938c-18a181fd1f79",
                 "resourcePath": "scripts\\reset_dialogue_defaults\\reset_dialogue_defaults.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "231f46f2-32d1-4887-9207-6fc16c6deae8",
+            "Value": {
+                "id": "006237af-ef05-4835-938d-1e536517ce2a",
+                "resourcePath": "rooms\\rm_entranceFieldBattle\\rm_entranceFieldBattle.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -615,6 +623,14 @@
             }
         },
         {
+            "Key": "40d36bc4-4eeb-481f-91cc-7a7bc213d80f",
+            "Value": {
+                "id": "c507643a-c1e4-4602-a9b7-fc0bf2303383",
+                "resourcePath": "rooms\\rm_LabyrinthEntranceLameEncounter\\rm_LabyrinthEntranceLameEncounter.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "40dfce98-439a-47e2-b3f9-8421d10363a9",
             "Value": {
                 "id": "de75ee0c-8009-4d14-9b9a-14acd069f6e5",
@@ -639,6 +655,14 @@
             }
         },
         {
+            "Key": "4281ce94-3ef2-46d2-867f-6c2846120d5e",
+            "Value": {
+                "id": "9b7a4f43-fa5b-4acc-a546-171cf9e8c5d6",
+                "resourcePath": "sounds\\ost_Defeat\\ost_Defeat.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "431c6719-fd33-43b6-a287-674d86f0fa53",
             "Value": {
                 "id": "ecd5503c-6e72-465a-8cb1-f82177e8dd6b",
@@ -660,6 +684,14 @@
                 "id": "0afd55fa-4cbc-457d-aff4-0f6b99319958",
                 "resourcePath": "fonts\\fnt_dialogue\\fnt_dialogue.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "45b3577e-6cbb-45d8-a08b-4351643dcd32",
+            "Value": {
+                "id": "4e7cbfcd-c5a2-41bf-b6d3-8929ffb04aa0",
+                "resourcePath": "views\\45b3577e-6cbb-45d8-a08b-4351643dcd32.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -695,14 +727,6 @@
             }
         },
         {
-            "Key": "4826cdeb-8c33-4b65-8e82-c338441529ae",
-            "Value": {
-                "id": "93396986-1b32-4b3a-8fc1-b6ab77df0850",
-                "resourcePath": "sounds\\ost_BattagliaCampale\\ost_BattagliaCampale.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "4883e32d-1702-484b-9068-434d3b6414a7",
             "Value": {
                 "id": "2e862cc2-ef86-4a18-9d2f-d2c9e3a99c2c",
@@ -711,11 +735,27 @@
             }
         },
         {
+            "Key": "4886a861-90b9-42ef-90fa-a29646490ff7",
+            "Value": {
+                "id": "8bfa87e6-678f-4ef7-ab83-262e9893fa89",
+                "resourcePath": "sounds\\ost_FieldBattle\\ost_FieldBattle.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "48bc1c83-f2d3-4719-9fdb-f807aae9f705",
             "Value": {
                 "id": "cf4570dc-7f0f-415b-9706-0bd518eb25ce",
                 "resourcePath": "objects\\o_buttonBattleAbstract\\o_buttonBattleAbstract.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "48f09d99-31b3-4001-a2aa-93adda21a889",
+            "Value": {
+                "id": "29b07e17-4d46-4da6-9585-9128f582891a",
+                "resourcePath": "sounds\\ost_ThreeLegsAtTheEvening\\ost_ThreeLegsAtTheEvening.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -847,14 +887,6 @@
             }
         },
         {
-            "Key": "584f894f-6fc5-4ab2-92cf-deb6fc3d668d",
-            "Value": {
-                "id": "bdc32761-3d48-41be-b073-9d2afb2b475d",
-                "resourcePath": "sounds\\ost_Palazzo_Crescendo\\ost_Palazzo_Crescendo.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "58df0c02-e132-4ea9-8167-52c3e10d633c",
             "Value": {
                 "id": "9d13faff-ef0c-408d-8546-df2f7edc03f8",
@@ -871,19 +903,19 @@
             }
         },
         {
-            "Key": "5ac195c6-aa97-41fe-98c3-84312f7f7cc5",
-            "Value": {
-                "id": "c0bce08d-3f64-46b0-a8df-6e898fee0b00",
-                "resourcePath": "sounds\\ost_Palazzo_Climax\\ost_Palazzo_Climax.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "5be8664c-0c89-4f62-a5ee-1a74012d8f30",
             "Value": {
                 "id": "9ea6eacd-de08-4756-9a29-ee1c36945451",
                 "resourcePath": "objects\\o_entrance\\o_entrance.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5e1ae74c-0085-4a4d-8b50-c07474e5292b",
+            "Value": {
+                "id": "8353ecbf-dd3d-4813-89ae-36cff866d866",
+                "resourcePath": "sounds\\ost_Polis\\ost_Polis.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1391,6 +1423,14 @@
             }
         },
         {
+            "Key": "8cb4d093-20a6-4c3e-828c-b2da554930ea",
+            "Value": {
+                "id": "8e342696-2dab-48ae-b6b3-50fe06459c69",
+                "resourcePath": "sounds\\ost_Proem\\ost_Proem.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8cd38f6b-adec-4498-bb27-da1f0c1713b2",
             "Value": {
                 "id": "a16f3ba7-582a-46b5-b2c9-dbe1d3a420d6",
@@ -1724,14 +1764,6 @@
                 "id": "a00c1849-acbb-4fa3-bc2c-a69c01efb01a",
                 "resourcePath": "rooms\\rm_ThiefCustoms\\rm_ThiefCustoms.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "9fc1a093-e1b6-4f12-9944-ed1002df5540",
-            "Value": {
-                "id": "9f7c5d5d-9381-46e7-b200-eaa3a7c5e653",
-                "resourcePath": "sounds\\ost_Proemio\\ost_Proemio.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -2255,6 +2287,14 @@
             }
         },
         {
+            "Key": "cd0c157a-353f-47b7-b71c-2610b0ca4a95",
+            "Value": {
+                "id": "083e0e21-472d-4c69-b845-4157f3e2d6c9",
+                "resourcePath": "views\\2f8bc961-5dcf-451f-9264-d69ee0ab4b45-room.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ce42980c-2fb0-44d7-868f-246f89e4f507",
             "Value": {
                 "id": "397c82ee-ea0c-4c5f-a0aa-ed4be74a271f",
@@ -2383,14 +2423,6 @@
             }
         },
         {
-            "Key": "d7b66c3f-eff1-4416-8e20-ae331958c0c0",
-            "Value": {
-                "id": "c4d68153-4b22-4e1a-b845-199dd3c62a64",
-                "resourcePath": "sounds\\ost_Palazzo\\ost_Palazzo.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "d8b9c3b2-64e4-4f29-8056-c488e703aae0",
             "Value": {
                 "id": "ca3d318b-983e-4894-aff0-ce4c281f2fcd",
@@ -2508,6 +2540,14 @@
                 "id": "889a8c38-51c7-4630-96bb-853870f380df",
                 "resourcePath": "scripts\\getBattleRoleDefense\\getBattleRoleDefense.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e30eb163-8e16-41b3-a34b-32bd4c0af372",
+            "Value": {
+                "id": "12e3fa1c-da32-4a25-b24d-bd0a8cb6b8f2",
+                "resourcePath": "sounds\\ost_Victory\\ost_Victory.yy",
+                "resourceType": "GMSound"
             }
         },
         {

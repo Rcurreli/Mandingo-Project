@@ -53,7 +53,7 @@ for(i = 0; i < array_length_1d(attackers); i++) {
 			}
 		}
 	}
-	show_debug_message(bestAttackPotential);
+
 	/*
 	var target = possibleTargets[irandom_range(0, (array_length_1d(possibleTargets) - 1))];
 	
