@@ -19,3 +19,11 @@ friendEncounterY -= 64;
 
 // Name
 name = "Oreste";
+
+// Dialogue variables
+myName = name;
+myPortrait = s_OrestesPortrait;
+
+// Needed for the dialogue, I think.
+// Riccardo should be doing this, not me
+reset_dialogue_defaults();

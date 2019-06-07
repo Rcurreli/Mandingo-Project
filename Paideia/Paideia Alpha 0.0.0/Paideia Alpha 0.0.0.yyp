@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "0e00fa3f-04af-4539-954a-6805e7e36e1d",
+            "Value": {
+                "id": "fd07e9ae-6cd7-464e-87d8-f278383178dc",
+                "resourcePath": "scripts\\toggleTheLame\\toggleTheLame.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1045ce31-e72e-4328-be5a-46901ffbb313",
             "Value": {
                 "id": "3b199145-b7cd-476a-b564-7fbfd8c0e7b8",
@@ -1882,7 +1890,7 @@
             "Key": "a86c59cd-37f2-46a0-b87b-c311c4ce7503",
             "Value": {
                 "id": "20fc9eba-2b3e-4731-b460-cf4a5f7ede9a",
-                "resourcePath": "sprites\\s_HyppolytaPortrait\\s_HyppolytaPortrait.yy",
+                "resourcePath": "sprites\\s_HippolytaPortrait\\s_HippolytaPortrait.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2719,6 +2727,14 @@
             }
         },
         {
+            "Key": "f4b40519-4b8e-4954-a994-98b127d86d04",
+            "Value": {
+                "id": "a273813f-1d4c-4c13-9cb3-8de1a746d397",
+                "resourcePath": "views\\f4b40519-4b8e-4954-a994-98b127d86d04.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f61050d3-cb2b-4d56-a28e-bdbbed51649a",
             "Value": {
                 "id": "2b2d9afa-2a08-42fe-8eaf-d9511e39d0cc",
@@ -2803,7 +2819,8 @@
         "22c57393-d17c-4500-b428-2d67f27d9725",
         "d0cbf33f-2b88-430a-92bc-d8adabf7fd7e",
         "57dec62d-9ad0-4d05-85bf-948c81f5184b",
-        "02a93034-8f6e-4718-a90d-ef3a3edfc5ae"
+        "02a93034-8f6e-4718-a90d-ef3a3edfc5ae",
+        "0e00fa3f-04af-4539-954a-6805e7e36e1d"
     ],
     "tutorial": ""
 }

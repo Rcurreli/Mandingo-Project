@@ -19,3 +19,10 @@ friendEncounterY -= 64;
 
 // Name
 name = "Telemaco";
+
+// Dialogue variables
+myName = name;
+myPortrait = s_TelemacusPortrait;
+
+// Needed for the dialogue, I think.
+reset_dialogue_defaults(); 

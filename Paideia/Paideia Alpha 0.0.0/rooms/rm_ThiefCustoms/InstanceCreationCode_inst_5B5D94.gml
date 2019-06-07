@@ -1,0 +1,1 @@
+roomCameFrom = rm_entranceCorridors_1;

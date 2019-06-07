@@ -268,11 +268,11 @@
                             "name": "Doors",
                             "id": "992f2dba-3edd-4fc7-8391-10ce28150d9a",
                             "assets": [
-
+{"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_6C820BCD","id": "9a799a8d-1f4b-4f55-a075-c08e839ea882","animationFPS": 0,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "8f4bf6c8-7739-40ca-ac04-64317552bb98","userdefined_animFPS": false,"x": 768,"y": -512}
                             ],
                             "depth": 1100,
-                            "grid_x": 32,
-                            "grid_y": 32,
+                            "grid_x": 64,
+                            "grid_y": 64,
                             "hierarchyFrozen": false,
                             "hierarchyVisible": true,
                             "inheritLayerDepth": false,
@@ -308,8 +308,8 @@
                             "m_parentID": "00000000-0000-0000-0000-000000000000",
                             "m_serialiseFrozen": false,
                             "modelName": "GMRTileLayer",
-                            "prev_tileheight": 0,
-                            "prev_tilewidth": 0,
+                            "prev_tileheight": 64,
+                            "prev_tilewidth": 64,
                             "mvc": "1.0",
                             "tiles": {
                                 "SerialiseData": null,
@@ -360,8 +360,8 @@
                             "m_parentID": "00000000-0000-0000-0000-000000000000",
                             "m_serialiseFrozen": false,
                             "modelName": "GMRTileLayer",
-                            "prev_tileheight": 0,
-                            "prev_tilewidth": 0,
+                            "prev_tileheight": 64,
+                            "prev_tilewidth": 64,
                             "mvc": "1.0",
                             "tiles": {
                                 "SerialiseData": null,
@@ -412,8 +412,8 @@
                             "m_parentID": "00000000-0000-0000-0000-000000000000",
                             "m_serialiseFrozen": false,
                             "modelName": "GMRTileLayer",
-                            "prev_tileheight": 0,
-                            "prev_tilewidth": 0,
+                            "prev_tileheight": 64,
+                            "prev_tilewidth": 64,
                             "mvc": "1.0",
                             "tiles": {
                                 "SerialiseData": null,
@@ -464,8 +464,8 @@
                             "m_parentID": "00000000-0000-0000-0000-000000000000",
                             "m_serialiseFrozen": false,
                             "modelName": "GMRTileLayer",
-                            "prev_tileheight": 0,
-                            "prev_tilewidth": 0,
+                            "prev_tileheight": 64,
+                            "prev_tilewidth": 64,
                             "mvc": "1.0",
                             "tiles": {
                                 "SerialiseData": null,
@@ -537,8 +537,8 @@
                             "m_parentID": "00000000-0000-0000-0000-000000000000",
                             "m_serialiseFrozen": false,
                             "modelName": "GMRTileLayer",
-                            "prev_tileheight": 0,
-                            "prev_tilewidth": 0,
+                            "prev_tileheight": 64,
+                            "prev_tilewidth": 64,
                             "mvc": "1.0",
                             "tiles": {
                                 "SerialiseData": null,
@@ -589,8 +589,8 @@
                             "m_parentID": "00000000-0000-0000-0000-000000000000",
                             "m_serialiseFrozen": false,
                             "modelName": "GMRTileLayer",
-                            "prev_tileheight": 0,
-                            "prev_tilewidth": 0,
+                            "prev_tileheight": 64,
+                            "prev_tilewidth": 64,
                             "mvc": "1.0",
                             "tiles": {
                                 "SerialiseData": null,
@@ -641,8 +641,8 @@
                             "m_parentID": "00000000-0000-0000-0000-000000000000",
                             "m_serialiseFrozen": false,
                             "modelName": "GMRTileLayer",
-                            "prev_tileheight": 0,
-                            "prev_tilewidth": 0,
+                            "prev_tileheight": 256,
+                            "prev_tilewidth": 256,
                             "mvc": "1.0",
                             "tiles": {
                                 "SerialiseData": null,
@@ -746,8 +746,8 @@
                             "m_parentID": "00000000-0000-0000-0000-000000000000",
                             "m_serialiseFrozen": false,
                             "modelName": "GMRTileLayer",
-                            "prev_tileheight": 0,
-                            "prev_tilewidth": 0,
+                            "prev_tileheight": 64,
+                            "prev_tilewidth": 64,
                             "mvc": "1.0",
                             "tiles": {
                                 "SerialiseData": null,

@@ -12,3 +12,6 @@ groupRoom = room;
 
 // The room to go to
 roomToGoTo = noone;
+
+// The line to read when you encounter them
+encounterLine = "";

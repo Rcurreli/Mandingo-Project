@@ -18,3 +18,10 @@ event_user(0);
 
 // Name
 name = "Ippolito";
+
+// Dialogue variables
+myName = name;
+myPortrait = s_HippolytusPortrait;
+
+// Needed for the dialogue, I think.
+reset_dialogue_defaults(); 

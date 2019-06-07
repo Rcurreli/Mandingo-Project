@@ -8,8 +8,8 @@ up_key				= vk_up;		//for dialogue choices
 down_key			= vk_down;		//for dialogue choices
 
 scale				= 3;
-x_buffer			= 10 * scale;
-y_buffer			= 7 * scale;
+x_buffer			= 16 * scale;
+y_buffer			= 9 * scale;
 
 portrait_frame		= spr_portraitframe;
 dialogue_box		= spr_dialoguebox;

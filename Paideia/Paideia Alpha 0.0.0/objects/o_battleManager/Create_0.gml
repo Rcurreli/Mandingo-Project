@@ -63,5 +63,4 @@ battleLog = [];
 attacco = false
 
 // Create the first battle textbox
-create_textevent(["I Figli si imbattono in un Soldato minoico!",
-		"Click sinistro per combattere"], -1);
+create_textevent(enemyGroup.encounterLine, -1);

@@ -12,6 +12,7 @@ event_inherited();
 members = [o_theLame];
 
 // The room the group belongs to
+// Decided in the parent as the room where it starts
 //groupRoom = rm_LabyrinthEntranceGates;
 
 // The room to go to

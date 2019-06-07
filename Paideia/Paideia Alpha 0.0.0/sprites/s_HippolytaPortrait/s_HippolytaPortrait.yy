@@ -2,7 +2,7 @@
     "id": "a86c59cd-37f2-46a0-b87b-c311c4ce7503",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_HyppolytaPortrait",
+    "name": "s_HippolytaPortrait",
     "For3D": false,
     "HTile": false,
     "VTile": false,

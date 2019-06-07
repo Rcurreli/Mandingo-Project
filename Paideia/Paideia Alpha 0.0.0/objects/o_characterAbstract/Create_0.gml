@@ -26,6 +26,12 @@ talkSprite = noone;
 // Name
 name = "";
 
+// Variables needed for the Dialogue System
+myPortrait = noone;
+myVoice = snd_voice1;
+myFont = fnt_dialogue;
+// myName is initialized by the children after the User Event 0
+
 /*
 //-----------Customise (FOR USER)
 playerobject = o_childGroup;
@@ -47,6 +53,9 @@ myPortraitIdle_y	= -1;
 //-----------Defaults Setup (LEAVE THIS STUFF)
 reset_dialogue_defaults();
 */
+
+// I'm not going to comment about the following not being commented
+// ...I just did, didn't I?
 
 arrowCheck = false;
 

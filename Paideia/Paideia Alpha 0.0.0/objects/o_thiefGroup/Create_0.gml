@@ -11,3 +11,7 @@ members = [];
 // The room to go to
 // Initialized in the cration code
 roomToGoTo = noone;
+
+// The line to read when you encounter them
+// Initialized in the creation code
+encounterLine = "";
