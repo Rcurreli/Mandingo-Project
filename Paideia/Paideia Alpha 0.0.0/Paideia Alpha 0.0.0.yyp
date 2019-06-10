@@ -895,6 +895,14 @@
             }
         },
         {
+            "Key": "58004371-0fe3-435c-abd4-ccf98f1429c7",
+            "Value": {
+                "id": "6058b97f-e04a-4c74-9345-12fcc1507aec",
+                "resourcePath": "sprites\\s_stoneFloors3_128x128\\s_stoneFloors3_128x128.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "58df0c02-e132-4ea9-8167-52c3e10d633c",
             "Value": {
                 "id": "9d13faff-ef0c-408d-8546-df2f7edc03f8",
@@ -1788,6 +1796,14 @@
                 "id": "f96d57b3-f1c5-4f00-8578-d7832aa07864",
                 "resourcePath": "rooms\\rm_LabyrinthEntranceGates\\rm_LabyrinthEntranceGates.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "a3793ef9-41cb-40e0-a015-38d5ab8e0a84",
+            "Value": {
+                "id": "35c948ec-fb70-4478-9dd3-e033a9204243",
+                "resourcePath": "sprites\\s_stoneFloors2_128x128\\s_stoneFloors2_128x128.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2799,6 +2815,7 @@
         "6050ae84-a0f5-4f77-a557-e0524205781d",
         "d1e49e18-aac9-4ced-ac3c-d6cbe024d165",
         "4106b806-7a79-455a-9aea-632e466827d4",
+        "0e00fa3f-04af-4539-954a-6805e7e36e1d",
         "81737e87-3f8c-4c10-9660-47f6af73a16d",
         "93dedc1c-c58e-4d96-86af-35f0bad8e8e2",
         "1b19293a-522f-4661-a3ae-50f22b5c1bbc",
@@ -2819,8 +2836,7 @@
         "22c57393-d17c-4500-b428-2d67f27d9725",
         "d0cbf33f-2b88-430a-92bc-d8adabf7fd7e",
         "57dec62d-9ad0-4d05-85bf-948c81f5184b",
-        "02a93034-8f6e-4718-a90d-ef3a3edfc5ae",
-        "0e00fa3f-04af-4539-954a-6805e7e36e1d"
+        "02a93034-8f6e-4718-a90d-ef3a3edfc5ae"
     ],
     "tutorial": ""
 }
