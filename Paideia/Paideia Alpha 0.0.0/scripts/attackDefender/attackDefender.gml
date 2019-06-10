@@ -8,8 +8,7 @@ var logToReturn = [];
 
 // Write down the log
 // Attack info
-logToReturn = addValueToArray(logToReturn, attacker.name + " attacca:\n" +
-	string(damage) + " danni!");
+logToReturn = addValueToArray(logToReturn, attacker.name + " attacca\n" + defender.name +"\n");
 
 // Death info
 if(defender.isAlive == false) {

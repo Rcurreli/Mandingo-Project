@@ -7,7 +7,7 @@ if(y <= startY){
 	vspeed = 1;
 }
 
-if(y > posizioneY -128){
+if(y > posizioneY -155){
 	vspeed = -1;
 }
 

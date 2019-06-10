@@ -1,18 +1,18 @@
 {
-    "id": "d9c06d2a-0cc8-44f9-bad9-791ba368a881",
+    "id": "c765476f-b720-4101-9946-187d9593cf5e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_endTutorial",
+    "name": "o_tutorialTextBattle",
     "eventList": [
         {
-            "id": "f41fd2d2-5fa7-41ca-91a3-499482d6b215",
+            "id": "ec30d9b2-ee22-4547-992b-58c71c31a75b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "6aaf14e7-6583-49b3-85a0-491af7f90bcd",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "d9c06d2a-0cc8-44f9-bad9-791ba368a881"
+            "eventtype": 3,
+            "m_owner": "c765476f-b720-4101-9946-187d9593cf5e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "dd748828-aaa6-4b74-91f6-521d27bae799",
+    "spriteId": "ff82294e-da30-4858-a430-2d420b7aeaf7",
     "visible": false
 }

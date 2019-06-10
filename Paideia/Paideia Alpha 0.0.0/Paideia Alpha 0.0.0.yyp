@@ -879,14 +879,6 @@
             }
         },
         {
-            "Key": "55adbece-e423-47f3-ab33-e9480410123b",
-            "Value": {
-                "id": "4975f94e-68b1-45b4-b487-7a72457edad4",
-                "resourcePath": "sprites\\s_tutorialText3\\s_tutorialText3.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "55dea834-df59-44ac-8dd3-5de4aa6dc00f",
             "Value": {
                 "id": "f27f1bea-47de-4f49-92e0-4bd4d8299223",
@@ -900,14 +892,6 @@
                 "id": "a90e4e51-684d-4651-b8a1-ab610ddc90cf",
                 "resourcePath": "views\\561db6d3-c430-43d5-a096-dc8a0878c9bd.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "5685bf80-f7a1-4289-8b35-c738d01ca168",
-            "Value": {
-                "id": "b7c87cc3-5a38-4454-b2a2-86b4538090a9",
-                "resourcePath": "sprites\\s_tutorialText2\\s_tutorialText2.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -948,14 +932,6 @@
                 "id": "9f11ba1e-cdcc-4904-bb72-18f2367a97d5",
                 "resourcePath": "views\\59a8185c-71b1-4ccc-8997-049d9ec0b9f9.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "59cd7de5-e42d-4d62-aefd-1bb2a6ca181d",
-            "Value": {
-                "id": "c68bb394-91c7-4b03-87df-79b7e0134abc",
-                "resourcePath": "objects\\o_tutorialBattle\\o_tutorialBattle.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1051,6 +1027,14 @@
             "Value": {
                 "id": "cb72db46-c5c3-4500-abb1-bb178cb400e1",
                 "resourcePath": "sprites\\s_stoneFloors_64x64\\s_stoneFloors_64x64.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "65977594-f263-494b-84d3-1599dd335e0d",
+            "Value": {
+                "id": "40387b0c-a009-405a-ac65-75c209e22502",
+                "resourcePath": "sprites\\attenzione\\attenzione.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2218,7 +2202,7 @@
             "Key": "bf968d2a-befc-413d-9acc-9708cb42ac99",
             "Value": {
                 "id": "95a9fcb1-9346-4325-974a-8c577a61e3a1",
-                "resourcePath": "sprites\\s_movimento\\s_movimento.yy",
+                "resourcePath": "sprites\\s_tutorialMovimento\\s_tutorialMovimento.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2338,7 +2322,7 @@
             "Key": "c765476f-b720-4101-9946-187d9593cf5e",
             "Value": {
                 "id": "1fb9b332-7896-4af7-aafc-c30b3d9bdde6",
-                "resourcePath": "objects\\o_tutorialText1\\o_tutorialText1.yy",
+                "resourcePath": "objects\\o_tutorialTextBattle\\o_tutorialTextBattle.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2364,14 +2348,6 @@
                 "id": "b8f1855e-b068-470b-a394-17ecb41ca5ef",
                 "resourcePath": "rooms\\rm_encounterAbstract\\rm_encounterAbstract.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "cc7b5204-5d84-46b1-8b68-cbd5e87a98bb",
-            "Value": {
-                "id": "6b9acff5-413f-4371-951a-9f2a64ebbb52",
-                "resourcePath": "sprites\\s_tutorialText4\\s_tutorialText4.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -2546,7 +2522,7 @@
             "Key": "d9c06d2a-0cc8-44f9-bad9-791ba368a881",
             "Value": {
                 "id": "695ff333-494d-43c3-bfea-55b13d200b0c",
-                "resourcePath": "objects\\o_endTutorial\\o_endTutorial.yy",
+                "resourcePath": "objects\\o_fineTutorialMovimento\\o_fineTutorialMovimento.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2610,7 +2586,7 @@
             "Key": "dd748828-aaa6-4b74-91f6-521d27bae799",
             "Value": {
                 "id": "f2100a0f-4b95-4856-992d-29ce44eb7a73",
-                "resourcePath": "sprites\\s_endMovimento\\s_endMovimento.yy",
+                "resourcePath": "sprites\\s_fineTutorialMovimento\\s_fineTutorialMovimento.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2898,7 +2874,7 @@
             "Key": "ff82294e-da30-4858-a430-2d420b7aeaf7",
             "Value": {
                 "id": "f1cc9d9b-b16b-410d-82e2-7bf08768f01a",
-                "resourcePath": "sprites\\s_tutorialText1\\s_tutorialText1.yy",
+                "resourcePath": "sprites\\s_tutorialTextBattle\\s_tutorialTextBattle.yy",
                 "resourceType": "GMSprite"
             }
         }
