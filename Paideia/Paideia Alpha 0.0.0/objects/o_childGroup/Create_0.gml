@@ -1,4 +1,5 @@
 /// @description Initialize the child
+tutorial1 = true;
 
 // Call the parent
 event_inherited();
