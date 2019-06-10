@@ -9,6 +9,7 @@ for(i = 0; i < array_length_1d(array); i++) {
 	if((scelta == true) and (canReachTarget(attacker, array[i]) == true)
 		and (array[i].isAlive == true)) {
 		array[i].attackTarget = true;
+		array[i].arrowCheck = false;
 	}
 	else {
 		array[i].attackTarget = false;

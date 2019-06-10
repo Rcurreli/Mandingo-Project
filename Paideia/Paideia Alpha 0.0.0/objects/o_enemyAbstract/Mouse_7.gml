@@ -4,9 +4,8 @@
 if(attackTarget == true){
 // Let the battle manager know this is the target
 	o_battleManager.currentTarget = id;
+	instance_destroy(o_arrowEnemy);
 	with(o_buttonAttack){
 		event_user(0);
 	}
-	arrowCheck = false;
-	instance_destroy(o_arrowEnemy);
 }

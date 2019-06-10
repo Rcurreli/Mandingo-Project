@@ -4,7 +4,7 @@
 event_inherited();
 
 // Setting movement speed
-mySpeed = 4;
+mySpeed = 6;
 
 // Specific actions
 // Coordinates

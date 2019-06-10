@@ -1,0 +1,1 @@
+roomToGoTo = rm_end;

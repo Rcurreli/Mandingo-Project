@@ -34,3 +34,21 @@ if(point_in_rectangle(playerobject.x, playerobject.y, x-dr, y-dr, x+dr, y+dr)){
 }
 */
 
+if(o_roomManager.roomType == roomTypes.fieldBattle){
+	if(checkIfInArray(id, o_battleManager.activeChilds) == true && arrowCheck == false && instance_exists(obj_textevent) == false) {
+	    arrowCheck = true;
+	    arrow = instance_create_layer( x, y - 192, "GUI", o_arrow)
+		arrow.posizioneY = y;
+	    arrow.image_speed = 1;
+	}
+	else if(attackTarget == true && arrowCheck == false && instance_exists(obj_textevent) == false){
+		arrowCheck = true;
+	    arrow = instance_create_layer( x, y - 192, "GUI", o_arrowEnemy)
+		arrow.posizioneY = y;
+	    arrow.image_speed = 1;
+	}
+	
+	
+	
+	
+}
