@@ -5,7 +5,7 @@
     "creationCodeFile": "",
     "inheritCode": true,
     "inheritCreationOrder": true,
-    "inheritLayers": false,
+    "inheritLayers": true,
     "instanceCreationOrderIDs": [
         "550fb923-7f6e-4c6f-922b-eedd1cc321e1",
         "85f7fcf3-6721-4bda-834a-536d550b799c",
@@ -281,7 +281,7 @@
                     "visible": true
                 }
             ],
-            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_parentID": "0ceea4ed-be9b-4660-a116-6c143929668e",
             "m_serialiseFrozen": false,
             "modelName": "GMRLayer",
             "mvc": "1.0",
@@ -356,7 +356,7 @@
                     "visible": true
                 }
             ],
-            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_parentID": "6a7be8d4-e4f5-4162-a1a7-0b3544c56212",
             "m_serialiseFrozen": false,
             "modelName": "GMRLayer",
             "mvc": "1.0",
@@ -1618,7 +1618,7 @@
                     "visible": true
                 }
             ],
-            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_parentID": "5ff8cf76-a575-49cc-9152-0d56cf8bcb6d",
             "m_serialiseFrozen": false,
             "modelName": "GMRLayer",
             "mvc": "1.0",
@@ -1646,7 +1646,7 @@
             "layers": [
 
             ],
-            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_parentID": "330dc640-8597-4a3e-9e0a-7ff99987ad73",
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
