@@ -118,4 +118,8 @@ outOfMyWayY = -1000;
 encounter = noone;
 overworld = noone;
 
+RespawnX = 0;
+RespawnY = 0;
+
+
 gameExit = false;

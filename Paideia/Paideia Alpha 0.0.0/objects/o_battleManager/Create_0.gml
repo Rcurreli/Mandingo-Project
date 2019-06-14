@@ -64,3 +64,5 @@ attacco = false
 
 // Create the first battle textbox
 create_textevent(enemyGroup.encounterLine, -1);
+
+randomEnd = 0;

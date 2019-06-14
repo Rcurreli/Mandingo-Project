@@ -20,6 +20,8 @@ friendEncounterY -= 64;
 // Name
 name = "Oreste";
 
+deathSentence = " cade senza aver ottenuto la mano di Ermione!\n";
+
 // Dialogue variables
 myName = name;
 myPortrait = s_OrestesPortrait;

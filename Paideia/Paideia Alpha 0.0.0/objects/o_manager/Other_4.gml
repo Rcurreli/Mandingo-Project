@@ -11,15 +11,11 @@ if(room == rm_start){
 // Start GUI values
 	
 if(room == rm_end){	
-		create_textevent(["Il prototipo e' finito. Scusa se non ho approfondito la trama.",
-		"Sempre che ti interessi, si intende.",
-		"Sappi che non intendo mettere un auto-battle, intendo realizzare",
-		"delle azioni di battaglia (attacco e  guardia, per esempio).",
-		"Gli sprite, la mappa, l'interfaccia e il codice sono stati creati",
-		"da Matteo Cuomo & CO.",
-		"Grazie per l'attenzione."], -1);
-		
-		gameExit = true;	
+	create_textevent(["Fine della Demo!",
+	"Siamo il team Matteo & CO e ti ringraziamo per aver giocato al nostro gioco",
+	"Concept, Level Design, Musiche e Grafica a cura di Matteo Cuomo",
+	"Coding: Matteo Cuomo, Lorenzo Casula, Riccardo Curreli e Saverio Pibiri",
+	"Non lasciar arrugginire le armi: presto ne avrai ancora bisogno!"], -1);
 }
 
 	if(room == rm_corridorsAbstract){	

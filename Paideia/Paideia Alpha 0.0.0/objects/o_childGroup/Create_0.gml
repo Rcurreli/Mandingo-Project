@@ -5,7 +5,7 @@ tutorial1 = true;
 event_inherited();
 
 // Setting movement speed
-mySpeed = 6;
+mySpeed = 20;
 
 // Specific actions
 // Coordinates

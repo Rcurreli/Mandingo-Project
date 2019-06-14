@@ -21,7 +21,21 @@ if(//(room == rm_battleAbstract) and
 		isBattleEnded = true;
 		childGroup.isAlive = false;
 		//battleLog = attackText;
-		battleLog = addValueToArray(battleLog, "I Figli hanno perso!");
+		randomEnd = irandom_range(0,3);
+		switch(randomEnd){
+			case 0:
+				battleLog = addValueToArray(battleLog, "I Ladri hanno vinto!");
+				break;
+			case 1:
+				battleLog = addValueToArray(battleLog, "I Ladri hanno vinto!");
+				break;
+			case 2:
+				battleLog = addValueToArray(battleLog, "I Ladri hanno vinto!");
+				break;
+			case 3:
+				battleLog = addValueToArray(battleLog, "Minosse ha vinto!");
+				break;
+		}
 		create_textevent(battleLog, -1);
 		endTurn = true;
 		// Play the defeat music
@@ -34,7 +48,22 @@ if(//(room == rm_battleAbstract) and
 		isBattleEnded = true;
 		enemyGroup.isAlive = false;
 		//battleLog = attackText;
-		battleLog = addValueToArray(battleLog, "I Figli hanno vinto!");
+		randomEnd = irandom_range(0,3);
+		switch(randomEnd){
+			case 0:
+				battleLog = addValueToArray(battleLog, "I Figli hanno vinto!");
+				break;
+			case 1:
+				battleLog = addValueToArray(battleLog, "I Figli hanno vinto!");
+				break;
+			case 2:
+				battleLog = addValueToArray(battleLog, "I Figli hanno vinto!");
+				break;
+			case 3:
+				battleLog = addValueToArray(battleLog, "La Grecia ha vinto!");
+				break;
+		}
+
 		create_textevent(battleLog, -1);
 		endTurn = true;
 		// Play the victory music

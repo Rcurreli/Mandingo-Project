@@ -20,6 +20,8 @@ friendEncounterY += 64;
 // Name
 name = "Neottolemo";
 
+deathSentence = " cade ripensando agli orrori della guerra!\n"
+
 //-----------Customise (FOR USER)
 
 

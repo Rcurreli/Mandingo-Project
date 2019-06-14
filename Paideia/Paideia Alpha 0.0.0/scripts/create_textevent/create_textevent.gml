@@ -44,6 +44,6 @@ with(textevent){
 	event_perform(ev_other, ev_user0);
 }
 
-show_debug_message(arg[0]);
+
 
 return textevent;

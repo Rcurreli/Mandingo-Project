@@ -19,7 +19,4 @@ if(room == rm_corridorsAbstract){
 		}
 }
 
-if(gameExit == true && instance_exists(obj_textbox) == false){
-	game_end();
-}
 

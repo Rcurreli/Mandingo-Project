@@ -7,11 +7,11 @@ switch(battleRole) {
 	break;
 	
 	case battleRoles.hoplite:
-	case battleRoles.swordman:
 	case battleRoles.archer:
 		return attackValues.middleAttack;
 	break;
 	
+	case battleRoles.swordman:
 	case battleRoles.axeman:
 		return attackValues.highAttack;
 	break;

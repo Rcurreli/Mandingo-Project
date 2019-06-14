@@ -10,7 +10,8 @@
         "25bc3732-e12f-4a4f-ac51-cbbbf680088d",
         "961e492d-67dd-44ec-8967-f3c4d896f72e",
         "6125e26d-b491-483b-8415-a45d699504da",
-        "87368dbf-69f6-4b03-9210-cbd845d2facc"
+        "87368dbf-69f6-4b03-9210-cbd845d2facc",
+        "4c887d8d-0afc-4ecc-ac41-cb446fac7441"
     ],
     "filterType": "GMObject",
     "folderName": "Riccardo",

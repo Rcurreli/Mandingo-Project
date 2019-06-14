@@ -4,13 +4,19 @@
 // Inherit the parent event
 
 
-if(o_manager.previousRoom == rm_dialogo){
+if(o_manager.previousRoomType == roomTypes.theLameEcounter){
 	x = overworldX;
 	y = overworldY;
 }
-if(o_manager.previousRoom == rm_battleAbstract){
+if(o_manager.previousRoomType == roomTypes.fieldBattle && isAlive == true){
 	x = overworldX;
 	y = overworldY;
+}
+
+else if(o_manager.previousRoomType == roomTypes.fieldBattle && isAlive == false){
+	x = o_respawner.x;
+	y = o_respawner.y;
+	isAlive = true;
 }
 
 if((room == rm_start) or

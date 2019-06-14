@@ -20,6 +20,8 @@ friendEncounterY -= 64;
 // Name
 name = "Telemaco";
 
+deathSentence = " cade senza aver ritrovato il padre!\n";
+
 // Dialogue variables
 myName = name;
 myPortrait = s_TelemacusPortrait;

@@ -4,6 +4,7 @@
 // Inherit the parent event
 //event_inherited();
 
+
 // Vertical speed is not 0 (horizontal speed could be anything)
 if(vspeed != 0) {
 // Vertical speed is positive

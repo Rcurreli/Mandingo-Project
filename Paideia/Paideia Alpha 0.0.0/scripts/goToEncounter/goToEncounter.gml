@@ -9,5 +9,6 @@ o_childGroup.overworldY = y;
 o_manager.encounter = encounter;
 o_manager.overworld = room;
 
+// In the case things didn't work out well
 // Meet them
 room_goto(encounter.roomToGoTo);

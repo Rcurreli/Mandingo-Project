@@ -11,3 +11,4 @@ name = getBattleRoleName(battleRole, gender) + name;
 // Health depends on power
 maxHealth = o_manager.baseHealth * characterPower;
 currentHealth = maxHealth;
+

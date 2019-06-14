@@ -34,8 +34,11 @@ switch(choice_variable){
 		mySpeaker[i] = o_Ascanius;
 		
 		i++;
-		myText[i] = "Finita o meno, fu a causa di questa guerra che Minosse"
-			+ " ha potuto conquistare la Grecia";
+		myText[i] = "Finita o meno, fu a causa di questa guerra";
+		mySpeaker[i] = o_Neoptolemus;
+		
+		i++;
+		myText[i] = "che Minosse ha potuto conquistare la Grecia";
 		mySpeaker[i] = o_Neoptolemus;
 		
 		i++;
@@ -70,8 +73,11 @@ switch(choice_variable){
 		mySpeaker[i] = o_theLame;
 		
 		i++
-		myText[i] = "Il Labirinto e' pieno di furfanti, traditori, mostri..."
-			+ " tra cui il Minotauro!";
+		myText[i] = "Il Labirinto e' pieno di furfanti, traditori, mostri...";
+		mySpeaker[i] = o_theLame;
+		
+		i++
+		myText[i] = "tra cui il Minotauro!";
 		mySpeaker[i] = o_theLame;
 		
 		i++;
@@ -96,8 +102,11 @@ switch(choice_variable){
 		mySpeaker[i] = o_Ascanius;
 		
 		i++;
-		myText[i] = "Oh, allora c'e' ancora speranza per la Grecia se la"
-			+ " discendenza degli eroi vive ancora";
+		myText[i] = "Oh, allora c'e' ancora speranza per la Grecia";
+		mySpeaker[i] = o_theLame;
+		
+		i++;
+		myText[i] = "se la discendenza degli eroi vive ancora";
 		mySpeaker[i] = o_theLame;
 		
 		i++;

@@ -20,6 +20,8 @@ friendEncounterY -= 64;
 // Name
 name = "Ascanio";
 
+deathSentence = " cade senza aver fondato la Gens Iulia\n";
+
 // Dialogue variables
 myName = name;
 myPortrait = s_AscaniusPortrait;
