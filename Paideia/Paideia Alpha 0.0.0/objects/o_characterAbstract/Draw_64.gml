@@ -9,6 +9,9 @@ var healthBarYOffset = sprite_width;
 if(id.object_index == o_Neoptolemus){
 	healthBarYOffset += 30;
 }
+else if(id.object_index == o_thiefHoplite){
+	healthBarYOffset += 30;
+}
 
 	// Draw the health bar
 	if((isAlive == true) and (o_roomManager.roomType == roomTypes.fieldBattle)) {
